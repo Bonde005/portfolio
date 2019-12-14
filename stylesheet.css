@@ -1,3 +1,82 @@
 body {
-    background-color: red;
+    background-image: url(billeder/bagrund.png); /* Baggrunds billede */
+    background-size: cover; /* hvor meget baggrundbilledet skal fylde */
+    background-color: #d1beb4; /* den baggrundsfarve der er hvor og hvis billedet ikke er indlæst */
+}
+
+#logo {
+    background-color: #141755; /* baggrundsfarve */
+    grid-area: logo; /* navn i grid */
+    margin-bottom: 2em; /* giver en margin */
+    margin-top: 1em;
+    margin-right: auto; /* centrer sektionen */
+    margin-left: auto;
+
+}
+
+#logo img {
+    display: block; /* Den skal opføre sig som en blok */
+    margin-left: auto; /* centrer billedet */
+    margin-right: auto;
+    width: 90%; /* tilpasser størrelsen procentvis */
+}
+
+.menu_punkt {
+    background-color: #6c6cd9; /* fælles baggrundsfarve */
+    margin: 0.4em; /* Giver margin mellem punkterne */
+    padding: 0.5em 0em 0.9em 0em; /* giver luft mellem tekst og kant */
+    width: 80%; /* Given den en responsiv bredde */
+    margin-left: auto; /* centrer punkterne */
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif; /* Skrifttype */
+    font-size: 1.3em; /* skriftstørrelse */
+    text-align: center; /* centrer teksten */
+}
+
+/* Her får menu-punkterne et grid-area */
+
+#menu_websites {
+    grid-area: menu_websites; /* navn i grid */
+}
+
+#menu_bagom_siden {
+    grid-area: menu_bagom_siden; /* navn i grid */
+}
+
+#menu_kommunikation {
+    grid-area: menu_kommunikation; /* navn i grid */
+}
+
+#menu_grafisk_design {
+    grid-area: menu_grafisk_design; /* navn i grid */
+}
+
+#menu_projekter_opgaver {
+    grid-area: menu_projekter_opgaver; /* navn i grid */
+}
+
+/* Her starter Grid for mobil-version */
+
+#pagewrap {
+    display: grid; /* Får at vide det skal være grid*/
+    grid-template-areas: /* Griddets opbygning */
+      "logo"
+      "logo"
+      "menu_websites"
+      "menu_grafisk_design"
+      "menu_kommunikation"
+      "menu_projekter_opgaver"
+      "menu_bagom_siden"
+      "menu_bagom_siden";
+}
+
+@media screen and (min-width: 500px) { /* her begynder tablet versionen */
+
+    #logo {
+      background-color: red;
+    }
+
 }
