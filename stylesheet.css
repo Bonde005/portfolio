@@ -2,6 +2,7 @@ body {
     background-image: url(billeder/bagrund.png); /* Baggrunds billede */
     background-size: cover; /* hvor meget baggrundbilledet skal fylde */
     background-color: #d1beb4; /* den baggrundsfarve der er hvor og hvis billedet ikke er indlæst */
+    background-attachment: fixed;
 }
 
 #logo {
@@ -28,11 +29,40 @@ body {
     width: 80%; /* Given den en responsiv bredde */
     margin-left: auto; /* centrer punkterne */
     margin-right: auto;
+    display: block; /* Skal opføre sig som en blok */
+    box-shadow: 1px 1px 10px #574f4b /* Giver punkterne skygger */
+}
+
+.menu_punkt:hover {
+    box-shadow: 0.2px 0.2px 10px #adadd9 inset; /* laver en lys indvendig skyger nå man hover */
+}
+
+.dropdown_content {
+    background-color: #a4897b; /* baggrundfarve til undermenuer */
+    margin-left: auto; /* centrer */
+    margin-right: auto;
+    margin-bottom: 3em; /* Laver luft mellem undermenu og næste menu*/
+    width: 65%; /* størrelsen */
+    padding: 0.5em; /* luft mellem tekst og kant */
+    display: none; /* Viser det ikke */
+
+}
+
+.dropdown_content a {
+    text-decoration: none; /* Fjerner understregning*/
+    color: black; /* gør teksten sort */
+    font-family: 'Montserrat', sans-serif; /* skritftype */
+    font-size: 0.8em; /* skrift størrelse */
+}
+
+.dropdown:hover .dropdown_content {
+    display: block; /* Viser undermenuer når musen er over*/
+    box-shadow: 0.5px 0.5px 5px #574f4b /* Giver en lille skyggeeffekt på undermenuerne */
 }
 
 h1 {
     font-family: 'Quicksand', sans-serif; /* Skrifttype */
-    font-size: 1.3em; /* skriftstørrelse */
+    font-size: 2em; /* skriftstørrelse */
     text-align: center; /* centrer teksten */
 }
 
@@ -60,7 +90,7 @@ h1 {
 
 /* Her starter Grid for mobil-version */
 
-#pagewrap {
+nav {
     display: grid; /* Får at vide det skal være grid*/
     grid-template-areas: /* Griddets opbygning */
       "logo"
