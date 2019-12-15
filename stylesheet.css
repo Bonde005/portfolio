@@ -1,7 +1,7 @@
 body {
     background-image: url(billeder/bagrund.png); /* Baggrunds billede */
-    background-size: cover; /* hvor meget baggrundbilledet skal fylde */
-    background-color: #d1beb4; /* den baggrundsfarve der er hvor og hvis billedet ikke er indlæst */
+    background-size: contain; /* hvor meget baggrundbilledet skal fylde */
+    background-color: #D1BEB4; /* den baggrundsfarve der er hvor og hvis billedet ikke er indlæst */
     background-attachment: fixed;
 }
 
@@ -12,14 +12,19 @@ body {
     margin-top: 1em;
     margin-right: auto; /* centrer sektionen */
     margin-left: auto;
+    width: 90%;  /* tilpasser størrelsen procentvis */
 
+}
+
+li {
+    list-style-type: none;
 }
 
 #logo img {
     display: block; /* Den skal opføre sig som en blok */
     margin-left: auto; /* centrer billedet */
     margin-right: auto;
-    width: 90%; /* tilpasser størrelsen procentvis */
+    width: 70%;
 }
 
 .menu_punkt {
@@ -52,7 +57,7 @@ body {
     text-decoration: none; /* Fjerner understregning*/
     color: black; /* gør teksten sort */
     font-family: 'Montserrat', sans-serif; /* skritftype */
-    font-size: 0.8em; /* skrift størrelse */
+    font-size: 0.6em; /* skrift størrelse */
 }
 
 .dropdown:hover .dropdown_content {
@@ -62,13 +67,36 @@ body {
 
 h1 {
     font-family: 'Quicksand', sans-serif; /* Skrifttype */
-    font-size: 2em; /* skriftstørrelse */
+    font-size: 1.7em; /* skriftstørrelse */
     text-align: center; /* centrer teksten */
+}
+footer {
+  background-color: #141755; /* giver en baggrundsfarve */
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 1; /* placere den i bunden af siden */
+  padding-right: 2em; /* rykker teksten ind */
+  padding-left: 2em;
+}
+
+footer p {
+  color: #a4897b; /* skriftens farve*/
+  font-family: 'PT Sans', sans-serif; /* skrifttype */
+  font-weight: bold; /* Gør skriften tykkere */
+}
+
+footer a {
+  text-decoration: none; /* fjerne underline */
+}
+
+footer a:hover {
+  text-decoration: underline #a4897b; /* Giver en underline i samme farve */
 }
 
 /* Her får menu-punkterne et grid-area */
 
-#menu_websites {
+#menu_websites  {
     grid-area: menu_websites; /* navn i grid */
 }
 
@@ -95,8 +123,8 @@ nav {
     grid-template-areas: /* Griddets opbygning */
       "logo"
       "logo"
-      "menu_grafisk_design"
       "menu_websites"
+      "menu_grafisk_design"
       "menu_kommunikation"
       "menu_projekter_opgaver"
       "menu_bagom_siden"
@@ -105,8 +133,118 @@ nav {
 
 @media screen and (min-width: 500px) { /* her begynder tablet versionen */
 
-    #logo {
-      background-color: red;
+    nav {
+      grid-template-areas: /* Griddets opbygning */
+        "logo logo"
+        "logo logo"
+        "menu_websites menu_grafisk_design"
+        "menu_kommunikation menu_projekter_opgaver"
+        "menu_bagom_siden menu_bagom_siden"
     }
 
+    #logo img {
+      width: 50%;
+    }
+
+    .dropdown_content {
+      display: block; /* Gør bokserne synlige hele tiden */
+      width: 75%; /* Gør dem bredere */
+      box-shadow: 0.5px 0.5px 5px #574f4b; /* Gør skyggen synlig hele tiden*/
+    }
+
+    .menu_punkt:hover {
+      box-shadow: 1px 1px 10px #574f4b /* Gør at der ikke er en forskel på skyggen når man hover */
+    }
+
+    .menu_punkt {
+      height: 30%; /* Sørger for at kasserne har den samme højde */
+    }
+
+    #menu_kommunikation .dropdown_content, #menu_projekter_opgaver .dropdown_content {
+      height: 40%; /* gør det to undermenuer kasser lige store */
+    }
+
+    #menu_bagom_siden {
+      height: 60%; /* gør kassen højere */
+      margin-bottom: 1em; /* Giver lidt mere luft til bunden */
+    }
+
+    footer p {
+      float: left; /* placrer teksten i højre side */
+    }
+
+    footer a {
+      float: right; /* placere linket i højre side */
+    }
+}
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+
+    nav {
+      grid-template-columns: 1.2fr 3fr;
+      grid-template-areas:
+        "logo menu_websites"
+        "logo menu_grafisk_design"
+        "logo menu_kommunikation"
+        ". menu_projekter_opgaver"
+        ". menu_bagom_siden"
+    }
+    #logo img {
+      width: 80%;
+    }
+
+    #logo {
+        width: 100%;
+        margin: 3em;
+    }
+
+
+    .dropdown_content {
+      display: none;
+      float: left;
+      width: 50%;
+      margin-top: 0.5em;
+    }
+
+    .dropdown:line
+
+    #menu_kommunikation .dropdown_content, #menu_projekter_opgaver .dropdown_content {
+      height: auto; /* de selv bestemmer højden igen */
+    }
+
+    .menu_punkt {
+      height: 100px;
+      width: 45%;
+      float: right;
+    }
+
+    .dropdown {
+      margin-left: 4em;
+      border: 5px black solid;
+    }
+    .menu_punkt:hover {
+        box-shadow: 0.2px 0.2px 10px #adadd9 inset; /* laver en lys indvendig skyger nå man hover */
+    }
+
+    #menu_bagom_siden {
+      width: 95%;
+      margin-left: 1.5em;
+    }
+
+    #menu_websites a:nth-child(odd)  {
+      float: left;
+    }
+
+    #menu_websites a:nth-child(even) {
+      float: right;
+    }
+
+    #menu_websites a {
+      margin-right: 2em;
+    }
+
+    #menu_websites .dropdown_content {
+      border: 5px solid;
+      height: 100px;
+    }
 }
