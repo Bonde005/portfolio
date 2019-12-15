@@ -65,8 +65,8 @@ h1 {
     grid-template-areas: /* Griddets opbygning */
       "logo"
       "logo"
-      "menu_websites"
       "menu_grafisk_design"
+      "menu_websites"
       "menu_kommunikation"
       "menu_projekter_opgaver"
       "menu_bagom_siden"
