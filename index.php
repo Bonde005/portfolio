@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width" , initial-scale=1.0 />
         <title>Læringsportofolie forside</title>
         <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Sans|Quicksand&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="stylesheet_frontpage.css">
     </head>
     <body>
         <nav>
@@ -19,7 +19,7 @@
             </section>
             <section class="dropdown_content">
               <div class="column_left">
-                <a href="#"><h2>HTML</h2></a>
+                <a href="html.php"><h2>HTML</h2></a>
                 <a href="#"><h2>CSS</h2></a>
                 <a href="#"><h2>Responsiv Design</h2></a>
               </div> <!-- column_left -->
