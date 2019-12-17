@@ -1,1 +1,417 @@
+body {
+    background-image: url(billeder/bagrund.png); /* Baggrunds billede */
+    background-size: contain; /* hvor meget baggrundbilledet skal fylde */
+    background-color: #D1BEB4; /* den baggrundsfarve der er hvor og hvis billedet ikke er indlæst */
+    background-attachment: fixed;
+}
 
+#global_menu {
+  display: none; /* Viser ikke navigationsbaren i mobil version*/
+}
+
+#logo {
+    background-color: #141755; /* baggrundsfarve */
+    grid-area: logo; /* navn i grid */
+    margin-bottom: 0.5em; /* giver en margin */
+    margin-top: 1em;
+    margin-right: auto; /* centrer sektionen */
+    margin-left: auto;
+    width: 90%;  /* tilpasser størrelsen procentvis */
+
+}
+
+#logo img {
+    display: block; /* Den skal opføre sig som en blok */
+    margin-left: auto; /* centrer billedet */
+    margin-right: auto;
+    width: 70%; /* Hovr meget billedet skal fylde indeni sektionen */
+}
+
+#back_arrow img {
+  width: 90%; /* gør billedet mindre & går ikke ud over kanten */
+}
+
+#back_arrow {
+  width: 20%;
+}
+
+#overskrift {
+  padding: 0.05em; /* luft mellem tekst og kant */
+  background-color: #141755; /* baggrundsfarve */
+  margin-bottom: 1em; /* luft inden næste felt */
+  box-shadow: 1px 1px 10px #574f4b; /* skygge effekt */
+}
+
+h1 {
+  text-align: center; /* centrer teskt */
+  color: #a4897b; /* tekstens farve */
+  font-family: 'Quicksand', sans-serif; /* skrifttype */
+  font-weight: 400; /* skrifttykkelse */
+  font-size: 2em; /* skriftstørrelse */
+}
+
+p, dt, dd {
+  font-family: 'PT sans', sans-serif; /* skrifttype */
+  font-size: 1.05em; /* lidt større tekst */
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  padding-left: 0.2em;
+  margin-bottom: 1em;
+}
+
+.tekstfelt {
+  background-color: #a4897b; /* Baggrunds farve */
+  padding-top: 0.1em;
+  padding-bottom: 0.1em; /* padding i bund og top*/
+  padding-right: 1em;
+  padding-left: 1em; /* padding i siderne */
+  margin-bottom: 1em; /* luft mellem felter */
+  box-shadow: 1px 1px 10px #574f4b; /* skyggeeffekt */
+}
+
+.under_overskrift {
+  background-color: #6c6cd9; /* baggrundsfarve */
+  padding: 0.04em; /* luft mellem tekst og kant */
+  margin-bottom: 1em; /* luft inden næste felt */
+  margin-top: 4em; /* luft mellem sektioner der ikke høre sammen */
+  box-shadow: 1px 1px 10px #574f4b; /* skyggeeffekt */
+}
+
+h2 {
+  text-align: center; /* centrer tekst */
+  font-family: 'Montserrat', sans-serif; /* skrifttype */
+  font-size: 1.4em; /* skriftsstørelse */
+}
+
+#lokal_menu a {
+  text-decoration: none; /* fjerne understregning */
+  font-size: 0.8em; /* mindre skriftsstørelse */
+}
+
+
+#lokal_menu {
+  margin-top: 1.5em; /* margin i toppen */
+  text-align: center; /* centrer tekst */
+}
+
+#lokal_menu p {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.illustrationer img {
+  width: 100%; /* Billedet fylder ikke mere end dens område */
+  display: block; /* bruges til at centrer billedet */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.illustrationer  {
+  background-color: #d1beb4; /* Baggrundsfarve til billedtekst*/
+  margin-bottom: 1em; /* margin i bunden */
+  box-shadow: 5px 2px 10px #574f4b; /* skyggeeffekt */
+  font-size: 0.8em; /* skriftstørrelse */
+}
+
+.kilde {
+  font-family: 'PT sans', sans-serif; /* skrifttype */
+  color: #141755; /* skriftfarve */
+  text-align: center; /* centrer tekst */
+  margin-top: 1em; /* margin i toppen - skille sig ud*/
+}
+
+a:link {
+  color: #141755; /* farve for links */
+}
+
+a:visited {
+  color: #6c6cd9; /* farve for besøgte links */
+}
+
+a:hover {
+  color: #5858b0; /* Farve når hover */
+}
+
+#lokal_menu a:visited {
+  color: #141755; /* Gør der ingen forskel */
+}
+
+#home_button img {
+  width: 100%; /* skal ikke fylde mere end "kassen" */
+  display: block; /* center billedet  */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#home_button {
+  width: 20%; /* størrelse */
+  position: fixed; /* sider samme sted hele tiden også når man scroller*/
+  bottom: 0; /* placere den i bunden */
+  left: 40%; /* placere i midten */
+  margin-bottom: 3em; /* gør plads til footeren */
+}
+
+#pagewrap {
+  margin-bottom: 35%; /* giver plads til home_button kan være i bunden af siden */
+}
+
+footer {
+  background-color: #141755; /* giver en baggrundsfarve */
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 1; /* placere den i bunden af siden */
+  padding-right: 2em; /* rykker teksten ind */
+  padding-left: 2em;
+}
+
+footer p {
+  color: #a4897b; /* skriftens farve*/
+  font-family: 'PT Sans', sans-serif; /* skrifttype */
+  font-weight: bold; /* Gør skriften tykkere */
+}
+
+footer a {
+  text-decoration: none; /* fjerne underline */
+}
+
+footer a:hover {
+  text-decoration: underline #a4897b; /* Giver en underline i samme farve */
+}
+
+ #tags_eksempler {
+   max-width: 469px; /* gør billedet ikke bliver forstørret*/
+   margin-left: auto; /* centrere billed sektionen*/
+   margin-right: auto;
+ }
+
+ #element_billede {
+   max-width: 528px; /* Gør billedet ikke bliver forstørret */
+   margin-left: auto; /* centrer billed sektionen */
+   margin-right: auto;
+ }
+
+ #kodeskik_billede {
+   max-width: 677px; /* Gør at billede ikke bliver forstørret*/
+   margin-left: auto; /* centrer billed sektionen */
+   margin-right: auto; /* center billed sektionen */
+ }
+
+/* Grid areas */
+
+#back_arrow {
+  grid-area: back_arrow;
+}
+
+#overskrift {
+  grid-area: overskrift;
+}
+
+#indledning {
+  grid-area: indledning;
+}
+
+#kodning_overskrift {
+  grid-area: kodning_overskrift;
+}
+
+#tags_tekst {
+  grid-area: tags_tekst;
+}
+
+#tags_eksempler {
+  grid-area: tags_eksempler;
+}
+
+#semantik_tekst {
+  grid-area: semantik_tekst;
+}
+
+#element_tekst {
+  grid-area: element_tekst;
+}
+
+#element_billede {
+  grid-area: element_billede;
+}
+
+#kodeskik_overskrift {
+  grid-area: kodeskik_overskrift;
+}
+
+#kodeskik_tekst {
+  grid-area: kodeskik_tekst;
+}
+
+#kodeskik_billede {
+  grid-area: kodeskik_billede;
+}
+
+/* Grid for mobil version */
+#pagewrap {
+  display: grid;
+  grid-template-areas:
+  "back_arrow"
+  "overskrift"
+  "indledning"
+  "kodning_overskrift"
+  "tags_tekst"
+  "tags_eksempler"
+  "semantik_tekst"
+  "element_tekst"
+  "element_billede"
+  "kodeskik_overskrift"
+  "kodeskik_tekst"
+  "kodeskik_billede" ;
+}
+
+@media screen and (min-width: 500px) { /* her begynder tablet versionen */
+
+  footer p {
+    float: left; /* placrer teksten i højre side */
+  }
+
+  footer a {
+    float: right; /* placere linket i højre side */
+  }
+
+  #logo {
+    width: 55%; /* Får logoet til at fylde mindre */
+  }
+
+  #back_arrow {
+    width: 12%; /* Går tilbage pilen mindre */
+  }
+
+  .tekst {
+    float: left; /* flytter teksten til venstre */
+    width: 48%; /* Skal fylde 48% */
+    margin-right: 0.5em; /* giver plads mellem teskt og punkter*/
+  }
+
+  .punkter {
+    float: left; /* flytter teksten til venstre */
+    width: 48%; /* skal fylde 48% */
+  }
+
+  #pagewrap {
+    width: 90%; /* Gør gridet smallere */
+    margin-left: auto; /* centrer griddet */
+    margin-right: auto;
+    margin-bottom: 25%; /* gør margin lidt mindre igen */
+  }
+
+
+}
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+
+  footer {
+    bottom: 0; /* sætter footeren fast på bunden af siden */
+  }
+
+  html {
+  position: relative;
+  min-height: 100%; /* Gør at den bruger hele siden, så footere kommer på bunden */
+  }
+
+  #back_arrow, #home_button {
+    display: none; /* Vise rikke undermenuerne */
+  }
+
+  #global_menu {
+    display: block; /* Opføre sig som en blok  */
+    background-color: #141755; /* baggrundsfarve */
+    height: 80px; /* Give en statisk højde */
+    margin-bottom: 2em; /* Giver noget afstand til indhold */
+  }
+
+  .dropdown, #menu_bagom_siden {
+    float: right; /* float til højre  */
+  }
+
+  #global_menu h1 {
+    font-size:1.2em; /* skriftstørrelse */
+    margin-right: 1.5em; /* margin i højre side */
+  }
+
+  #menu_bagom_siden h1{
+    padding-top: 0.35em; /* Får dem på samme højde som de andre*/
+  }
+
+  .dropdown_content {
+    display: none; /* Viser ikke undermennuerne */
+    width: 180px; /* Giver dem den samme bredde */
+    position: absolute; /* Skal have en fast position */
+    background-color:  #6c6cd9; /* baggrundsfarve */
+    box-shadow: 2px 2px 10px ; /* sort skyggeeffekt */
+  }
+
+  #global_menu a {
+    color: #a4897b; /* tekst farve */
+    text-decoration: none; /* fjerne understegning */
+  }
+
+  #logo {
+    height: 80px; /* Giver den samme højde som header */
+    width: 15%; /* Hvor bred den skal være i forhold til header*/
+    float: left; /* Sat til venste */
+    margin: 0; /* fjerner margin */
+    padding: 0; /* fjerne padding */
+    margin-left: 1em; /* giver lidt afstand til kant */
+  }
+
+  #logo img {
+    height: 100%; /*  hvor meget billedet skal fylde */
+    width: auto; /* Den skal tilpasse sig i bredden */
+    float: left; /* Flyt til venstre i kassen */
+  }
+
+  .dropdown:hover .dropdown_content {
+      display: block; /* Viser undermenuer når musen er over*/
+  }
+
+  .dropdown_content h2 {
+    font-size: 0.9em; /* skriftsstørelse */
+    color: black; /* tekstens farve */
+  }
+
+  .menu_punkt h1:hover {
+    cursor: pointer; /* Får musen til at vise at man kan klikke på menuerne */
+  }
+
+/* grid for desktop */
+
+  #pagewrap {
+    margin-bottom: 3.5em; /* laver plads til footer */
+    width: 80%; /* fylder mindre */
+    max-width: 1250px; /* giver en maks bredde så den ikke bliver for bred */
+    grid-template-areas:
+    "overskrift overskrift"
+    "indledning indledning"
+    "kodning_overskrift kodning_overskrift"
+    "tags_tekst tags_eksempler"
+    "semantik_tekst semantik_tekst"
+    "element_tekst element_billede"
+    "kodeskik_overskrift kodeskik_overskrift"
+    "kodeskik_tekst kodeskik_billede"
+  }
+
+  .under_overskrift {
+    margin-bottom: 1.5em; /* mere afstand efter underoverskrifter */
+  }
+
+  .tekstfelt, .illustrationer {
+    margin-bottom: 1.5em; /* mere afstand mellem felterne */
+  }
+
+  .tekstfelt {
+    margin-right: 1.5em; /* afstand mellem felt og billede*/
+  }
+
+}

@@ -66,6 +66,7 @@ h1 {
     font-family: 'Quicksand', sans-serif; /* Skrifttype */
     font-size: 1.7em; /* skriftstørrelse */
     text-align: center; /* centrer teksten */
+    font-weight: 400;
 }
 footer {
   background-color: #141755; /* giver en baggrundsfarve */
@@ -207,7 +208,7 @@ nav {
     .dropdown_content {
       display: none; /* Gemmer kasserne */
       float: left; /* Bliver til venstre */
-      width: 50%; /* bredden */
+      width: 51%; /* bredden */
       margin-bottom: 0em; /* Fjerner marginen fra bunden */
       margin-top: 0.3em; /* Rykker kassen ned til samme højde*/
     }
@@ -248,11 +249,11 @@ nav {
     }
 
     footer {
-      bottom: 0;
+      bottom: 0; /* sætter footeren fast på bunden af siden */
     }
 
     html {
     position: relative;
-    min-height: 100%;
+    min-height: 100%; /* Gør at den bruger hele siden, så footere kommer på bunden */
   }
 }
