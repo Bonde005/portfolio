@@ -50,7 +50,7 @@ h1 {
   font-size: 2em; /* skriftstørrelse */
 }
 
-p, dt, dd {
+p, dt, dd, li {
   font-family: 'PT sans', sans-serif; /* skrifttype */
   font-size: 1.05em; /* lidt større tekst */
 }
@@ -184,91 +184,21 @@ footer a:hover {
   text-decoration: underline #a4897b; /* Giver en underline i samme farve */
 }
 
- #tags_eksempler {
-   max-width: 469px; /* gør billedet ikke bliver forstørret*/
-   margin-left: auto; /* centrere billed sektionen*/
-   margin-right: auto;
- }
-
- #element_billede {
-   max-width: 528px; /* Gør billedet ikke bliver forstørret */
-   margin-left: auto; /* centrer billed sektionen */
-   margin-right: auto;
- }
-
- #kodeskik_billede {
-   max-width: 677px; /* Gør at billede ikke bliver forstørret*/
-   margin-left: auto; /* centrer billed sektionen */
-   margin-right: auto; /* center billed sektionen */
- }
-
-/* Grid areas */
-
-#back_arrow {
-  grid-area: back_arrow;
+.boks .under_overskrift, .boks .tekstfelt {
+  margin-bottom: 0em;
+  margin-top: 0em; /* fjerner margin far felterne i bokse */
+  box-shadow: none; /* fjerne de individuelle skygger */
 }
 
-#overskrift {
-  grid-area: overskrift;
+.boks .illustrationer {
+  box-shadow: none; /* fjerner skygge fra billede i boks */
 }
 
-#indledning {
-  grid-area: indledning;
+.boks {
+  box-shadow: 1px 1px 10px #574f4b; /* skyggeeffekt for hele boksen */
+  margin-top: 4em; /* Giver plads mellem boksene  */
 }
 
-#kodning_overskrift {
-  grid-area: kodning_overskrift;
-}
-
-#tags_tekst {
-  grid-area: tags_tekst;
-}
-
-#tags_eksempler {
-  grid-area: tags_eksempler;
-}
-
-#semantik_tekst {
-  grid-area: semantik_tekst;
-}
-
-#element_tekst {
-  grid-area: element_tekst;
-}
-
-#element_billede {
-  grid-area: element_billede;
-}
-
-#kodeskik_overskrift {
-  grid-area: kodeskik_overskrift;
-}
-
-#kodeskik_tekst {
-  grid-area: kodeskik_tekst;
-}
-
-#kodeskik_billede {
-  grid-area: kodeskik_billede;
-}
-
-/* Grid for mobil version */
-#pagewrap {
-  display: grid;
-  grid-template-areas:
-  "back_arrow"
-  "overskrift"
-  "indledning"
-  "kodning_overskrift"
-  "tags_tekst"
-  "tags_eksempler"
-  "semantik_tekst"
-  "element_tekst"
-  "element_billede"
-  "kodeskik_overskrift"
-  "kodeskik_tekst"
-  "kodeskik_billede" ;
-}
 
 @media screen and (min-width: 500px) { /* her begynder tablet versionen */
 
@@ -385,21 +315,11 @@ footer a:hover {
     cursor: pointer; /* Får musen til at vise at man kan klikke på menuerne */
   }
 
-/* grid for desktop */
-
   #pagewrap {
-    margin-bottom: 3.5em; /* laver plads til footer */
+    margin-bottom: 2em; /* laver plads til footer */
     width: 80%; /* fylder mindre */
+    background-color: #d1beb4; /* Giver baggrundsfarve bag felterne */
     max-width: 1250px; /* giver en maks bredde så den ikke bliver for bred */
-    grid-template-areas:
-    "overskrift overskrift"
-    "indledning indledning"
-    "kodning_overskrift kodning_overskrift"
-    "tags_tekst tags_eksempler"
-    "semantik_tekst semantik_tekst"
-    "element_tekst element_billede"
-    "kodeskik_overskrift kodeskik_overskrift"
-    "kodeskik_tekst kodeskik_billede"
   }
 
   .under_overskrift {
@@ -407,11 +327,20 @@ footer a:hover {
   }
 
   .tekstfelt, .illustrationer {
-    margin-bottom: 1.5em; /* mere afstand mellem felterne */
+    margin-bottom: 5em; /* mere afstand mellem felterne */
   }
 
-  .tekstfelt {
-    margin-right: 1.5em; /* afstand mellem felt og billede*/
+  .illustrationer {
+    margin-left: 1.5em; /* afstand mellem felt og billede*/
+  }
+
+  #tags_eksempler {
+    max-width: 369px; /* gør billedet lidt mindre*/
+
+  }
+
+  .boks {
+    width: 95%;
   }
 
 }

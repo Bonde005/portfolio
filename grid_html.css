@@ -1,0 +1,113 @@
+
+ #tags_eksempler {
+   max-width: 469px; /* gør billedet ikke bliver forstørret*/
+   margin-left: auto; /* centrere billed sektionen*/
+   margin-right: auto;
+ }
+
+ #element_billede {
+   max-width: 528px; /* Gør billedet ikke bliver forstørret */
+   margin-left: auto; /* centrer billed sektionen */
+   margin-right: auto;
+ }
+
+ #kodeskik_billede {
+   max-width: 677px; /* Gør at billede ikke bliver forstørret*/
+   margin-left: auto; /* centrer billed sektionen */
+   margin-right: auto; /* center billed sektionen */
+ }
+
+ /* Grid areas */
+
+ #back_arrow {
+   grid-area: back_arrow;
+ }
+
+ #overskrift {
+   grid-area: overskrift;
+ }
+
+ #indledning {
+   grid-area: indledning;
+ }
+
+ #kodning_overskrift {
+   grid-area: kodning_overskrift;
+ }
+
+ #tags_tekst {
+   grid-area: tags_tekst;
+ }
+
+ #tags_eksempler {
+   grid-area: tags_eksempler;
+ }
+
+ #semantik_tekst {
+   grid-area: semantik_tekst;
+ }
+
+ #element_tekst {
+   grid-area: element_tekst;
+ }
+
+ #element_billede {
+   grid-area: element_billede;
+ }
+
+ #kodeskik_overskrift {
+   grid-area: kodeskik_overskrift;
+ }
+
+ #kodeskik_tekst {
+   grid-area: kodeskik_tekst;
+ }
+
+ #kodeskik_billede {
+   grid-area: kodeskik_billede;
+ }
+
+ /* Grid for mobil version */
+ #pagewrap {
+   display: grid;
+   grid-template-areas:
+   "back_arrow"
+   "overskrift"
+   "indledning"
+   "kodning_overskrift"
+   "tags_tekst"
+   "tags_eksempler"
+   "semantik_tekst"
+   "element_tekst"
+   "element_billede"
+   "kodeskik_overskrift"
+   "kodeskik_tekst"
+   "kodeskik_billede" ;
+ }
+
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+
+  #pagewrap {
+    grid-template-areas:
+    "overskrift overskrift"
+    "indledning indledning"
+    "kodning_overskrift kodning_overskrift"
+    "tags_tekst tags_eksempler"
+    "semantik_tekst semantik_tekst"
+    "element_tekst element_billede"
+    "kodeskik_overskrift kodeskik_overskrift"
+    "kodeskik_tekst kodeskik_billede"
+  }
+
+  #element_billede {
+    max-width: 428px; /* gør billedet lidt mindre */
+  }
+
+  #element_tekst {
+    max-height: 200px;
+  }
+
+  #kodeskik_tekst {
+    max-height: 400px;
+  }

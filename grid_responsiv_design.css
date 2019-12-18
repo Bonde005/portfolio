@@ -1,0 +1,153 @@
+#statisk_layout_billede {
+  max-width: 1118px; /* gør billedet ikke bliver forstørret*/
+  margin-left: auto; /* centrere billed sektionen*/
+  margin-right: auto;
+}
+
+#flydende_layout_billede {
+  max-width: 1124px; /* Gør billedet ikke bliver forstørret */
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto;
+}
+
+#responsiv_layout_billede {
+  max-width: 1117px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#adaptiv_layout_billede {
+  max-width: 1118px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#grid_mobil_billede {
+  max-width: 555px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#grid_tablet_billede {
+  max-width: 948px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#grid_desktop_billede {
+  max-width: 1911px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+/* Grid areas */
+
+#back_arrow {
+  grid-area: back_arrow;
+}
+
+#overskrift {
+  grid-area: overskrift;
+}
+
+#indledning {
+  grid-area: indledning;
+}
+
+#statisk_layout {
+  grid-area: statisk_layout;
+}
+
+#flydende_layout {
+  grid-area: flydende_layout;
+}
+
+#responsiv_layout {
+  grid-area: responsiv_layout;
+}
+
+#adaptiv_layout {
+  grid-area: adaptiv_layout;
+}
+
+#grid_overskrift {
+  grid-area: grid_overskrift;
+}
+
+#grid_tekst {
+  grid-area: grid_tekst;
+}
+
+#grid_mobil_billede {
+  grid-area: grid_mobil_billede;
+}
+
+#grid_tablet_billede {
+  grid-area: grid_tablet_billede;
+}
+
+#grid_desktop_billede {
+  grid-area: grid_desktop_billede;
+}
+
+#grid_slut_tekst {
+  grid-area: grid_slut_tekst;
+}
+
+/* Grid for mobil version */
+
+#pagewrap {
+  display: grid;
+  grid-template-areas:
+    "back_arrow"
+    "overskrift"
+    "indledning"
+    "statisk_layout"
+    "flydende_layout"
+    "responsiv_layout"
+    "adaptiv_layout"
+    "grid_overskrift"
+    "grid_tekst"
+    "grid_mobil_billede"
+    "grid_tablet_billede"
+    "grid_desktop_billede"
+    "grid_slut_tekst"
+}
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+
+  #pagewrap {
+    grid-template-areas: /* grid for desktop */
+    "overskrift overskrift"
+    "indledning indledning"
+    "statisk_layout flydende_layout"
+    "responsiv_layout adaptiv_layout"
+    "grid_overskrift grid_overskrift"
+    "grid_tekst grid_tekst"
+    "grid_tablet_billede grid_mobil_billede"
+    "grid_desktop_billede grid_desktop_billede"
+    "grid_slut_tekst grid_slut_tekst"
+
+  }
+
+  #grid_mobil_billede, #grid_tablet_billede {
+    width: 95%; /* Giver luft mellem billederne*/
+  }
+
+  #statisk_layout {
+    max-height: 650px; /* Giver en max-højde for at undgå luft */
+  }
+
+  #flydende_layout {
+    max-height: 580px; /* Giver en max-højde for at undgå luft */
+  }
+
+  #responsiv_layout {
+    max-height: 680px; /* Giver en max-højde for at undgå luft */
+  }
+
+  #adaptiv_layout {
+    max-height: 600px; /* Giver en max-højde for at undgå luft */
+  }
+
+}

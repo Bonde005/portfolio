@@ -1,0 +1,139 @@
+
+ #selector_eksempel_1, #selector_eksempel_2, #strukturelselector_billede {
+   max-width: 504px; /* gør billedet ikke bliver forstørret*/
+   margin-left: auto; /* centrere billed sektionen*/
+   margin-right: auto;
+ }
+
+ #deklaration_billede {
+   max-width: 895px; /* Gør at billede ikke bliver forstørret*/
+   margin-left: auto; /* centrer billed sektionen */
+   margin-right: auto; /* center billed sektionen */
+ }
+
+ #kaskade_billede {
+   max-width: 589px; /* Gør at billede ikke bliver forstørret*/
+   margin-left: auto; /* centrer billed sektionen */
+   margin-right: auto; /* center billed sektionen */
+ }
+
+/*  grid areas  */
+
+#back_arrow {
+  grid-area: back_arrow;
+}
+
+#overskrift {
+  grid-area: overskrift;
+}
+
+#indledning {
+  grid-area: indledning;
+}
+
+#selectors_tekst {
+  grid-area: selectors_tekst;
+}
+
+#selector_eksempel_1 {
+  grid-area: selector_eksempel_1;
+}
+
+#selector_eksempel_2 {
+  grid-area: selector_eksempel_2;
+}
+
+#strukturelselector_tekst {
+  grid-area: strukturelselector_tekst;
+}
+
+#strukturelselector_billede {
+  grid-area: strukturelselector_billede;
+}
+
+#deklaration_tekst {
+  grid-area: deklaration_tekst;
+}
+
+#deklaration_billede {
+  grid-area: deklaration_billede;
+}
+
+#embed_tekst {
+  grid-area: embed_tekst;
+}
+
+#kaskade_tekst {
+  grid-area: kaskade_tekst;
+}
+
+#kaskade_billede {
+  grid-area: kaskade_billede;
+}
+
+#falsk_overskrift {
+    height: 50px; /* Giver en højde da sektionen er tom  */
+    grid-area: falsk_overskrift;
+}
+
+/* Grid for mobil version */
+
+#pagewrap {
+  display: grid;
+  grid-template-areas:
+    "back_arrow"
+    "overskrift"
+    "indledning"
+    "falsk_overskrift"
+    "selectors_tekst"
+    "selector_eksempel_1"
+    "selector_eksempel_2"
+    "strukturelselector_tekst"
+    "strukturelselector_billede"
+    "deklaration_tekst"
+    "deklaration_billede"
+    "embed_tekst"
+    "kaskade_tekst"
+    "kaskade_billede";
+}
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+
+  #pagewrap {
+    grid-template-areas:
+      "overskrift overskrift"
+      "indledning indledning"
+      "falsk_overskrift falsk_overskrift"
+      "selectors_tekst selectors_tekst"
+      "selector_eksempel_1 selector_eksempel_2"
+      "strukturelselector_tekst strukturelselector_billede"
+      "deklaration_tekst deklaration_billede"
+      "embed_tekst embed_tekst"
+      "kaskade_tekst kaskade_billede"
+  }
+
+    #kaskade_tekst .tekst, #kaskade_tekst .punkter {
+      float: none;
+      width: 100%;
+    }
+
+    #kaskade_billede {
+      max-height: 480px;
+    }
+
+    #deklaration_billede {
+      max-height: 280px;
+    }
+
+    #strukturelselector_billede {
+      max-height: 180px;
+    }
+
+    #selector_eksempel_1 {
+      margin-right: 1.5em;
+    }
+
+    #selector_eksempel_2 {
+      margin-left: 1.5em;
+    }
+}
