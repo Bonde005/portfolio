@@ -107,7 +107,7 @@
             <p>Et eksempel på god kodeskik med indryk og kommentar</p>
           </blockquote>
         </section>
-      </div>
+      </div> <!-- pagewrap -->
 
       <div id="home_button">
         <a href="index.php"><img src="billeder/home.png" alt="home knap"></a>

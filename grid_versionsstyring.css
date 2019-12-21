@@ -1,0 +1,119 @@
+
+ #git_billede {
+   max-width: 347px; /* gør billedet ikke bliver forstørret*/
+   margin-left: auto; /* centrere billed sektionen*/
+   margin-right: auto;
+ }
+
+ #versionstyring_billede {
+   max-width: 259px; /* Gør billedet ikke bliver forstørret */
+   margin-left: auto; /* centrer billed sektionen */
+   margin-right: auto;
+ }
+
+ #github_billede {
+   max-width: 968px; /* Gør at billede ikke bliver forstørret*/
+   margin-left: auto; /* centrer billed sektionen */
+   margin-right: auto; /* center billed sektionen */
+ }
+
+ /* Grid areas */
+
+ #back_arrow {
+   grid-area: back_arrow;
+ }
+
+ #overskrift {
+   grid-area: overskrift;
+ }
+
+ #indledning {
+   grid-area: indledning;
+ }
+
+ #git_overskrift {
+   grid-area: git_overskrift;
+ }
+
+ #git_tekst {
+   grid-area: git_tekst;
+ }
+
+ #git_billede {
+   grid-area: git_billede
+ }
+
+ #versionstyring_billede {
+   grid-area: versionstyring_billede;
+ }
+
+ #github_overskrift {
+   grid-area: github_overskrift;
+ }
+
+ #github_tekst {
+   grid-area: github_tekst;
+ }
+
+ #github_billede {
+   grid-area: github_billede;
+ }
+
+ /* Grid for mobil version */
+ #pagewrap {
+   display: grid;
+   grid-template-areas:
+   "back_arrow"
+   "overskrift"
+   "indledning"
+   "git_overskrift"
+   "git_tekst"
+   "git_billede"
+   "versionstyring_billede"
+   "github_overskrift"
+   "github_tekst"
+   "github_billede";
+ }
+
+@media screen and (min-width: 500px) { /* her begynder tablet versionen */
+
+  #pagewrap { /* Grid for tablet version */
+    grid-template-areas:
+    "back_arrow ."
+    "overskrift overskrift"
+    "indledning indledning"
+    "git_overskrift git_overskrift"
+    "git_tekst git_tekst"
+    "git_billede versionstyring_billede"
+    "github_overskrift github_overskrift"
+    "github_tekst github_tekst"
+    "github_billede github_billede";
+  }
+
+  #git_billede, #versionstyring_billede {
+    width: 95%; /* laver luft mellem billeder */
+  }
+
+  #git_billede {
+    max-height: 180px; /* giver en max højde, fjerne luft */
+  }
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+
+  #pagewrap { /* Grid for desktop */
+    grid-template-areas:
+    "overskrift overskrift"
+    "indledning indledning"
+    "git_overskrift git_overskrift"
+    "git_tekst git_billede"
+    "git_tekst versionstyring_billede"
+    "github_overskrift github_overskrift"
+    "github_tekst github_tekst"
+    "github_billede github_billede";
+  }
+
+  #git_tekst {
+    width: 80%; /* gør smallere, flere linjer tekst */
+    margin: auto; /* centere feltet */
+    max-height: 250px; /* max højde, fjerner luft */
+  }

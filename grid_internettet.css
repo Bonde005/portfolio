@@ -1,0 +1,154 @@
+
+ #network_billede {
+   max-width: 270px; /* gør billedet ikke bliver forstørret*/
+   margin-left: auto; /* centrere billed sektionen*/
+   margin-right: auto;
+ }
+
+ #server_billede {
+   max-width: 203px; /* Gør billedet ikke bliver forstørret */
+   margin-left: auto; /* centrer billed sektionen */
+   margin-right: auto;
+ }
+
+ #tidlige_eksperimenter_billede {
+   max-width: 1234px; /* Gør at billede ikke bliver forstørret*/
+   margin-left: auto; /* centrer billed sektionen */
+   margin-right: auto; /* center billed sektionen */
+ }
+
+ #under_konstruktion_billede {
+   max-width: 1887px; /* Gør at billede ikke bliver forstørret*/
+   margin-left: auto; /* centrer billed sektionen */
+   margin-right: auto; /* center billed sektionen */
+ }
+
+ #semantisk_search_billede {
+   max-width: 1888px; /* Gør at billede ikke bliver forstørret*/
+   margin-left: auto; /* centrer billed sektionen */
+   margin-right: auto; /* center billed sektionen */
+ }
+
+ #sociale_web_billede {
+   max-width: 1889px; /* Gør at billede ikke bliver forstørret*/
+   margin-left: auto; /* centrer billed sektionen */
+   margin-right: auto; /* center billed sektionen */
+ }
+
+ #mobile_web_billede {
+   max-width: 1882px; /* Gør at billede ikke bliver forstørret*/
+   margin-left: auto; /* centrer billed sektionen */
+   margin-right: auto; /* center billed sektionen */
+ }
+
+ /* Grid areas */
+
+ #back_arrow {
+   grid-area: back_arrow;
+ }
+
+ #overskrift {
+   grid-area: overskrift;
+ }
+
+ #indledning {
+   grid-area: indledning;
+ }
+
+#historie_overskrift {
+  grid-area: historie_overskrift;
+}
+
+#historie_tekst {
+  grid-area: historie_tekst;
+}
+
+#network_billede {
+  grid-area: network_billede;
+}
+
+#webbet_overskrift {
+  grid-area: webbet_overskrift;
+}
+
+#server_tekst {
+  grid-area: server_tekst;
+}
+
+#server_billede {
+  grid-area: server_billede;
+}
+
+#web_tekst {
+  grid-area: web_tekst;
+}
+
+#webperioder_tekst {
+  grid-area: webperioder_tekst;
+}
+
+#tidlige_eksperimenter {
+  grid-area: tidlige_eksperimenter;
+}
+
+#under_konstruktion {
+  grid-area: under_konstruktion;
+}
+
+#semantisk_search {
+  grid-area: semantisk_search;
+}
+
+#sociale_web {
+  grid-area: sociale_web;
+}
+
+#mobile_web {
+  grid-area: mobile_web;
+}
+
+ /* Grid for mobil version */
+ #pagewrap {
+   display: grid;
+   grid-template-areas:
+   "back_arrow"
+   "overskrift"
+   "indledning"
+   "historie_overskrift"
+   "historie_tekst"
+   "network_billede"
+   "webbet_overskrift"
+   "server_tekst"
+   "server_billede"
+   "web_tekst"
+   "webperioder_tekst"
+   "tidlige_eksperimenter"
+   "under_konstruktion"
+   "semantisk_search"
+   "sociale_web"
+   "mobile_web";
+ }
+
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+
+  #pagewrap {
+    grid-template-areas:
+    "overskrift overskrift"
+    "indledning indledning"
+    "historie_overskrift historie_overskrift"
+    "historie_tekst network_billede"
+    "webbet_overskrift webbet_overskrift"
+    "server_tekst server_billede"
+    "web_tekst web_tekst"
+    "webperioder_tekst  webperioder_tekst"
+    "tidlige_eksperimenter under_konstruktion"
+    "semantisk_search sociale_web"
+    "mobile_web mobile_web";
+  }
+
+  #network_billede, #server_billede {
+    max-height: 325px; /* Gør sektionen laver, undgår luft  */
+    margin-top: auto; /* centerer billedet */
+    margin-bottom: auto;
+  }

@@ -88,13 +88,13 @@
             <h3>Tidlige eksperimenter</h3>
           </section> <!-- tidlige_eksperimenter_overskrift -->
 
-          <section id="tidlige_eksperimenter_tekst">
+          <section id="tidlige_eksperimenter_tekst" class="tekstfelt">
             <p>Hver periode har nogle karakteristiske tendenser. I perioden tidlige eksperimenter var det meget simpelt. Af teknikker havder man HTML, Javascript og GIF. Man kunne derfor kun opsætte det visuelle til en vis grad. Man kunne styre opsætningen men skrifttyper og lign. Kom an på brugerens browser. Derudover var man vant til bøger, så en udbredt stilart var den klassiske bogsideformat som man kendte til.</p>
             <p class="kilde">(Online kommunikation en introduktion, 346-371) </p>
           </section> <!-- tidlige_eksperimenter_tekst -->
 
           <section id="tidlige_eksperimenter_billede" class="illustrationer">
-            <img src="billeder/websites/internettet/tidlige_eksperimenter.png" alt="IMBb i 1996">
+            <img src="billeder/websites/internettet/tidliger_eksperimenter.png" alt="IMBb i 1996">
             <blockquote>
               <p>Ældste version af IMDbs hjemmeside i 1996, desværre kan billederne ikke længere findes</p>
               <a class="kilde" href="https://web.archive.org/web/19961119065302/http://www.imdb.com/ "><p>web.archive.org</p></a>
@@ -107,7 +107,7 @@
             <h3>Under konstruktion</h3>
           </section> <!-- under_konstruktion_overskrift -->
 
-          <section id="under_konstruktion_tekst">
+          <section id="under_konstruktion_tekst" class="tekstfelt">
             <p>I perioden under konstruktion, var det blevet meget mere udbredt og folk gik amok med at lave deres egne hjemmesider. Der var endnu ingen standarder for hvordan en hjemmeside skulle se ud, hvilket medførte til at Jakob Nielsen kom på banen med Usability Engineering, med hans ide om at dele det op i en engineering del og en grafisk del. I samme tidsperiode opstod browserkrigen, hvor Microsoft gjorde deres browser Explorer en standard ved at den fulgte med når man fik en computer med Microsoft styresystem Windows. Browseren Netscape blev derfor ikke ligeså udbredt, og forsøgt at være mere udbudt ved at få sine egne udvidelser så man kunne nogle ting udseendemæssigt, som man så ikke kunne se på en Explorer Browser. Det samme begyndte Explorer at gøre. Det blev også begyndelse på WWW Consordion, som en forening mellem browsere, hvor de skulle blive enige om standarder. </p>
             <p class="kilde">(Online kommunikation en introduktion, 346-371) </p>
           </section> <!-- under_konstruktion_tekst -->
@@ -126,7 +126,7 @@
             <h3>Semantisk søgning</h3>
           </section> <!-- semantisk_search_overskrift -->
 
-          <section id="semantisk_search_tekst">
+          <section id="semantisk_search_tekst" class="tekstfelt">
             <p>Perioden derefter, semantisk søgning, kom med CSS og udbredelsen af Googles søgemaskine. Google bliver født og ændre webbet. Den kunne finde relevante hjemmesider, som ingen søgemaskine før kunne. Google har en algoritme som gør det muligt at søge hjemmesider og finde det relevante vha. semantik. Derfor blev semantik meget udbredt, da man fik flere besøgende hvis Google kunne finde siden. Virksomheder begyndte at bruge semantik og simple design, eftersom Google kunne henvise en til en underside og derfor var forsiden ikke altid der man startede. Derfor forsimplede man hjemmesiderne så det var nemt at navigere i. Der var dog stadig nogle som eksperimenterede ligeså meget som før i baggrunden</p>
             <p class="kilde">(Online kommunikation en introduktion, 346-371) </p>
           </section> <!-- semantisk_search_tekst -->
@@ -145,7 +145,7 @@
             <h3>Det sociale web</h3>
           </section> <!-- sociale_web_overskrift -->
 
-          <section id="sociale_web_tekst">
+          <section id="sociale_web_tekst" class="tekstfelt">
             <p>I perioden det sociale web, blev bruger sociale sammen på en anden måde en nogensinde før, og her var starten på de sociale medier. LinkedIn, Twitter, Myspace og blogs blev meget udbredte. Det medførte at webbet blev ”styret” af brugeren selv, da brugerne selv lavede oplæg, delte, kommenterede og fyldte webbet med sociale interaktioner. Samtidig kom udbredelsen af niche e-handel, som fik navnet Den lange hale. Ved e-handel kunne man opbevare mange flere produkter end i en fysisk butik, og derfor kunne man også sælge niche vare selvom det ikke var det der var mest populær. På den måde kunne man pludselig tjene mange penge på nichevare.</p>
             <p class="kilde">(Online kommunikation en introduktion, 346-371) </p>
           </section> <!-- sociale_web_tekst -->
@@ -164,7 +164,7 @@
             <h3>Det mobile web</h3>
           </section> <!-- mobile_web_overskrift -->
 
-          <section id="mobile_web_tekst">
+          <section id="mobile_web_tekst" class="tekstfelt">
             <p>Det mobile web kom efter smartphones blev udbredte. Nu er man ikke kun på hjemmesider på computeren længere, men folk brugte også mobiler til at tilgå webbet. Derfor skal hjemmesider og til at være mobil-venlige, og derved begynder hjemmesider at indeholde elementer som browseren kan flytte på alt efter hvilken enhed man er på. Derudover bruger man ikke længer kun World Wide Web, men nu også apps på mobilen hvor man ikke behøver en hjemmeside. For eksempel appen Tinder er meget udbredt men har ingen hjemmeside.</p>
             <p class="kilde">(Online kommunikation en introduktion, 346-371) </p>
           </section> <!-- mobile_web_tekst -->

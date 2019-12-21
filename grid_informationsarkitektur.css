@@ -1,0 +1,129 @@
+ #citat_tekst {
+  quotes: "“" "”"; /* laver gåseøjne på teksten */
+  font-style: italic; /* Gør teksten til skråskrift */
+}
+
+#jemogfix_billede {
+  max-width: 1448px; /* gør billedet ikke bliver forstørret*/
+  margin-left: auto; /* centrere billed sektionen*/
+  margin-right: auto;
+}
+
+#jemogfix_kontinuum_billede {
+  max-width: 373px; /* Gør billedet ikke bliver forstørret */
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto;
+}
+
+#bodyshop_billede {
+  max-width: 1600px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#struktur_tekst {
+  padding: 1em; /* rykker teksten ind */
+}
+
+h1 {
+  font-size: 1.5em; /* Gør overskriften mindre for mobil */
+}
+
+/* Grid areas */
+
+#back_arrow {
+  grid-area: back_arrow;
+}
+
+#overskrift {
+  grid-area: overskrift;
+}
+
+#indledning {
+  grid-area: indledning;
+}
+
+#sortering_overskrift {
+  grid-area: sortering_overskrift;
+}
+
+#sortering_tekst {
+  grid-area: sortering_tekst;
+}
+
+#jemogfix_billede {
+  grid-area: jemogfix_billede;
+}
+
+#jemogfix_kontinuum_billede {
+  grid-area: jemogfix_kontinuum_billede;
+}
+
+#website_struktur_overskrift {
+  grid-area: website_struktur_overskrift;
+}
+
+#website_struktur_tekst {
+  grid-area: website_struktur_tekst;
+}
+
+#bodyshop_billede {
+  grid-area: bodyshop_billede;
+}
+
+/* Grid for mobil version */
+#pagewrap {
+  display: grid;
+  grid-template-areas:
+  "back_arrow"
+  "overskrift"
+  "indledning"
+  "sortering_overskrift"
+  "sortering_tekst"
+  "jemogfix_kontinuum_billede"
+  "jemogfix_billede"
+  "website_struktur_overskrift"
+  "website_struktur_tekst"
+  "bodyshop_billede";
+}
+
+@media screen and (min-width: 500px) { /* her begynder tablet versionen */
+
+  h1 {
+    font-size: 2em; /* Gør ovreskrift stor igen */
+  }
+
+  #pagewrap { /* grid for tablet */
+    grid-template-areas:
+    "back_arrow ."
+    "overskrift overskrift"
+    "indledning indledning"
+    "sortering_overskrift sortering_overskrift"
+    "sortering_tekst jemogfix_kontinuum_billede"
+    "jemogfix_billede jemogfix_billede"
+    "website_struktur_overskrift website_struktur_overskrift"
+    "website_struktur_tekst website_struktur_tekst"
+    "bodyshop_billede bodyshop_billede";
+  }
+
+  #sortering_tekst, #jemogfix_kontinuum_billede {
+    width: 90%; /* laver luft mellem tekst og billede*/
+    margin: auto; /* tilpasser sig selv */
+  }
+
+}
+
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+
+ #pagewrap { /* grid for desktop */
+   grid-template-areas:
+   "overskrift overskrift"
+   "indledning indledning"
+   "sortering_overskrift sortering_overskrift"
+   "sortering_tekst jemogfix_kontinuum_billede"
+   "jemogfix_billede jemogfix_billede"
+   "website_struktur_overskrift website_struktur_overskrift"
+   "website_struktur_tekst website_struktur_tekst"
+   "bodyshop_billede bodyshop_billede";
+ }

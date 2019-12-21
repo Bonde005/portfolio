@@ -134,20 +134,8 @@
     width: 95%; /* Giver luft mellem billederne*/
   }
 
-  #statisk_layout {
-    max-height: 650px; /* Giver en max-højde for at undgå luft */
-  }
-
-  #flydende_layout {
-    max-height: 580px; /* Giver en max-højde for at undgå luft */
-  }
-
-  #responsiv_layout {
-    max-height: 680px; /* Giver en max-højde for at undgå luft */
-  }
-
-  #adaptiv_layout {
-    max-height: 600px; /* Giver en max-højde for at undgå luft */
+  #statisk_layout, #flydende_layout, #responsiv_layout, #adaptiv_layout {
+    margin: auto; /* tilpasser sig selv for at undgå luft */
   }
 
 }

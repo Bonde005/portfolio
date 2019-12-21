@@ -88,6 +88,12 @@ h2 {
   font-size: 1.4em; /* skriftsstørelse */
 }
 
+h3 {
+  text-align: center; /* centrer tekst */
+  font-family: 'Montserrat', sans-serif; /* skrifttype */
+  font-size: 1em; /* skriftsstørelse */
+}
+
 #lokal_menu a {
   text-decoration: none; /* fjerne understregning */
   font-size: 0.8em; /* mindre skriftsstørelse */
@@ -184,15 +190,12 @@ footer a:hover {
   text-decoration: underline #a4897b; /* Giver en underline i samme farve */
 }
 
-.boks .under_overskrift, .boks .tekstfelt {
+.boks .under_overskrift, .boks .tekstfelt, .boks .illustrationer {
   margin-bottom: 0em;
-  margin-top: 0em; /* fjerner margin far felterne i bokse */
+  margin-top: 0em; /* fjerner margin for felterne i bokse */
   box-shadow: none; /* fjerne de individuelle skygger */
 }
 
-.boks .illustrationer {
-  box-shadow: none; /* fjerner skygge fra billede i boks */
-}
 
 .boks {
   box-shadow: 1px 1px 10px #574f4b; /* skyggeeffekt for hele boksen */
@@ -334,13 +337,8 @@ footer a:hover {
     margin-left: 1.5em; /* afstand mellem felt og billede*/
   }
 
-  #tags_eksempler {
-    max-width: 369px; /* gør billedet lidt mindre*/
-
-  }
-
   .boks {
-    width: 95%;
+    width: 95%; /* Giver luft mellem bokse */
   }
 
 }
