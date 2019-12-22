@@ -157,8 +157,10 @@
         </section> <!-- farvespykologi_overskrift -->
 
         <section id="farvespykologi_tekst" class="tekstfelt">
-          <p>Der findes mange teorier om hvordan farver opfattes og hvilke følelser de associeres med. Der er dog også en forskel mellem køn og kultur når det omhandler farver. Varme farver, som er farverne indenfor det røde og gule spektrum i cirklen, et tilknyttet med energi, passion og entusiasme. Hvorimod kolde farver, som er farver indenfor det blå spektrum, bliver forstået som ro, stabilitet og professionalisme. <p class="kilde">(Interfacedesign, s. 176) </p>Der er forskellige teorier om de tilknyttede følelser for de specifikke kulører. Derudover er det vigtigt at være opmærksom på at farve opfattes forskelligt rundt om i verden baseret på kulturen. F.eks. er gul i Danmark farve for discount og tilbud hvorimod det i USA er Orange. <p class="kilde">(Carsten Kjeldsen Bogner, Design: Farver)</p></p>
-          <p class="kilde">(Interfacedesign, s. 175)</p>
+          <p>Der findes mange teorier om hvordan farver opfattes og hvilke følelser de associeres med. Der er dog også en forskel mellem køn og kultur når det omhandler farver. Varme farver, som er farverne indenfor det røde og gule spektrum i cirklen, et tilknyttet med energi, passion og entusiasme. Hvorimod kolde farver, som er farver indenfor det blå spektrum, bliver forstået som ro, stabilitet og professionalisme.</p>
+          <p class="kilde">(Interfacedesign, s. 176) </p>
+          <p>Der er forskellige teorier om de tilknyttede følelser for de specifikke kulører. Derudover er det vigtigt at være opmærksom på at farve opfattes forskelligt rundt om i verden baseret på kulturen. F.eks. er gul i Danmark farve for discount og tilbud hvorimod det i USA er Orange.</p>
+          <p class="kilde">(Carsten Kjeldsen Bogner, Design: Farver)</p>
         </section> <!-- farvespykologi_tekst -->
 
         <section id="farvespykologi_logoer_eksempel" class="illustrationer">

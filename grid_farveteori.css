@@ -33,6 +33,8 @@
   max-width: 284px; /* Gør at billede ikke bliver forstørret*/
   margin-left: auto; /* centrer billed sektionen */
   margin-right: auto; /* center billed sektionen */
+}
+
 /* Grid areas */
 
 #back_arrow {
@@ -183,38 +185,37 @@
   width: 90%; /* Giver lidt plads mellem billederne */
 }
 
-
 @media screen and (min-width: 1000px) { /* Her begynder desktop versionen */
 
- #pagewrap {
-   grid-template-areas:
-   "overskrift overskrift overskrift"
-   "indledning indledning indledning"
-   "farvebeskrivelse_overskrift farvebeskrivelse_overskrift farvebeskrivelse_overskrift"
-   "farvebeskrivelse_tekst farvebeskrivelse_tekst farvebeskrivelse_eksempler"
-   "farvecirkel_overskrift farvecirkel_overskrift farvecirkel_overskrift"
-   "farvecirkel_tekst farvecirkel_tekst farvecirkel_eksempel"
-   "composition_tekst composition_tekst composition_tekst"
-   "analog_eksempel complimentary_eksempel dobbelcomplimentary_eksempel"
-   "monokron_eksempel splitcomplimentary_eksempel triade_eksempel"
-   "farvekoder_overskrift farvekoder_overskrift farvekoder_overskrift"
-   "farvekoder_rgb_tekst farvekoder_rgb_tekst rgb_eksempel"
-   "farvekoder_cmyk_tekst farvekoder_cmyk_tekst cmyk_eksempel"
-   "farvespykologi_overskrift farvespykologi_overskrift farvespykologi_overskrift"
-   "farvespykologi_tekst farvespykologi_tekst farvespykologi_tekst"
-   "farvespykologi_logoer_eksempel . farvespykologi_farver_eksempel"
-   "farvespykologi_gender_tekst farvespykologi_tekst farvespykologi_tekst"
-   "farvespykologi_bedstefarver_eksempel . farvespykologi_ikkebedstefarver_eksempel";
- }
+  #pagewrap {
+    grid-template-columns: 1fr 1fr 1fr; /* Gør kollonerne samme størrelse*/
+    grid-template-areas:
+    "overskrift overskrift overskrift"
+    "indledning indledning indledning"
+    "farvebeskrivelse_overskrift farvebeskrivelse_overskrift farvebeskrivelse_overskrift"
+    "farvebeskrivelse_tekst farvebeskrivelse_tekst farvebeskrivelse_eksempler"
+    "farvecirkel_overskrift farvecirkel_overskrift farvecirkel_overskrift"
+    "farvecirkel_tekst farvecirkel_tekst farvecirkel_eksempel"
+    "composition_tekst composition_tekst composition_tekst"
+    "analog_eksempel complimentary_eksempel dobbelcomplimentary_eksempel"
+    "monokron_eksempel splitcomplimentary_eksempel triade_eksempel"
+    "farvekoder_overskrift farvekoder_overskrift farvekoder_overskrift"
+    "farvekoder_rgb_tekst farvekoder_rgb_tekst rgb_eksempel"
+    "farvekoder_cmyk_tekst farvekoder_cmyk_tekst cmyk_eksempel"
+    "farvespykologi_overskrift farvespykologi_overskrift farvespykologi_overskrift"
+    "farvespykologi_tekst farvespykologi_tekst farvespykologi_tekst"
+    "farvespykologi_logoer_eksempel farvespykologi_logoer_eksempel farvespykologi_logoer_eksempel"
+    "farvespykologi_farver_eksempel farvespykologi_farver_eksempel farvespykologi_farver_eksempel"
+    "farvespykologi_gender_tekst farvespykologi_gender_tekst farvespykologi_gender_tekst"
+    "farvespykologi_bedstefarver_eksempel farvespykologi_bedstefarver_eksempel farvespykologi_bedstefarver_eksempel"
+    "farvespykologi_ikkebedstefarver_eksempel farvespykologi_ikkebedstefarver_eksempel farvespykologi_ikkebedstefarver_eksempel" ;
+  }
 
- #element_billede {
-   max-width: 428px; /* gør billedet lidt mindre */
- }
+  #farvecirkel_eksempel, #rgb_eksempel, #cmyk_eksempel {
+    margin-left: 1em; /* Giver luft mellem billede og tekst */
+  }
 
- #element_tekst {
-   max-height: 200px;
- }
-
- #kodeskik_tekst {
-   max-height: 400px;
- }
+  #rgb_eksempel, #cmyk_eksempel {
+    margin-bottom: auto; /* Margin i bunden bliver automatisk - fjerner ekstra luft */
+  }
+}
