@@ -20,13 +20,13 @@
             <section class="dropdown_content">
               <div class="column_left">
                 <a href="html.php"><h2>HTML</h2></a>
-                <a href="#"><h2>CSS</h2></a>
-                <a href="#"><h2>Responsiv Design</h2></a>
+                <a href="css.php"><h2>CSS</h2></a>
+                <a href="responsiv_design.php"><h2>Responsiv Design</h2></a>
               </div> <!-- column_left -->
               <div class="column_right">
-                <a href="#"><h2>Internettet</h2></a>
-                <a href="#"><h2>Versionsstyring</h2></a>
-                <a href="#"><h2>Informationsarkitektur</h2></a>
+                <a href="internettet.php"><h2>Internettet</h2></a>
+                <a href="versionsstyring.php"><h2>Versionsstyring</h2></a>
+                <a href="informationsarkitektur.php"><h2>Informationsarkitektur</h2></a>
               </div> <!-- column_right -->
             </section> <!-- dropdown_content Websites -->
           </section> <!-- dropdown Websites -->
@@ -42,8 +42,8 @@
                 <a href="#"><h2>Photoshop</h2></a>
               </div> <!-- column_left -->
               <div class="column_right">
-                <a href="#"><h2>Farveteori</h2></a>
-                <a href="#"><h2>Fotografi</h2></a>
+                <a href="farveteori.php"><h2>Farveteori</h2></a>
+                <a href="fotografi.php"><h2>Fotografi</h2></a>
                 <a href="#"><h2>Typografi</h2></a>
               </div> <!-- column_right -->
             </section> <!-- dropdown_content Grafisk Design -->
