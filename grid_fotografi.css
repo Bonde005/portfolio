@@ -1,0 +1,162 @@
+#kameraatonomi_eksempler {
+  max-width: 1145px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#iso_eksempel {
+  max-width: 700px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#lukkertid_eksempel {
+  max-width: 1159px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#arpeture_high_eksempel, #arpeture_low_eksempel {
+  max-width: 720px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#lys_eksempel {
+  max-width: 698px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+/* Grid areas */
+
+#back_arrow {
+  grid-area: back_arrow;
+}
+
+#overskrift {
+  grid-area: overskrift;
+}
+
+#indledning {
+  grid-area: indledning;
+}
+
+#kameraatonomi_overskrift{
+  grid-area: kameraatonomi_overskrift;
+}
+
+#kameraatonomi_tekst {
+  grid-area: kameraatonomi_tekst;
+}
+
+#kameraatonomi_eksempler {
+  grid-area: kameraatonomi_eksempler;
+}
+
+#iso_overskrift {
+  grid-area: iso_overskrift;
+}
+
+#iso_tekst {
+  grid-area: iso_tekst;
+}
+
+#iso_eksempel {
+  grid-area: iso_eksempel;
+}
+
+#lukkertid_overskrift {
+  grid-area: lukkertid_overskrift;
+}
+
+#lukkertid_tekst {
+  grid-area: lukkertid_tekst;
+}
+
+#lukkertid_eksempel {
+  grid-area: lukkertid_eksempel;
+}
+
+#arpeture_overskrift {
+  grid-area: arpeture_overskrift;
+}
+
+#arpeture_tekst {
+  grid-area: arpeture_tekst;
+}
+
+#arpeture_high_eksempel {
+  grid-area: arpeture_high_eksempel;
+}
+
+#arpeture_low_eksempel {
+  grid-area: arpeture_low_eksempel;
+}
+
+#lys_overskrift {
+  grid-area: lys_overskrift;
+}
+
+#lys_tekst {
+  grid-area: lys_tekst;
+}
+
+#lys_eksempel {
+  grid-area: lys_eksempel;
+}
+
+/* Grid for mobil version */
+#pagewrap {
+  display: grid;
+  grid-template-areas:
+  "back_arrow back_arrow"
+  "overskrift overskrift"
+  "indledning indledning"
+  "kameraatonomi_overskrift kameraatonomi_overskrift"
+  "kameraatonomi_tekst kameraatonomi_tekst"
+  "kameraatonomi_eksempler kameraatonomi_eksempler"
+  "iso_overskrift iso_overskrift"
+  "iso_tekst iso_tekst"
+  "iso_eksempel iso_eksempel"
+  "lukkertid_overskrift lukkertid_overskrift"
+  "lukkertid_tekst lukkertid_tekst"
+  "lukkertid_eksempel lukkertid_eksempel"
+  "arpeture_overskrift arpeture_overskrift"
+  "arpeture_tekst arpeture_tekst"
+  "arpeture_high_eksempel arpeture_low_eksempel"
+  "lys_overskrift lys_overskrift"
+  "lys_tekst lys_tekst"
+  "lys_eksempel lys_eksempel" ;
+}
+
+#arpeture_high_eksempel, #arpeture_low_eksempel {
+  width: 90%; /* giver lidt luft mellem billederne */
+}
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+
+ #pagewrap {
+   grid-template-areas:
+   "overskrift overskrift"
+   "indledning indledning"
+   "kameraatonomi_overskrift kameraatonomi_overskrift"
+   "kameraatonomi_tekst kameraatonomi_eksempler"
+   "iso_overskrift iso_overskrift"
+   "iso_tekst iso_tekst"
+   "iso_eksempel iso_eksempel"
+   "lukkertid_overskrift lukkertid_overskrift"
+   "lukkertid_tekst lukkertid_tekst"
+   "lukkertid_eksempel lukkertid_eksempel"
+   "arpeture_overskrift arpeture_overskrift"
+   "arpeture_tekst arpeture_tekst"
+   "arpeture_high_eksempel arpeture_low_eksempel"
+   "lys_overskrift lys_overskrift"
+   "lys_tekst lys_eksempel";
+ }
+
+ #kameraatonomi_eksempler, #lys_eksempel {
+   margin-left: 1em; /* Luft mellem tekst og billede */
+   margin-bottom: auto; /* Bunden tilpasser sig - forhindre ekstra luft */
+ }
+
+}
