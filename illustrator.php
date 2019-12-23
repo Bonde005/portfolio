@@ -48,132 +48,102 @@
           <p class="kilde">(Carsten Kjeldsen Bogner, Illustrator: grundlæggende)</p>
         </section> <!-- former_tekst -->
 
-        <section id="element_tekst" class="tekstfelt">
-          <p>Selve indholdet i en html-fil består af elementer. Elementerne består af et start tag og et slut tag, som indikere starten og slutningen på elementet. Taget kan have en attribut som har en værdi, f.eks. hvis en img tag har en class attribut med værdien ”billeder”. Hvis taget har en attribut, indikeres det i start taget. Selve indholdet findes imellem tagsene. </p>
-          <p class="kilde">(Niels Østergaard, introduktion til HTML)</p>
-        </section> <!-- element_tekst -->
+        <div id="home_button">
+          <a href="index.php"><img src="billeder/home.png" alt="home knap"></a>
+        </div>
 
-        <section id="element_billede" class="illustrationer">
-          <img src="billeder/websites/html/element.png" alt="et element">
-          <blockquote>
-            <p>Illustration af opbygningen af et element</p>
-            <a class="kilde" href="http://langintro.com/cljsbook/_images/terminology.png"><p>langintro.com</p></a>
-          </blockquote>
-        </section> <!-- element_billede -->
+        <section id="slideshow">
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 13</div>
+              <img src="billeder/grafisk_design/slideshow_illustrator/captain_america.png" alt="Kaptain Amerikas skjold">
+            </div> <!-- mySlides fade -->
 
-        <section id="kodeskik_overskrift" class="under_overskrift">
-          <h2>Kodeskik</h2>
-        </section> <!-- kodeskik_overskrift -->
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 13</div>
+              <img src="billeder/grafisk_design/slideshow_illustrator/celtic_cross.png" alt="Celtic Cross">
+            </div> <!-- mySlides fade -->
 
-        <section id="kodeskik_tekst" class="tekstfelt">
-          <p>For at nemt kunne finde rundt i sin kode, og for at andre nemt kan finde rundt i ens kode, skal man følge godt kodeskik. Heriblandt skal man sørge for at lave indryk i sin kode således at man nemt kan se hvad der høre sammen med hvad, f.eks. kan man angive indholdet i en sektion ved at lave et indryk så alt indholdet er rykket ind i sektionen. Derudover er det også godt at give sine sektioner, eller andre tags hvor det er relevante, gode ider eller classes så man nemt kan se og forstå hvad indholdet er og hvad det skal bruges til. Man skal ikke bruge sit egen forkortelsessystem til at navngive sit indhold men derimod bruge navne der kan forstå af en der slet ikke har kigget på koden før. Ligeledes er det en del af god kodeskik at bruge kommentar. Man kan bruge kommentar til at give en indblik i hvad de forskellige dele skal bruges til og er i sær også god til at vise hvor de forskellige tags slutter. Hvis man f.eks. har en lang sektion med meget indhold i, vil det blive nemmere overskueligt at se hvor sektionen slutter hvis man tilføjer en kommentar ved slut tagget. </p>
-          <p class="kilde">(Niels Østergaard, introduktion til HTML) </p>
-        </section> <!-- kodeskik_tekst -->
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 13</div>
+              <img src="billeder/grafisk_design/slideshow_illustrator/celtic_figure.png" alt="Celtic figur">
+            </div> <!-- mySlides fade -->
 
-        <section id="kodeskik_billede" class="illustrationer">
-          <img src="billeder/websites/html/kodeskik.png" alt="eksempel på god kodeskik">
-          <blockquote>
-            <p>Et eksempel på god kodeskik med indryk og kommentar</p>
-          </blockquote>
-        </section>
-      </div> <!-- pagewrap -->
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 13</div>
+              <img src="billeder/grafisk_design/slideshow_illustrator/EU.png" alt="EU flag">
+            </div> <!-- mySlides fade -->
 
-      <div id="home_button">
-        <a href="index.php"><img src="billeder/home.png" alt="home knap"></a>
-      </div>
+            <div class="mySlides fade">
+              <div class="numbertext">5 / 13</div>
+              <img src="billeder/grafisk_design/slideshow_illustrator/hund.png" alt="En hund">
+            </div> <!-- mySlides fade -->
 
-      <section id="slideshow">
-        <div class="slideshow-container">
-          <div class="mySlides fade">
-            <div class="numbertext">1 / 13</div>
-            <img src="billeder/grafisk_design/slideshow_illustrator/captain_america.png">
-          </div> <!-- mySlides fade -->
+            <div class="mySlides fade">
+              <div class="numbertext">6 / 13</div>
+              <img src="billeder/grafisk_design/slideshow_illustrator/illustrator_c.png" alt="Et stylet C">
+            </div> <!-- mySlides fade -->
 
-          <div class="mySlides fade">
-            <div class="numbertext">2 / 13</div>
-            <img src="billeder/grafisk_design/slideshow_illustrator/celtic_cross.png">
-          </div> <!-- mySlides fade -->
+            <div class="mySlides fade">
+              <div class="numbertext">7 / 13</div>
+              <img src="billeder/grafisk_design/slideshow_illustrator/illustrator_c_gray.png" alt="Et stylet C i grå med skygge">
+            </div> <!-- mySlides fade -->
 
-          <div class="mySlides fade">
-            <div class="numbertext">3 / 13</div>
-            <img src="billeder/grafisk_design/slideshow_illustrator/celtic_figure.png">
-          </div> <!-- mySlides fade -->
+            <div class="mySlides fade">
+              <div class="numbertext">8 / 13</div>
+              <img src="billeder\grafisk_design\slideshow_illustrator/illustrator_logo_batman.png" alt="Batman logoet">
+            </div> <!-- mySlides fade -->
 
-          <div class="mySlides fade">
-            <div class="numbertext">4 / 13</div>
-            <img src="billeder/grafisk_design/slideshow_illustrator/EU.png">
-          </div> <!-- mySlides fade -->
+            <div class="mySlides fade">
+              <div class="numbertext">9 / 13</div>
+              <img src="billeder/grafisk_design/slideshow_illustrator/illustrator_owl.png" alt="En ugle">
+            </div> <!-- mySlides fade -->
 
-          <div class="mySlides fade">
-            <div class="numbertext">5 / 13</div>
-            <img src="billeder/grafisk_design/slideshow_illustrator/hund.png">
-          </div> <!-- mySlides fade -->
+            <div class="mySlides fade">
+              <div class="numbertext">10 / 13</div>
+              <img src="billeder/grafisk_design/slideshow_illustrator/illustrator_typography.png" alt="Sgt Devilzz Stylet">
+            </div> <!-- mySlides fade -->
 
-          <div class="mySlides fade">
-            <div class="numbertext">6 / 13</div>
-            <img src="billeder/grafisk_design/slideshow_illustrator/illustrator_c.png">
-          </div> <!-- mySlides fade -->
+            <div class="mySlides fade">
+              <div class="numbertext">11 / 13</div>
+              <img src="billeder/grafisk_design/slideshow_illustrator/illustrator_weather_icon.png" alt="Et vejrikon">
+            </div> <!-- mySlides fade -->
 
-          <div class="mySlides fade">
-            <div class="numbertext">7 / 13</div>
-            <img src="billeder/grafisk_design/slideshow_illustrator/illustrator_c_gray.png">
-          </div> <!-- mySlides fade -->
+            <div class="mySlides fade">
+              <div class="numbertext">12 / 13</div>
+              <img src="billeder/grafisk_design/slideshow_illustrator/logo.png" alt="Et logo">
+            </div> <!-- mySlides fade -->
 
-          <div class="mySlides fade">
-            <div class="numbertext">8 / 13</div>
-            <img src="billeder/grafisk_design/slideshow_illustrator/illustrator_logo_batman.png">
-          </div> <!-- mySlides fade -->
+            <div class="mySlides fade">
+              <div class="numbertext">13 / 13</div>
+              <img src="billeder/grafisk_design/slideshow_illustrator/sofa.png" alt="En sofa">
+            </div> <!-- mySlides fade -->
 
-          <div class="mySlides fade">
-            <div class="numbertext">9 / 13</div>
-            <img src="billeder/grafisk_design/slideshow_illustrator/illustrator_owl.png">
-          </div> <!-- mySlides fade -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-          <div class="mySlides fade">
-            <div class="numbertext">10 / 13</div>
-            <img src="billeder/grafisk_design/slideshow_illustrator/illustrator_typography.png">
-          </div> <!-- mySlides fade -->
+        </div> <!-- slideshow-contaioner -->
+        <br> <!-- linebreak -->
 
-          <div class="mySlides fade">
-            <div class="numbertext">11 / 13</div>
-            <img src="billeder/grafisk_design/slideshow_illustrator/illustrator_weather_icon.png">
-          </div> <!-- mySlides fade -->
-
-          <div class="mySlides fade">
-            <div class="numbertext">12 / 13</div>
-            <img src="billeder/grafisk_design/slideshow_illustrator/logo.png">
-          </div> <!-- mySlides fade -->
-
-          <div class="mySlides fade">
-            <div class="numbertext">13 / 13</div>
-            <img src="billeder/grafisk_design/slideshow_illustrator/sofa.png">
-          </div> <!-- mySlides fade -->
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-      </div> <!-- slideshow-contaioner -->
-      <br> <!-- linebreak -->
-
-      <div id="prikker"> <!-- style="text-align:center" -->
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-        <span class="dot" onclick="currentSlide(6)"></span>
-        <span class="dot" onclick="currentSlide(7)"></span>
-        <span class="dot" onclick="currentSlide(8)"></span>
-        <span class="dot" onclick="currentSlide(9)"></span>
-        <span class="dot" onclick="currentSlide(10)"></span>
-        <span class="dot" onclick="currentSlide(11)"></span>
-        <span class="dot" onclick="currentSlide(12)"></span>
-        <span class="dot" onclick="currentSlide(13)"></span>
-      </div> <!-- prikker -->
-    </section> <!-- slideshow -->
+        <div id="prikker"> <!-- style="text-align:center" -->
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+          <span class="dot" onclick="currentSlide(8)"></span>
+          <span class="dot" onclick="currentSlide(9)"></span>
+          <span class="dot" onclick="currentSlide(10)"></span>
+          <span class="dot" onclick="currentSlide(11)"></span>
+          <span class="dot" onclick="currentSlide(12)"></span>
+          <span class="dot" onclick="currentSlide(13)"></span>
+        </div> <!-- prikker -->
+      </section> <!-- slideshow -->
 
       <?php include("footer.inc"); ?>
-    </body> <!-- pagewrap -->
+  </div> <!-- pagewrap -->
     <script>
       function goBack() { /* Går en tilbage i historikken */
       window.history.back();
