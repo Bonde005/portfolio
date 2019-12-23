@@ -1,0 +1,84 @@
+#proximity_eksempel, #lighed_eksempel, #kontinuitet_eksempel, #lukkethed_eksempel, #figurdannelse_eksempel {
+  max-width: 256px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+/* Grid areas */
+
+#back_arrow {
+  grid-area: back_arrow;
+}
+
+#overskrift {
+  grid-area: overskrift;
+}
+
+#indledning {
+  grid-area: indledning;
+}
+
+#proximity {
+  grid-area: proximity;
+}
+
+#lighed {
+  grid-area: lighed;
+}
+
+#kontinuitet {
+  grid-area: kontinuitet;
+}
+
+#lukkethed {
+  grid-area: lukkethed;
+}
+
+#figurdannelse {
+  grid-area: figurdannelse;
+}
+
+/* Grid for mobil version */
+#pagewrap {
+  display: grid;
+  grid-template-areas:
+  "back_arrow"
+  "overskrift"
+  "indledning"
+  "proximity"
+  "lighed"
+  "kontinuitet"
+  "lukkethed"
+  "figurdannelse" ;
+}
+
+#proximity, #lighed, #kontinuitet, #lukkethed, #figurdannelse {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 500px) { /* her begynder tablet versionen */
+
+  #pagewrap { /* Grid for tablet version */
+    grid-template-areas:
+    "back_arrow ."
+    "overskrift overskrift"
+    "indledning indledning"
+    "proximity lighed"
+    "kontinuitet lukkethed"
+    "figurdannelse figurdannelse";
+  }
+}
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+
+ #pagewrap {
+   grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
+   grid-template-areas:
+   "overskrift overskrift overskrift overskrift"
+   "indledning indledning indledning indledning"
+   "proximity lighed lighed kontinuitet"
+   "lukkethed lukkethed figurdannelse figurdannelse";
+ }
+}

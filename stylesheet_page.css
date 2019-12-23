@@ -200,6 +200,7 @@ footer a:hover {
 .boks {
   box-shadow: 1px 1px 10px #574f4b; /* skyggeeffekt for hele boksen */
   margin-top: 4em; /* Giver plads mellem boksene  */
+  background-color: #D1BEB4; /* Giver hele boksen en baggrundfarve */
 }
 
 
