@@ -1,0 +1,40 @@
+#tags_eksempler {
+  max-width: 469px; /* gør billedet ikke bliver forstørret*/
+  margin-left: auto; /* centrere billed sektionen*/
+  margin-right: auto;
+}
+
+/* Grid areas */
+
+#back_arrow {
+  grid-area: back_arrow;
+}
+
+#overskrift {
+  grid-area: overskrift;
+}
+
+#indledning {
+  grid-area: indledning;
+}
+
+
+/* Grid for mobil version */
+#pagewrap {
+  display: grid;
+  grid-template-areas:
+  "back_arrow"
+  "overskrift"
+  "indledning";
+}
+
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+
+ #pagewrap {
+   grid-template-areas:
+   "overskrift overskrift"
+   "indledning indledning";
+ }
+
+}
