@@ -114,7 +114,7 @@
       </div>
 
       <?php include("footer.inc"); ?>
-    </body>
+    </body> <!-- pagewrap -->
     <script>
       function goBack() { /* Går en tilbage i historikken */
       window.history.back();
