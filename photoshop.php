@@ -6,7 +6,7 @@
         <title>AB læringsportfolio Photoshop</title>
         <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Sans|Quicksand:400,600,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="stylesheet_page.css">
-        <link rel="stylesheet" href="grid_illustrator.css">
+        <link rel="stylesheet" href="grid_photoshop.css">
         <link rel="stylesheet" href="slideshow.css">
     </head>
     <body>
@@ -49,7 +49,7 @@
 
             <div class="mySlides fade">
               <div class="numbertext">2 / 6</div>
-              <img src="billeder/grafisk_design/slideshow_photoshop/bruno_farvet" alt="En farvet bamse bjørn">
+              <img src="billeder/grafisk_design/slideshow_photoshop/bruno_farvet.png" alt="En farvet bamse bjørn">
             </div> <!-- mySlides fade -->
 
             <div class="mySlides fade">
@@ -62,7 +62,7 @@
               <img src="billeder/grafisk_design/slideshow_photoshop/smooth.png" alt="Tekst effekter i photoshop">
             </div> <!-- mySlides fade -->
 
-            <div class="mySlides fade">
+            <div class="mySlides fade" id="blade_billeder">
               <div class="numbertext">5 / 6</div>
               <img src="billeder/grafisk_design/slideshow_photoshop/Grapevine_leaf.jpg" alt="Et blad">
               <img src="billeder/grafisk_design/slideshow_photoshop/draabe.png" alt="Et blad med dråbe på">

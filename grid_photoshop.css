@@ -1,0 +1,81 @@
+#artboards_eksempler {
+  max-width: 1424px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#slideshow img {
+  max-height: 427px; /* Giver dem den samme højde taget fra den laveste */
+}
+
+#blade_billeder img {
+  height: auto;
+  width: 300px;
+}
+
+/* Grid areas */
+
+#back_arrow {
+  grid-area: back_arrow;
+}
+
+#overskrift {
+  grid-area: overskrift;
+}
+
+#indledning {
+  grid-area: indledning;
+}
+
+#funktioner_overskrift {
+  grid-area: funktioner_overskrift;
+}
+
+#funktioner_tekst {
+  grid-area: funktioner_tekst;
+}
+
+#artboards_eksempler {
+  grid-area: artboards_eksempler;
+}
+
+#former_tekst {
+  grid-area: former_tekst;
+}
+
+#slideshow {
+  grid-area: slideshow;
+}
+
+/* Grid for mobil version */
+#pagewrap {
+  display: grid;
+  grid-template-areas:
+  "back_arrow"
+  "overskrift"
+  "indledning"
+  "funktioner_overskrift"
+  "funktioner_tekst"
+  "artboards_eksempler"
+  "former_tekst"
+  "slideshow" ;
+}
+
+#slideshow {
+  width: 98.5%; /* Gør den lidt smallere så der ikke er så meget luft */
+  margin: auto; /* centere */
+}
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+
+ #pagewrap {
+   grid-template-areas:
+   "overskrift"
+   "indledning"
+   "funktioner_overskrift"
+   "funktioner_tekst"
+   "artboards_eksempler"
+   "former_tekst"
+   "slideshow";
+ }
+}

@@ -48,10 +48,6 @@
           <p class="kilde">(Carsten Kjeldsen Bogner, Illustrator: grundlæggende)</p>
         </section> <!-- former_tekst -->
 
-        <div id="home_button">
-          <a href="index.php"><img src="billeder/home.png" alt="home knap"></a>
-        </div>
-
         <section id="slideshow">
           <div class="slideshow-container">
             <div class="mySlides fade">
@@ -144,6 +140,11 @@
 
       <?php include("footer.inc"); ?>
   </div> <!-- pagewrap -->
+
+  <div id="home_button">
+    <a href="index.php"><img src="billeder/home.png" alt="home knap"></a>
+  </div> <!-- home_button -->
+
     <script>
       function goBack() { /* Går en tilbage i historikken */
       window.history.back();
