@@ -34,10 +34,10 @@
           <p class="kilde">(Morten Kluw Wøldike Schmith, grundlæggende kommunikation)</p>
           <section id="lokal_menu">
             <p>Punkter i dette emne</p>
-            <a href="#kodning_overskrift"><h2>Grundantagelser</h2></a>
-            <a href="#kodeskik_overskrift"><h2>Paradigmer</h2></a>
-            <a href="#kodeskik_overskrift"><h3>Det humanistiske paradigme</h3></a>
-            <a href="#kodeskik_overskrift"><h3>Det samfundsvidenskabelige paradigme</h3></a>
+            <a href="#grundantagelser_overskrift"><h2>Grundantagelser</h2></a>
+            <a href="#paradigmer_overskrift"><h2>Paradigmer</h2></a>
+            <a href="#humanistisk_paradigme_overskrift"><h3>Det humanistiske paradigme</h3></a>
+            <a href="#samfundsvidenskabelig_paradigme"><h3>Det samfundsvidenskabelige paradigme</h3></a>
           </section>
         </section> <!-- indledning -->
 
