@@ -37,14 +37,14 @@
             </section>
             <section class="dropdown_content">
               <div class="column_left">
-                <a href="#"><h2>Gestaltlove</h2></a>
-                <a href="#"><h2>Illustrator</h2></a>
-                <a href="#"><h2>Photoshop</h2></a>
+                <a href="gestaltlove.php"><h2>Gestaltlove</h2></a>
+                <a href="illustrator.php"><h2>Illustrator</h2></a>
+                <a href="photoshop.php"><h2>Photoshop</h2></a>
               </div> <!-- column_left -->
               <div class="column_right">
                 <a href="farveteori.php"><h2>Farveteori</h2></a>
                 <a href="fotografi.php"><h2>Fotografi</h2></a>
-                <a href="#"><h2>Typografi</h2></a>
+                <a href="typografi.php"><h2>Typografi</h2></a>
               </div> <!-- column_right -->
             </section> <!-- dropdown_content Grafisk Design -->
           </section> <!-- dropdown Grafisk Design -->
@@ -55,7 +55,7 @@
             </section>
             <section class="dropdown_content">
               <div class="column_left">
-                <a href="#"><h2>Grundlæggende</h2></a>
+                <a href="grundlaegende_kommunikation.php"><h2>Grundlæggende</h2></a>
                 <a href="#"><h2>Præsentationsteknink</h2></a>
               </div> <!-- column_left -->
               <div class="column_right">

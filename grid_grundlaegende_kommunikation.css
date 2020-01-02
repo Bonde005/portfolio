@@ -1,0 +1,94 @@
+#grundantagelser_eksempel {
+  max-width: 236px; /* gør billedet ikke bliver forstørret*/
+  margin-left: auto; /* centrere billed sektionen*/
+  margin-right: auto;
+}
+
+#imk_model, #laswells_formel {
+  max-width: 768px; /* gør billedet ikke bliver forstørret*/
+  margin-left: auto; /* centrere billed sektionen*/
+  margin-right: auto;
+}
+
+#indledning dl {
+  text-align: center; /* centere punkterne */
+  
+}
+
+/* Grid areas */
+
+#back_arrow {
+  grid-area: back_arrow;
+}
+
+#overskrift {
+  grid-area: overskrift;
+}
+
+#indledning {
+  grid-area: indledning;
+}
+
+#grundantagelser_overskrift {
+  grid-area: grundantagelser_overskrift;
+}
+
+#grundantagelser_tekst {
+  grid-area: grundantagelser_tekst;
+}
+
+#grundantagelser_eksempel {
+  grid-area: grundantagelser_eksempel;
+}
+
+#paradigmer_overskrift {
+  grid-area: paradigmer_overskrift;
+}
+
+#paradigmer_tekst {
+  grid-area: paradigmer_tekst;
+}
+
+#humanistisk_paradigme {
+  grid-area: humanistisk_paradigme;
+}
+
+#samfundsvidenskabelig_paradigme {
+  grid-area: samfundsvidenskabelig_paradigme;
+}
+/* Grid for mobil version */
+#pagewrap {
+  display: grid;
+  grid-template-areas:
+  "back_arrow"
+  "overskrift"
+  "indledning"
+  "grundantagelser_overskrift"
+  "grundantagelser_tekst"
+  "grundantagelser_eksempel"
+  "paradigmer_overskrift"
+  "paradigmer_tekst"
+  "humanistisk_paradigme"
+  "samfundsvidenskabelig_paradigme";
+}
+
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+
+ #pagewrap {
+   grid-template-columns: 1fr 1fr 1fr 1fr; /* Gør kollonerne lige store */
+   grid-template-areas: /* Grid for desktop */
+   "overskrift overskrift overskrift overskrift"
+   "indledning indledning indledning indledning"
+   "grundantagelser_overskrift grundantagelser_overskrift  grundantagelser_overskrift grundantagelser_overskrift"
+   "grundantagelser_tekst grundantagelser_tekst grundantagelser_tekst grundantagelser_eksempel"
+   "paradigmer_overskrift paradigmer_overskrift paradigmer_overskrift paradigmer_overskrift"
+   "paradigmer_tekst paradigmer_tekst paradigmer_tekst paradigmer_tekst"
+   "humanistisk_paradigme humanistisk_paradigme samfundsvidenskabelig_paradigme samfundsvidenskabelig_paradigme";
+ }
+
+ #grundantagelser_eksempel {
+   width: 90%; /* Giver luft mellem billede og tekst */
+   margin-bottom: auto; /* fjerner luft */
+ }
+}

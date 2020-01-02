@@ -26,9 +26,9 @@
           <p class="kilde">(Design: Typografi · Typografiens historie)</p>
           <section id="lokal_menu">
             <p>Punkter i dette emne</p>
-            <a href="#kodning_overskrift"><h2>Skrifttyper</h2></a>
-            <a href="#kodning_overskrift"><h2>Størrelse og linjer</h2></a>
-            <a href="#kodeskik_overskrift"><h2>Skriftens opbygning</h2></a>
+            <a href="#skrifttyper_overskrift"><h2>Skrifttyper</h2></a>
+            <a href="#size_lines_overskrift"><h2>Størrelse og linjer</h2></a>
+            <a href="#opbygning_overskrift"><h2>Skriftens opbygning</h2></a>
           </section>
         </section> <!-- indledning -->
 

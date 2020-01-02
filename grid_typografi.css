@@ -1,9 +1,32 @@
-#tags_eksempler {
-  max-width: 469px; /* gør billedet ikke bliver forstørret*/
+#skrifttyper_eksempler {
+  max-width: 400px; /* gør billedet ikke bliver forstørret*/
   margin-left: auto; /* centrere billed sektionen*/
   margin-right: auto;
 }
 
+#size_billede {
+  max-width: 815px; /* gør billedet ikke bliver forstørret*/
+  margin-left: auto; /* centrere billed sektionen*/
+  margin-right: auto;
+}
+
+#tracking_eksempel {
+  max-width: 471px; /* gør billedet ikke bliver forstørret*/
+  margin-left: auto; /* centrere billed sektionen*/
+  margin-right: auto;
+}
+
+#kerning_eksempel {
+  max-width: 239px; /* gør billedet ikke bliver forstørret*/
+  margin-left: auto; /* centrere billed sektionen*/
+  margin-right: auto;
+}
+
+#kontrast_eksempel {
+  max-width: 757px; /* gør billedet ikke bliver forstørret*/
+  margin-left: auto; /* centrere billed sektionen*/
+  margin-right: auto;
+}
 /* Grid areas */
 
 #back_arrow {
@@ -18,23 +41,133 @@
   grid-area: indledning;
 }
 
+#skrifttyper_overskrift {
+  grid-area: skrifttyper_overskrift;
+}
 
+#skrifttyper_tekst {
+  grid-area: skrifttyper_tekst;
+}
+
+#serif_eksempler {
+  grid-area: serif_eksempler;
+}
+
+#skrifttyper_eksempler {
+  grid-area: skrifttyper_eksempler;
+}
+
+#size_lines_overskrift {
+  grid-area: size_lines_overskrift;
+}
+
+#size_lines_tekst {
+  grid-area: size_lines_tekst;
+}
+
+#size_billede {
+  grid-area: size_billede;
+}
+
+#linjeafstand_tekst {
+  grid-area: linjeafstand_tekst;
+}
+
+#opbygning_overskrift {
+  grid-area: opbygning_overskrift;
+}
+
+#opbygning_tekst {
+  grid-area: opbygning_tekst;
+}
+
+#tracking_eksempel {
+  grid-area: tracking_eksempel;
+}
+
+#kerning_eksempel {
+  grid-area: kerning_eksempel;
+}
+
+#kontrast {
+  grid-area: kontrast;
+}
 /* Grid for mobil version */
 #pagewrap {
   display: grid;
   grid-template-areas:
   "back_arrow"
   "overskrift"
-  "indledning";
+  "indledning"
+  "skrifttyper_overskrift"
+  "skrifttyper_tekst"
+  "serif_eksempler"
+  "skrifttyper_eksempler"
+  "size_lines_overskrift"
+  "size_lines_tekst"
+  "size_billede"
+  "linjeafstand_tekst"
+  "opbygning_overskrift"
+  "opbygning_tekst"
+  "tracking_eksempel"
+  "kerning_eksempel"
+  "kontrast";
 }
+@media screen and (min-width: 500px) { /* her begynder tablet versionen */
+  #pagewrap {
+    grid-template-columns: 1.2fr 1fr; /* Gør den ene kollone større end den anden*/
+    grid-template-areas: /* Grid for tablet */
+    "back_arrow ."
+    "overskrift overskrift"
+    "indledning indledning"
+    "skrifttyper_overskrift skrifttyper_overskrift"
+    "skrifttyper_tekst skrifttyper_tekst"
+    "serif_eksempler skrifttyper_eksempler"
+    "size_lines_overskrift size_lines_overskrift"
+    "size_lines_tekst size_lines_tekst"
+    "size_billede size_billede"
+    "linjeafstand_tekst linjeafstand_tekst"
+    "opbygning_overskrift opbygning_overskrift"
+    "opbygning_tekst opbygning_tekst"
+    "tracking_eksempel kerning_eksempel"
+    "kontrast kontrast";
+  }
 
+  #serif_eksempler, #skrifttyper_eksempler, #tracking_eksempel, #kerning_eksempel {
+    width: 95%; /* Laver mellemrum mellem billederne */
+    margin-bottom: auto; /* Tilpasser selv bunden, ingen ekstra luft */
+  }
+
+}
 
 @media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
 
  #pagewrap {
-   grid-template-areas:
-   "overskrift overskrift"
-   "indledning indledning";
+   grid-template-columns: 1fr 0.5fr 0.5fr; /* Gør kollonner lige store igen */
+   grid-template-areas: /* grid for desktop */
+   "overskrift overskrift overskrift"
+   "indledning indledning indledning"
+   "skrifttyper_overskrift skrifttyper_overskrift skrifttyper_overskrift"
+   "skrifttyper_tekst skrifttyper_tekst skrifttyper_tekst"
+   "serif_eksempler skrifttyper_eksempler skrifttyper_eksempler"
+   "size_lines_overskrift size_lines_overskrift size_lines_overskrift"
+   "size_lines_tekst size_billede size_billede"
+   "linjeafstand_tekst linjeafstand_tekst linjeafstand_tekst"
+   "opbygning_overskrift opbygning_overskrift opbygning_overskrift"
+   "opbygning_tekst kerning_eksempel tracking_eksempel"
+   "kontrast kontrast kontrast";
+ }
+
+ #size_lines_tekst, #size_billede, #opbygning_tekst {
+   width: 90%; /* Give luft mellem billede og tekst*/
+ }
+
+ #size_billede {
+   margin-bottom: auto; /* Fjerner ekstra luft */
+ }
+
+ #linjeafstand_tekst {
+   margin-top: 1em; /* Sørger for der altid er luft mellem teskt og billede */
  }
 
 }
