@@ -33,7 +33,7 @@
           </section>
         </section> <!-- indledning -->
 
-        <section id="kodning_overskrift" class="under_overskrift">
+        <section id="webtekster_overskrift" class="under_overskrift">
           <h2>Webtekster</h2>
         </section> <!-- Webtekster_overskrift -->
 
@@ -64,25 +64,25 @@
         </section>
 
         <section id="sociale_medier_overskrift" class="under_overskrift">
-          <div class="tekst">
-            <p>Til sociale medietekster er der ikke faste regler og modeller, da de sociale medier er meget præget af spontanitet.</p>
-            <p class="kilde">(Morten Kluw Wøldike Schmith, Tekstproduktion)</p>
-            <p>Man vil altid søge efter meget interaktion på de sociale medier. Man kan derved benytte sig af billeder samt en caption der skal stille op til en interaktion. Det kan herved være f.eks. et spørgsmål som leder til kommentar. Det kan også være konkurrencer hvor man får folk til at dele, kommenter, følge og/eller like. Ved at skabe meget interaktionen på et opslag, kommer der ud til flere personer og de sociale medier algoritmer vil understøtte opslagene mere. Ved f.eks. Facebook skal man have i tankerne at de ikke vil hjælpe opslag der vil føre brugeren væk fra platformen. Det vil sige at hver gang man har links til en anden side, vil algoritmen ikke understøtte opslaget og det bliver svære at få det ud til flere. Hvis man derfor vil bruge videoer på Facebook, skal man slå selve videoen op og ikke et link til en på YouTube.</p>
-            <p class="kilde">(Fra SoMe til SoWe, Mia Ben-Ami)</p>
-          </div>
-          <div class="punkter">
-            <p>Derudover når man skal kommunikere direkte med folk i virksomhedssammenhæng, er der en model med 4 strategier som hver har tilknyttet en farve.</p>
-            <dl>
-              <dt>Blå</dt>
-                <dd>er symbolsk for information og facts. Fokuser på tal, datoer, præcision og information.</dd>
-              <dt>Grøn</dt>
-                <dd>er symbolsk for garantier og kvalitet. Fokuser på garantier, tradition, orden og kvalitet</dd>
-              <dt>Gul</dt>
-                <dd>er symbolsk for oplevelser. Fokuser p ideer, visioner, sjov og spontanitet og oplevelser.</dd>
-            </dl>
-            <p class="kilde">(Kommunikation i multimediedesign, s. 249-250)</p>
-          </div>
-        </section>
+          <h2>Sociale Medier</h2>
+        </section> <!-- sociale_medier_overskrift -->
+
+        <section id="sociale_medier_tekst" class="tekstfelt">
+          <p>Til sociale medietekster er der ikke faste regler og modeller, da de sociale medier er meget præget af spontanitet.</p>
+          <p class="kilde">(Morten Kluw Wøldike Schmith, Tekstproduktion)</p>
+          <p>Man vil altid søge efter meget interaktion på de sociale medier. Man kan derved benytte sig af billeder samt en caption der skal stille op til en interaktion. Det kan herved være f.eks. et spørgsmål som leder til kommentar. Det kan også være konkurrencer hvor man får folk til at dele, kommenter, følge og/eller like. Ved at skabe meget interaktionen på et opslag, kommer der ud til flere personer og de sociale medier algoritmer vil understøtte opslagene mere. Ved f.eks. Facebook skal man have i tankerne at de ikke vil hjælpe opslag der vil føre brugeren væk fra platformen. Det vil sige at hver gang man har links til en anden side, vil algoritmen ikke understøtte opslaget og det bliver svære at få det ud til flere. Hvis man derfor vil bruge videoer på Facebook, skal man slå selve videoen op og ikke et link til en på YouTube.</p>
+          <p class="kilde">(Fra SoMe til SoWe, Mia Ben-Ami)</p>
+          <p>Derudover når man skal kommunikere direkte med folk i virksomhedssammenhæng, er der en model med 4 strategier som hver har tilknyttet en farve.</p>
+          <dl>
+            <dt>Blå</dt>
+              <dd>er symbolsk for information og facts. Fokuser på tal, datoer, præcision og information.</dd>
+            <dt>Grøn</dt>
+              <dd>er symbolsk for garantier og kvalitet. Fokuser på garantier, tradition, orden og kvalitet</dd>
+            <dt>Gul</dt>
+              <dd>er symbolsk for oplevelser. Fokuser p ideer, visioner, sjov og spontanitet og oplevelser.</dd>
+          </dl>
+          <p class="kilde">(Kommunikation i multimediedesign, s. 249-250)</p>
+        </section> <!-- sociale_medier_tekst -->
 
         <section id="kommentar_billede" class="illustrationer">
           <img src="billeder/kommunikation/socialemedier_dgp.PNG" alt="Interaktion på sociale medier">
@@ -142,7 +142,7 @@
           <h2>Artikel</h2>
         </section> <!-- artikel_overskrift -->
 
-        <section id="artikel_tekst" class="under_overskrift">
+        <section id="artikel_tekst" class="tekstfelt">
           <div class="tekst">
             <p>Når man skriver en nyhedsartikel, skal man altid tænke på det vigtigste først. Man skal tænke på at læseren muligvis ikke vil læse hele artiklen og skal derfor have det vigtigste i den øverste del af brødteksten. Samtidig med at der skal fanges opmærksomhed og skabes interesse, vha. en rubrik, underrubrik, billede og manchet. Artiklen skal også have mellemrubrikker der hjælper læseren med at få et overblik.</p>
             <p class="kilde">(kommunikation i multimediedesign, s. 240-241)</p>
@@ -173,7 +173,7 @@
           </blockquote>
         </section> <!-- nyhedstrekant_billede -->
 
-        <section id="subjektiv_artikel_tekst" class="illustrationer">
+        <section id="subjektiv_artikel_tekst" class="tekstfelt">
           <p>Ved subjektive artikel kan de blive struktureret anderledes. Her kan man benytte kommode-strukturen. Det består af en ramme og nogle skuffer. Rammen har en top og en bund som ligger fast, men skufferne kan man selv vælge at åbne og kigge i. En subjektiv artikel består altså af en begyndelse og en slutning, hvor derimellem er en række mindre delfortællinger.</p>
           <p class="kilde">(Kommunikation i multimediedesign, s. 241)</p>
         </section> <!-- subjektiv_artikel_tekst -->

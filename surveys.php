@@ -6,7 +6,7 @@
         <title>AB læringsportfolio Undersøgelser</title>
         <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Sans|Quicksand:400,600,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="stylesheet_page.css">
-        <link rel="stylesheet" href="grid_html.css">
+        <link rel="stylesheet" href="grid_survey.css">
     </head>
     <body>
 
@@ -50,7 +50,7 @@
           </section>
 
           <section id="kvantitativ_tekst" class="tekstfelt">
-            <p>En kvantitativ undersøgelse indsamler hårde data som der kan udføres statistik på. Dette kan være spørgsmål med svarmuligheder og derved ingen fordybelse. Det kan f.eks. være ved ja/nej spørgsmål, hvor man kan se hvor mange respondenter der er, altså hvor mange der har svaret spørgsmålene, samtidig med at man kan se hvor mange har svaret ja og hvor mange har svaret nej. På denne måde kan der opbygges statistik på besvarelserne. (denstoredanske.dk/kvantitative_metoder besøgt 28/09/19) Når man laver en kvantitativ undersøgelse, kigger man altså på ”hvor mange”, og derved kigger på tendenser. På denne måde kan man nemt finde tendenser indenfor sin målgruppe og opsætte overskueligt statistik. Derved kan man få en større forståelse for sin målgruppe og især deres tendenser. (voxmeter.dk/kvantitativ-kvalitativ/ besøgt 28/09/19) En meget udbredt metode at anvende er spørgeskemaer, hvor respondenten selv læser spørgsmålene og besvare ved valg af en svarmulighed. (denstoredanske.dk/kvantitative_metoder besøgt 28/09/19)</p>
+            <p>En kvantitativ undersøgelse indsamler hårde data som der kan udføres statistik på. Dette kan være spørgsmål med svarmuligheder og derved ingen fordybelse. Det kan f.eks. være ved ja/nej spørgsmål, hvor man kan se hvor mange respondenter der er, altså hvor mange der har svaret spørgsmålene, samtidig med at man kan se hvor mange har svaret ja og hvor mange har svaret nej. På denne måde kan der opbygges statistik på besvarelserne. <i>(denstoredanske.dk/kvantitative_metoder besøgt 28/09/19)</i> Når man laver en kvantitativ undersøgelse, kigger man altså på ”hvor mange”, og derved kigger på tendenser. På denne måde kan man nemt finde tendenser indenfor sin målgruppe og opsætte overskueligt statistik. Derved kan man få en større forståelse for sin målgruppe og især deres tendenser. <i>(voxmeter.dk/kvantitativ-kvalitativ/ besøgt 28/09/19)</i> En meget udbredt metode at anvende er spørgeskemaer, hvor respondenten selv læser spørgsmålene og besvare ved valg af en svarmulighed. <i>(denstoredanske.dk/kvantitative_metoder besøgt 28/09/19)</i></p>
           </section> <!-- kvantitativ_tekst -->
 
           <section id="kvantitativ_eksempel" class="illustrationer">
@@ -72,7 +72,7 @@
           </section> <!-- kvalitativ_overskrift -->
 
           <section id="kvalitativ_tekst" class="tekstfelt">
-            <p>En kvalitativ undersøgelse bruges når man vil undersøge noget der er svært at måle på, og hvor man derfor ikke kan få hårde data. Her kommer der en kommunikationsproces mellem forskeren og undersøgelsessubjektet. Der er altså fokus på indlevelse og forståelse. Det kan f.eks. gøres ved et interview hvor subjektet, i denne sammenhæng den er besvare spørgsmålene, kan give uddybende svar. På denne måde kan der komme en større forståelse for subjektet. (denstoredanske.dk/kvalitative_metoder besøgt 28/09/19) Kvalitative undersøgelser bliver altså anvendt når man vil have en mere dybdegående analyse af f.eks. holdninger og motiver. Her kigges der altså på ”hvorfor” og ”hvordan”. Nogle typiske metoder der bliver anvendt, er deltagerobservation og interview. Deltagerobservation er hvor man deltager i selv undersøgelsen mens man observere de andre deltagere. (voxmeter.dk/kvantitativ-kvalitativ/ besøgt 28/09/19)</p>
+            <p>En kvalitativ undersøgelse bruges når man vil undersøge noget der er svært at måle på, og hvor man derfor ikke kan få hårde data. Her kommer der en kommunikationsproces mellem forskeren og undersøgelsessubjektet. Der er altså fokus på indlevelse og forståelse. Det kan f.eks. gøres ved et interview hvor subjektet, i denne sammenhæng den er besvare spørgsmålene, kan give uddybende svar. På denne måde kan der komme en større forståelse for subjektet. <i>(denstoredanske.dk/kvalitative_metoder besøgt 28/09/19)</i> Kvalitative undersøgelser bliver altså anvendt når man vil have en mere dybdegående analyse af f.eks. holdninger og motiver. Her kigges der altså på ”hvorfor” og ”hvordan”. Nogle typiske metoder der bliver anvendt, er deltagerobservation og interview. Deltagerobservation er hvor man deltager i selv undersøgelsen mens man observere de andre deltagere. <i>(voxmeter.dk/kvantitativ-kvalitativ/ besøgt 28/09/19)</i></p>
           </section> <!-- kvalitativ_tekst -->
 
           <section id="kvalitativ_billede" class="illustrationer">
@@ -147,7 +147,7 @@
             <p class="kilde">(Usability, s. 44-45)</p>
           </section> <!-- gangstertest_tekst -->
 
-          <section id="gangstertest_billede" class="under_overskrift">
+          <section id="gangstertest_billede" class="illustrationer">
             <img src="billeder/kommunikation/signs.jpg" alt="Skilte">
             <blockquote>
               <p>Hjemmesider skal have der egne "vejskilte" så det er nemt at finde rundt</p>
@@ -202,7 +202,7 @@
             <h3>Brugertest</h3>
           </section> <!-- brugertest_overskrift -->
 
-          <section id="brugertest_tekst" class="illustrationer">
+          <section id="brugertest_tekst" class="tekstfelt">
             <p>En general test af siden. Her kigger på om brugeren kan benytte siden hensigtsmæssigt og finde eventuelle fejl eller misforståelser. Testen forgår ved at have en testperson som får stillet en opgave der skal gennemføre på siden. Ofte foregår dette efter tænke-højt metoden, hvor testpersonen skal sige sine tanker højt, således man kan få indblik i tanker og overvejelser.</p>
             <p class="kilde">(Usability, s. 116-120)</p>
           </section> <!-- brugertest_tekst -->

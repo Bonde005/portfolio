@@ -50,7 +50,7 @@
               <li>Afstand til andre</li>
               <li>Påklædning</li>
             </ul>
-        </div> <!-- punkter -->
+          </div> <!-- punkter -->
           <p class="kilde">Præsentation og formidling</p>
         </section> <!-- nonverbal_tekst -->
 
@@ -62,24 +62,19 @@
         </section> <!-- nonverbal_eksempler -->
 
         <section id="kropssprog_tekst" class="tekstfelt">
-          <div class="tekst">
-            <p>Kropssproget er det største element indenfor nonverbal kommunikation, og derfor er det vigtig at sørge for at der er kongruens, altså at der er en overensstemmelse mellem den verbale og nonverbale kommunikation. Det er derfor også vigtigt at tænker over sin kropsholdning da dette også bære en stor værdi indenfor nonverbal kommunikation. Når man præsentere skal man sørge for at holde et aktivt kropssprog og derfor ikke et passivt kropssprog. Hvis har et passivt kropssprog, hvor man står sammenfaldet og uden kontakt til underlaget, signalere man at man er uengageret og usikker. Derimod hvis man har et aktivt kropssprog, hvor man har en rank holdning, bevæger sig harmonisk, har fødder på jorden og hvile lige meget i fødderne, signalere man at man er til stede i rummet og engageret. Der er nogle opmærksomhedspunkter til at hjælpe en med at have et aktivt kropssprog. Et punkt er skuldrene, de kan afsløre meget især om man føler sig presset. Når man føler sig presset hæver man ofte skuldrene, hvorimod hvis man er afslappet sænker man skuldrene. Derfor er det et punkt at holde øje med, så man kan få sænket sine skuldre hvis de skulle hæve sig. Frustration, anspændelse eller hvis man er ked af det, kan tydeligt ses i kropssproget. Nogle steder her man skal være opmærksom er:</p>
-          </div> <!-- tekst -->
-          <div class="punkter">
-            <dl>
+          <p>Kropssproget er det største element indenfor nonverbal kommunikation, og derfor er det vigtig at sørge for at der er kongruens, altså at der er en overensstemmelse mellem den verbale og nonverbale kommunikation. Det er derfor også vigtigt at tænker over sin kropsholdning da dette også bære en stor værdi indenfor nonverbal kommunikation. Når man præsentere skal man sørge for at holde et aktivt kropssprog og derfor ikke et passivt kropssprog. Hvis har et passivt kropssprog, hvor man står sammenfaldet og uden kontakt til underlaget, signalere man at man er uengageret og usikker. Derimod hvis man har et aktivt kropssprog, hvor man har en rank holdning, bevæger sig harmonisk, har fødder på jorden og hvile lige meget i fødderne, signalere man at man er til stede i rummet og engageret. Der er nogle opmærksomhedspunkter til at hjælpe en med at have et aktivt kropssprog. Et punkt er skuldrene, de kan afsløre meget især om man føler sig presset. Når man føler sig presset hæver man ofte skuldrene, hvorimod hvis man er afslappet sænker man skuldrene. Derfor er det et punkt at holde øje med, så man kan få sænket sine skuldre hvis de skulle hæve sig. Frustration, anspændelse eller hvis man er ked af det, kan tydeligt ses i kropssproget. Nogle steder her man skal være opmærksom er:</p>            <dl>
               <dt>Hænder</dt>
-                <dd>Når man er nervøs, er der en tendens til at bevæge hænderne uroligt. For at hjælpe med at lette på nervøsiteten uden at fremvise det gennem hænderne, kan man have noget i hænderne som en blyant eller kuglepen og klemme på den, på den måde har man et fast holdepunkt. Man skal altså ikke vende og dreje eller pille ved genstanden, blot holde fast på den og give den et klem for at lette nervøsiteten.</dd>
-              <dt>Vejrtrækning</dt>
-                <dd>Vejrtrækningen kan blive hurtig og kort, så man ikke får nok luft, når man er nervøs. Det kan høres på stemmen og det kan derfor blive svært for modtagere at forstå. Samtidig giver det også en uharmonisk kropsholdning, da brystkassen er et centrum og ude af balance hvis man ikke trækker vejret ordentligt. Derfor skal man sørge for at trække vejret dybt.</dd>
-              <dt>Øjne</dt>
-                <dd>Når man føler sig presset kan man komme til at knibe øjnene sammen, stirre og have blanke øjne. Det er vigtigt at holde øjenkontakt med dem man kommunikere med, da ens øjne viser opmærksomhed. Hvis man ikke har øjenkontakt signalere man at man ikke er interesseret.</dd>
-              <dt>Stemme</dt>
-                <dd>Det kan ofte høres på stemme om man er nervøs eller presset. Der er mange faktorer der afgør hvordan man oplever en stemme. Nogle af disse er hastighed, tonehøjde, resonans, intensitet og rytme. Derfor skal der meget arbejde til styre og målrette sin stemme præcist. Hvis man vil det kan man kontakte en talepædagog.</dd>
-              <dt>Bevægelser</dt>
-                <dd>Man udtrykker sig meget igennem bevægelser og det kan ses når man er stresset. Man bliver urolig i kroppen, og derfor er det vigtigt at tænke over sine bevægelser. Hvis man vil mestre sin kropsbevægelser, kan man få undervisningen i alexanderteknikken.</dd>
-            </dl>
-          </div> <!-- punkter -->
-          <p class="kilde">(-	Præsentation og formidlinger, s. 49-51)</p>
+              <dd>Når man er nervøs, er der en tendens til at bevæge hænderne uroligt. For at hjælpe med at lette på nervøsiteten uden at fremvise det gennem hænderne, kan man have noget i hænderne som en blyant eller kuglepen og klemme på den, på den måde har man et fast holdepunkt. Man skal altså ikke vende og dreje eller pille ved genstanden, blot holde fast på den og give den et klem for at lette nervøsiteten.</dd>
+            <dt>Vejrtrækning</dt>
+              <dd>Vejrtrækningen kan blive hurtig og kort, så man ikke får nok luft, når man er nervøs. Det kan høres på stemmen og det kan derfor blive svært for modtagere at forstå. Samtidig giver det også en uharmonisk kropsholdning, da brystkassen er et centrum og ude af balance hvis man ikke trækker vejret ordentligt. Derfor skal man sørge for at trække vejret dybt.</dd>
+            <dt>Øjne</dt>
+              <dd>Når man føler sig presset kan man komme til at knibe øjnene sammen, stirre og have blanke øjne. Det er vigtigt at holde øjenkontakt med dem man kommunikere med, da ens øjne viser opmærksomhed. Hvis man ikke har øjenkontakt signalere man at man ikke er interesseret.</dd>
+            <dt>Stemme</dt>
+              <dd>Det kan ofte høres på stemme om man er nervøs eller presset. Der er mange faktorer der afgør hvordan man oplever en stemme. Nogle af disse er hastighed, tonehøjde, resonans, intensitet og rytme. Derfor skal der meget arbejde til styre og målrette sin stemme præcist. Hvis man vil det kan man kontakte en talepædagog.</dd>
+            <dt>Bevægelser</dt>
+              <dd>Man udtrykker sig meget igennem bevægelser og det kan ses når man er stresset. Man bliver urolig i kroppen, og derfor er det vigtigt at tænke over sine bevægelser. Hvis man vil mestre sin kropsbevægelser, kan man få undervisningen i alexanderteknikken.</dd>
+          </dl>
+          <p class="kilde">(Præsentation og formidlinger, s. 49-51)</p>
           <p>Til at hjælpe en med at få styr på sit kropssprog er der en tjekliste. Man ser først på sin holdning. Man skal være rank i ryggen uden at være anspændt eller stiv. Ligeledes skal man bevæge sig let og ubesværet og sørge for at have et frit åndedræt. Man skal kigge på sit håndtryk. Her skal man sørge for at have et fast håndtryk, uden at det er så hårdt at det er ubehageligt. Hvis man sidder på en stol, skal man sørge for at man sidder med reet ryg. Man skal hverken være lænet hårdt tilbage i ryglænet eller sidde yderes på stolen. Det signalerer at man er usikker og man vil væk derfra. Derudover skal man altid huske at smile, men det skal ikke overdrives. Derfor skal der kun smiles når det menes.</p>
           <p class="kilde">(præsentation og formidling, s. 51-52)</p>
         </section> <!-- kropssprog_tekst -->
@@ -96,7 +91,7 @@
           <h2>Forberedelse</h2>
         </section> <!-- forberedelse_overskrift -->
 
-        <section id="forberedelse_tekst" class="tekstfelt">
+        <section id="foerste_fase_tekst" class="tekstfelt">
           <p>Når man skal forberede en præsentation, kommer man igennem fem faser.</p>
           <ol>
             <li>Find stoffet</li>
@@ -110,25 +105,25 @@
           <p>Overbliksfasen, her kigger man på hvad det skal handle om og hvad der er væsentligt at have med.</p>
           <p>Udvælgelsesfasen, her vælger man hvad man skal have med i præsentationen og hvad der ikke skal med.</p>
           <p>Fordybelsesfasen, her finder man den røde tråd og finder ud af hvor fokusset skal være. Her kan det også være nødvendigt at skære endnu mere fra.</p>
-          <div class="tekst">
-            <p>I anden fase skal man til at finde selve strukturen af præsentationen. Her laver man en klar disposition, oftest bestående af en indledning, hoveddel og afslutning. Til hjælp med at disponere kan man bruge 5h-metoden. Man stiller sig selv de fem spørgsmål:</p>
-          </div> <!-- tekst -->
-          <div class="punkter">
-            <dl>
-              <dt>Hvorfor?</dt>
-                <dd>Hvorfor skal deltagerne lytte til dig?</dd>
-              <dt>Hvad?</dt>
-                <dd>Hvad skal deltagerne havde ud af præsentationen?</dd>
-              <dt>Hvem?</dt>
-                <dd>Hvem er modtagergruppen</dd>
-              <dt>Hvornår?</dt>
-                <dd>Hvornår på dagen skal det foregå?</dd>
-              <dt>Hvor?</dt>
-                <dd>Hvorhenne skal du præsentere?</dd>
-            </dl>
-          </div> <!-- punkter -->
           <p class="kilde">(Præsentation og kommunikation, s. 62-72)</p>
         </section> <!-- kodeskik_tekst -->
+
+        <section id="anden_fase_tekst" class="tekstfelt">
+          <p>I anden fase skal man til at finde selve strukturen af præsentationen. Her laver man en klar disposition, oftest bestående af en indledning, hoveddel og afslutning. Til hjælp med at disponere kan man bruge 5h-metoden. Man stiller sig selv de fem spørgsmål:</p>
+          <dl>
+            <dt>Hvorfor?</dt>
+              <dd>Hvorfor skal deltagerne lytte til dig?</dd>
+            <dt>Hvad?</dt>
+              <dd>Hvad skal deltagerne havde ud af præsentationen?</dd>
+            <dt>Hvem?</dt>
+              <dd>Hvem er modtagergruppen</dd>
+            <dt>Hvornår?</dt>
+              <dd>Hvornår på dagen skal det foregå?</dd>
+            <dt>Hvor?</dt>
+              <dd>Hvorhenne skal du præsentere?</dd>
+          </dl>
+          <p class="kilde">(Præsentation og kommunikation, s. 62-72)</p>
+        </section> <!-- anden_fase_tekst -->
 
         <section id="pentagon_billede" class="illustrationer">
           <img src="billeder/kommunikation/pentagrammodel.png" alt="Pentagrammodel">
@@ -158,7 +153,7 @@
           </blockquote>
         </section> <!-- sprog_billede -->
 
-        <section id="fjerde_fase_tekst">
+        <section id="fjerde_fase_tekst" class="tekstfelt">
           <p>Ved fjerde fase skal man øve stoffet, så man kan befri sig fra sit manuskript. Når man har øvet det nok, kan man nemmere brænde igennem med sit engagement, i modsætning til hvis man var bundet til et manuskript. Nogle gode råd at have med er at målrette sit sprog når man øver og hav den afsatte tid foran dig og øv på at holde dig indenfor tiden. Derudover hvis man bruger PowerPoint skal man bruge det som støtte til fremlæggelsen.</p>
           <p class="kilde">(Præsentation og kommunikation, s. 62-72)</p>
           <p>PowerPointen skal ikke være fokuspunktet i præsentationen, og der skal derfor ikke være for fremtrædende. Det er den der præsenterer som skal være i fokus og PowerPoint skal derfor være en ”baggrund” når den ikke direkte benyttes. Derudover skal man ikke have for meget stof på selve slidesene, så modtagerne nemt kan overskue det, og stadig fokusere på hvad der bliver sagt.</p>
@@ -175,10 +170,9 @@
 
         <section id="femte_fase_tekst" class="tekstfelt">
           <div class="tekst">
-            <p>I femte og den sidste fase, skal selve fremlæggelsen foregå. Her skal man være øvet i sit stof, have en forståelse for målgruppen og selve præsentationen for at hjælpe med at ikke være nervøs, og i stedet fremstå selvsikker under selve præsentationen. Her kan man med fordel bruge pentagrammodellen, især under selve planlægningen af præsentationen. Her er det ligeledes vigtigt at holde øje med sit kropssprog for at være sikker på man får det rigtige nonverbale kommunikation.</p>
+            <p>I femte og den sidste fase, skal selve fremlæggelsen foregå. Her skal man være øvet i sit stof, have en forståelse for målgruppen og selve præsentationen for at hjælpe med at ikke være nervøs, og i stedet fremstå selvsikker under selve præsentationen. Her kan man med fordel bruge pentagrammodellen, især under selve planlægningen af præsentationen. Her er det ligeledes vigtigt at holde øje med sit kropssprog for at være sikker på man får det rigtige nonverbale kommunikation. For at være godt forberedt til selve præsentationen kan man bruge følgende spørgsmål under selve planlægningen:</p>
           </div> <!-- tekst -->
           <div class="punkter">
-            <p>For at være godt forberedt til selve præsentationen kan man bruge følgende spørgsmål under selve planlægningen:</p>
             <ul>
               <li>Hvor godt er jeg inde i det emne, jeg skal præsentere?</li>
               <li>Hvordan er min personlige fremtræden</li>
@@ -189,7 +183,7 @@
               <li>Hvad skal modtagergruppen have ud af præsentationen</li>
             </ul>
           </div> <!-- punkter -->
-          <p class="kilde">(-	Præsentation og kommunikation, s. 72-75)</p>
+          <p class="kilde">(Præsentation og kommunikation, s. 72-75)</p>
         </section> <!-- femte_fase_tekst -->
       </div> <!-- pagewrap -->
 

@@ -1,0 +1,196 @@
+#eyetracking_billede {
+  max-width: 514px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#webtekst_eksempel {
+  max-width: 555px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#kommentar_billede {
+  max-width: 567px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#aida_billede {
+  max-width: 600px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#brochure_billede {
+  max-width: 450px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#nyhedstrekant_billede {
+  max-width: 1200px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#kommodemodel_billede {
+  max-width: 1000px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+/* Grid areas */
+
+#back_arrow {
+  grid-area: back_arrow;
+}
+
+#overskrift {
+  grid-area: overskrift;
+}
+
+#indledning {
+  grid-area: indledning;
+}
+
+#webtekster_overskrift {
+  grid-area: webtekster_overskrift;
+}
+
+#webtekster_tekst {
+  grid-area: webtekster_tekst;
+}
+
+#eyetracking_billede {
+  grid-area: eyetracking_billede;
+}
+
+#webtekster_forsat_tekst {
+  grid-area: webtekster_forsat_tekst;
+}
+
+#webtekst_eksempel {
+  grid-area: webtekst_eksempel;
+}
+
+#sociale_medier_overskrift {
+  grid-area: sociale_medier_overskrift;
+}
+
+#sociale_medier_tekst {
+  grid-area: sociale_medier_tekst;
+}
+
+#kommentar_billede {
+  grid-area: kommentar_billede;
+}
+
+#annonce_overskrift {
+  grid-area: annonce_overskrift;
+}
+
+#annonce_tekst {
+  grid-area: annonce_tekst;
+}
+
+#aida_billede {
+  grid-area: aida_billede;
+}
+
+#brochure_overskrift {
+  grid-area: brochure_overskrift;
+}
+
+#brochure_tekst {
+  grid-area: brochure_tekst;
+}
+
+#brochure_billede {
+  grid-area: brochure_billede;
+}
+
+#artikel_overskrift {
+  grid-area: artikel_overskrift;
+}
+
+#artikel_tekst {
+  grid-area: artikel_tekst;
+}
+
+#nyhedstrekant_billede {
+  grid-area: nyhedstrekant_billede;
+}
+
+#subjektiv_artikel_tekst {
+  grid-area: subjektiv_artikel_tekst;
+}
+
+#kommodemodel_billede {
+  grid-area: kommodemodel_billede;
+}
+
+/* Grid for mobil version */
+#pagewrap {
+  display: grid;
+  grid-template-areas:
+  "back_arrow"
+  "overskrift"
+  "indledning"
+  "webtekster_overskrift"
+  "webtekster_tekst"
+  "eyetracking_billede"
+  "webtekster_forsat_tekst"
+  "webtekst_eksempel"
+  "sociale_medier_overskrift"
+  "sociale_medier_tekst"
+  "kommentar_billede"
+  "annonce_overskrift"
+  "annonce_tekst"
+  "aida_billede"
+  "brochure_overskrift"
+  "brochure_tekst"
+  "brochure_billede"
+  "artikel_overskrift"
+  "artikel_tekst"
+  "nyhedstrekant_billede"
+  "subjektiv_artikel_tekst"
+  "kommodemodel_billede";
+}
+
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+/* Grid til desktop version */
+ #pagewrap {
+   grid-template-columns:  1fr 0.3fr 0.9fr; /* Giver billeder og tesktfelte med punkter mere plads */
+   grid-template-areas:
+   "overskrift overskrift overskrift"
+   "indledning indledning indledning"
+   "webtekster_overskrift webtekster_overskrift webtekster_overskrift"
+   "webtekster_tekst eyetracking_billede eyetracking_billede"
+   "webtekster_forsat_tekst webtekst_eksempel webtekst_eksempel"
+   "sociale_medier_overskrift sociale_medier_overskrift sociale_medier_overskrift"
+   "sociale_medier_tekst kommentar_billede kommentar_billede"
+   "annonce_overskrift annonce_overskrift annonce_overskrift"
+   "annonce_tekst annonce_tekst aida_billede"
+   "brochure_overskrift brochure_overskrift brochure_overskrift"
+   "brochure_tekst brochure_billede brochure_billede"
+   "artikel_overskrift artikel_overskrift artikel_overskrift"
+   "artikel_tekst artikel_tekst nyhedstrekant_billede"
+   "subjektiv_artikel_tekst kommodemodel_billede kommodemodel_billede";
+ }
+
+ /* Laver luft mellem tesktfelt og billede */
+ .tekstfelt, .illustrationer {
+   width: 90%;
+ }
+
+ /* Giver indledningen sin normale bredde */
+ #indledning {
+   width: auto;
+ }
+
+ /* Fjerne ekstra luft fra bunden */
+ .illustrationer {
+   margin-bottom: auto;
+ }
+}

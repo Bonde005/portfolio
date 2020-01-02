@@ -50,7 +50,7 @@ h1 {
   font-size: 2em; /* skriftstørrelse */
 }
 
-p, dt, dd, li {
+p, dt, dd, li, th, td {
   font-family: 'PT sans', sans-serif; /* skrifttype */
   font-size: 1.05em; /* lidt større tekst */
 }
@@ -91,7 +91,7 @@ h2 {
 h3 {
   text-align: center; /* centrer tekst */
   font-family: 'Montserrat', sans-serif; /* skrifttype */
-  font-size: 1em; /* skriftsstørelse */
+  font-size: 1.35em; /* skriftsstørelse */
 }
 
 #lokal_menu a {

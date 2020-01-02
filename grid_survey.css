@@ -1,0 +1,149 @@
+#kvantitativ_eksempel {
+  max-width: 800px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#kvalitativ_billede {
+  max-width: 2000px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#gangstertest_billede {
+  max-width: 400px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#kortsortering_billede {
+  max-width: 459px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#availability_billede {
+  max-width: 555px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#tometoder_overskrift p {
+  text-align: center; /* centrer tekst */
+}
+
+/* Tabel styling */
+table {
+  margin-right: auto;
+  margin-left: auto; /* centrer tabel */
+  border-collapse: collapse; /* Gør bordernes til én border */
+}
+
+table, th, td {
+  border: 1px solid black; /* Giver border til elemetner */
+}
+
+th, td {
+  padding: 0.8em; /* Giver mere luft mellem teskt og kanter */
+}
+
+/* Grid areas */
+
+#back_arrow {
+  grid-area: back_arrow;
+}
+
+#overskrift {
+  grid-area: overskrift;
+}
+
+#indledning {
+  grid-area: indledning;
+}
+
+#tometoder_overskrift {
+  grid-area: tometoder_overskrift
+}
+
+#kvantitativ {
+  grid-area: kvantitativ;
+}
+
+#kvalitativ {
+  grid-area: kvalitativ;
+}
+
+#brugersurveys_overskrift {
+  grid-area: brugersurveys_overskrift;
+}
+
+#brugersurveys_tekst {
+  grid-area: brugersurveys_tekst;
+}
+
+#gangstertest {
+  grid-area: gangstertest;
+}
+
+#questionnaire {
+  grid-area: questionnaire;
+}
+
+#ekspertvurdering {
+  grid-area: ekspertvurdering;
+}
+
+#kortsortering {
+  grid-area: kortsortering;
+}
+
+#brugertest {
+  grid-area: brugertest;
+}
+
+#availability {
+  grid-area: availability;
+}
+/* Grid for mobil version */
+#pagewrap {
+  display: grid;
+  grid-template-areas:
+  "back_arrow"
+  "overskrift"
+  "indledning"
+  "tometoder_overskrift"
+  "kvantitativ"
+  "kvalitativ"
+  "brugersurveys_overskrift"
+  "brugersurveys_tekst"
+  "questionnaire"
+  "ekspertvurdering"
+  "kortsortering"
+  "brugertest"
+  "availability";
+}
+
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+  /* Grid for desktop */
+ #pagewrap {
+   grid-template-columns: 1fr 1fr;
+   grid-template-areas:
+   "overskrift overskrift"
+   "indledning indledning"
+   "tometoder_overskrift tometoder_overskrift"
+   "kvantitativ kvantitativ"
+   "kvalitativ kvalitativ"
+   "brugersurveys_overskrift brugersurveys_overskrift"
+   "brugersurveys_tekst brugersurveys_tekst"
+   "gangstertest questionnaire"
+   "gangstertest ekspertvurdering"
+   "brugertest brugertest"
+   "kortsortering availability";
+ }
+
+ /* Fjerne ekstra luft */
+ #questionnaire, #ekspertvurdering, #availability {
+   margin-bottom: auto;
+ }
+}

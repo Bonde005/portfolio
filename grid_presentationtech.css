@@ -1,0 +1,181 @@
+#nonverbal_eksempel {
+  max-width: 1600px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#presentation_billede {
+  max-width: 1024px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#pentagon_billede {
+  max-width: 640px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#sprog_billede {
+  max-width: 268px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#powerpoint_billede {
+  max-width: 550px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+/* Grid areas */
+
+#back_arrow {
+  grid-area: back_arrow;
+}
+
+#overskrift {
+  grid-area: overskrift;
+}
+
+#indledning {
+  grid-area: indledning;
+}
+
+#nonverbal_overskrift {
+  grid-area: nonverbal_overskrift;
+}
+
+#nonverbal_tekst {
+  grid-area: nonverbal_tekst;
+}
+
+#nonverbal_tekst {
+  grid-area: nonverbal_tekst;
+}
+
+#kropssprog_tekst {
+  grid-area: kropssprog_tekst;
+}
+
+#presentation_billede {
+  grid-area: presentation_billede;
+}
+
+#forberedelse_overskrift {
+  grid-area: forberedelse_overskrift;
+}
+
+#foerste_fase_tekst {
+  grid-area: foerste_fase_tekst;
+}
+
+#anden_fase_tekst {
+  grid-area: anden_fase_tekst;
+}
+
+#pentagon_billede {
+  grid-area: pentagon_billede;
+}
+
+#tredje_fase_tekst {
+  grid-area: tredje_fase_tekst;
+}
+
+#sprog_billede {
+  grid-area: sprog_billede;
+}
+
+#fjerde_fase_tekst {
+  grid-area: fjerde_fase_tekst;
+}
+
+#powerpoint_billede {
+  grid-area: powerpoint_billede;
+}
+
+#femte_fase_tekst {
+  grid-area: femte_fase_tekst;
+}
+
+/* Grid for mobil version */
+#pagewrap {
+  display: grid;
+  grid-template-areas:
+  "back_arrow"
+  "overskrift"
+  "indledning"
+  "nonverbal_overskrift"
+  "nonverbal_tekst"
+  "nonverbal_eksempel"
+  "kropssprog_tekst"
+  "presentation_billede"
+  "forberedelse_overskrift"
+  "foerste_fase_tekst"
+  "anden_fase_tekst"
+  "pentagon_billede"
+  "tredje_fase_tekst"
+  "sprog_billede"
+  "fjerde_fase_tekst"
+  "powerpoint_billede"
+  "femte_fase_tekst";
+}
+
+@media screen and (min-width: 500px) { /* her begynder tablet versionen */
+
+  /* Fjerne float på tekst og punkter */
+  .tekst, .punkter {
+    float: none;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+
+/*Grid for desktop version */
+ #pagewrap {
+   grid-template-areas:
+   "overskrift overskrift"
+   "indledning indledning"
+   "nonverbal_overskrift nonverbal_overskrift"
+   "nonverbal_tekst nonverbal_eksempel"
+   "kropssprog_tekst kropssprog_tekst"
+   "presentation_billede presentation_billede"
+   "forberedelse_overskrift forberedelse_overskrift"
+   "foerste_fase_tekst foerste_fase_tekst"
+   "anden_fase_tekst pentagon_billede"
+   "tredje_fase_tekst sprog_billede"
+   "fjerde_fase_tekst powerpoint_billede"
+   "femte_fase_tekst femte_fase_tekst";
+ }
+
+ /* Tilføjer float til tekster og punkter igen */
+ .tekst, .punkter {
+   float: left;
+   width: 48%;
+ }
+
+/*skaber luft mellem teskt og billede*/
+ #nonverbal_eksempel, #nonverbal_tekst, #anden_fase_tekst, #pentagon_billede,
+ #fjerde_fase_tekst, #powerpoint_billede {
+   width: 90%;
+ }
+
+ /* Går bunden automatisk, fjerne ekstra luft */
+ #nonverbal_tekst, #pentagon_billede, #sprog_billede, #powerpoint_billede {
+   margin-bottom: auto;
+ }
+
+ /* Gør feltet smaller og derved linjerne kortere og centere feltet */
+ #kropssprog_tekst {
+   width: 75%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ /* Centrer punkter og gør linjerne kortere */
+ #kropssprog_tekst dl {
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+}
