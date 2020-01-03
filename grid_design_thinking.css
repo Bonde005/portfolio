@@ -46,36 +46,65 @@
   grid-area: projekt_prototype;
 }
 
+/* Styling af videoer */
+  /* (Gør videoerne responsive) */
+.video {
+  position: relative; /* Gør feltet relativt */
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video iframe{
+  position: absolute;
+  top:0;
+  left: 0; /* Giver den en absolut placering */
+  width: 100%;
+  height: 100%; /* Den skal være sin fylde størrelse */
+}
+
+
 /* Grid for mobil version */
-/*#pagewrap {
+#pagewrap {
   display: grid;
   grid-template-areas:
   "back_arrow"
   "overskrift"
   "indledning"
-  "kodning_overskrift"
-  "tags_tekst"
-  "tags_eksempler"
-  "semantik_tekst"
-  "element_tekst"
-  "element_billede"
-  "kodeskik_overskrift"
-  "kodeskik_tekst"
-  "kodeskik_billede" ;
-}*/
+  "faserne_overskrift"
+  "faserne_tekst"
+  "faserne_billede"
+  "projekt_overskrift"
+  "projekt_tekst"
+  "projekt_pitch"
+  "projekt_prototype";
+}
 
-/*
+
 @media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
-/*
+
  #pagewrap {
    grid-template-areas:
    "overskrift overskrift"
    "indledning indledning"
-   "kodning_overskrift kodning_overskrift"
-   "tags_tekst tags_eksempler"
-   "semantik_tekst semantik_tekst"
-   "element_tekst element_billede"
-   "kodeskik_overskrift kodeskik_overskrift"
-   "kodeskik_tekst kodeskik_billede";
+   "faserne_overskrift faserne_overskrift"
+   "faserne_tekst faserne_tekst"
+   "faserne_billede faserne_billede"
+   "projekt_overskrift projekt_overskrift"
+   "projekt_tekst projekt_tekst"
+   "projekt_pitch projekt_prototype";
  }
-}*/
+
+ #faserne_tekst {
+   width: 80%; /* Går feltet smaller */
+   margin-left: auto;
+   margin-right: auto; /* centrer feltet */
+ }
+
+ .video {
+   width: 90%; /* videoerne fylder mindre, derved mere luft imellem */
+   margin-left: auto;
+   margin-right: auto; /* centrer videoerne */
+ }
+
+}

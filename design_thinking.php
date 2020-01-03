@@ -41,7 +41,7 @@
         </section> <!-- faserne_tekst -->
 
         <section id="faserne_billede" class="illustrationer">
-          <img src="billeder/projekter_opgaver/faser.png" alt="Faserne i Design Thinking">
+          <img src="billeder/projekter_opgaver/faserne.png" alt="Faserne i Design Thinking">
           <blockquote>
             <p>Faserne i Design Thinking og hvordan man bevæger sig mellem dem</p>
             <a class="kilde" href="https://gist.github.com/w33ble/46ce7bb221c30a8962e3db4cdc2afe94"><p>gist.github.com</p></a>
@@ -58,14 +58,18 @@
         </section> <!-- projekt_tekst -->
 
         <section id="projekt_pitch" class="video">
-          <iframe src="https://www.youtube.com/embed/F6xGflGO6CI/"></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/F6xGflGO6CI"
+          frameborder="0" allow="accelerometer; encrypted-media;
+          gyroscope; picture-in-picture" allowfullscreen></iframe>
           <blockquote>
             <p>Gruppens pitch</p>
           </blockquote>
         </section> <!-- projekt_pitch -->
 
         <section id="projekt_prototype" class="video">
-          <iframe src="https://www.youtube.com/embed/Y16vUe1Qj8o/"></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Y16vUe1Qj8o"
+          frameborder="0" allow="accelerometer; encrypted-media; 
+          gyroscope; picture-in-picture" allowfullscreen></iframe>
           <blockquote>
             <p>Gruppens gennemgang af prototype</p>
           </blockquote>
