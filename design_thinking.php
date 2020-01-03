@@ -48,21 +48,29 @@
           </blockquote>
         </section> <!-- faserne_billede -->
 
-        <section id="Projekt_overskrift" class="under_overskrift">
+        <section id="projekt_overskrift" class="under_overskrift">
           <h2>Projekt</h2>
         </section> <!-- projekt_overskrift -->
 
         <section id="projekt_tekst" class="tekstfelt">
           <p>På holdet blev vi inddelt i grupper af tre og to med fire, hvor jeg befandt mig i en tremandsgruppe. Her var emnet for projektet udlån og reservation. Til at starte med brainstormede vi emner under udlån og reservation, hvorefter vi udvalgte nogle at kigge videre på, hvor der blev valgt emnet camping. Dertil lavede vi endnu en brainstorm om hvad emnet indeholdte med relevans til udlån og reservation. Derefter kontaktede vi to forskellige campister og en ejer af en campingplads. Vi ville gerne også have kontaktet en ny campist, som ikke havde camperede så meget endnu, men vi kunne ikke nå at få fat i en. En video over hvad vi fik ud af empatize fasen kan findes her. I define fasen kiggede vi på den viden vi havde fået fra den foregående fase, og derudfra fandt vi flere mulige problemstillinger af arbejde videre med. Her valgte vil at arbejde videre med at tiltrække unge til at campere. En video over hvad vi har fået ud define fasen kan ses her. Dernæst begyndte vi at brainstorme idéer til produktet, som en del af opgaven var at det skulle være en app. Vi kom med idéer til hvad appen skulle indeholde og hvordan den skulle tiltrække unge. Vi valgte en idé at gå videre med, hvor vi begyndte at lave en papirprototype af appen. Efter af prototypen var lavet gik vi videre til næste fase, test. Her gik vi rundt på campus og testede prototypen ikke kun på andre multimediedesignere men også fra andre uddannelser, som der derfor ikke havde nogen baggrundsviden om projektet. Efter testene blev der hurtigt lavede nogle små ændringer til prototypen, og andre observationer derfra forblev blot observationer vi kunne have med videre. Dog havde vi ikke tid til at arbejde mere med appen.</p>
           <p class="kilde">(Niels Østergaard, introduktion til HTML) </p>
-        </section> <!-- kodeskik_tekst -->
+        </section> <!-- projekt_tekst -->
 
         <section id="projekt_pitch" class="video">
-          <!-- <iframe src="https://www.youtube.com/embedF6xGflGO6CI/"></iframe> -->
-          <iframe width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe> 
-        </section>
+          <iframe src="https://www.youtube.com/embed/F6xGflGO6CI/"></iframe>
+          <blockquote>
+            <p>Gruppens pitch</p>
+          </blockquote>
+        </section> <!-- projekt_pitch -->
+
+        <section id="projekt_prototype" class="video">
+          <iframe src="https://www.youtube.com/embed/Y16vUe1Qj8o/"></iframe>
+          <blockquote>
+            <p>Gruppens gennemgang af prototype</p>
+          </blockquote>
+        </section> <!-- projekt_prototype -->
+      </div> <!-- pagewrap -->
 
       <div id="home_button">
         <a href="index.php"><img src="billeder/home.png" alt="home knap"></a>

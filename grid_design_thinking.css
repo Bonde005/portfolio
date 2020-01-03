@@ -1,0 +1,81 @@
+#faserne_billede {
+  max-width: 3000px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+/* Grid areas */
+
+#back_arrow {
+  grid-area: back_arrow;
+}
+
+#overskrift {
+  grid-area: overskrift;
+}
+
+#indledning {
+  grid-area: indledning;
+}
+
+#faserne_overskrift {
+  grid-area: faserne_overskrift;
+}
+
+#faserne_tekst {
+  grid-area: faserne_tekst;
+}
+
+#faserne_billede {
+  grid-area: faserne_billede;
+}
+
+#projekt_overskrift {
+  grid-area: projekt_overskrift;
+}
+
+#projekt_tekst {
+  grid-area: projekt_tekst;
+}
+
+#projekt_pitch {
+  grid-area: projekt_pitch;
+}
+
+#projekt_prototype {
+  grid-area: projekt_prototype;
+}
+
+/* Grid for mobil version */
+/*#pagewrap {
+  display: grid;
+  grid-template-areas:
+  "back_arrow"
+  "overskrift"
+  "indledning"
+  "kodning_overskrift"
+  "tags_tekst"
+  "tags_eksempler"
+  "semantik_tekst"
+  "element_tekst"
+  "element_billede"
+  "kodeskik_overskrift"
+  "kodeskik_tekst"
+  "kodeskik_billede" ;
+}*/
+
+/*
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+/*
+ #pagewrap {
+   grid-template-areas:
+   "overskrift overskrift"
+   "indledning indledning"
+   "kodning_overskrift kodning_overskrift"
+   "tags_tekst tags_eksempler"
+   "semantik_tekst semantik_tekst"
+   "element_tekst element_billede"
+   "kodeskik_overskrift kodeskik_overskrift"
+   "kodeskik_tekst kodeskik_billede";
+ }
+}*/
