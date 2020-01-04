@@ -14,12 +14,12 @@
       </section> <!-- menu_punkt Projekter og opgaver -->
       <section class="dropdown_content">
         <div class="column_left">
-          <a href="#"><h2>Design Thinking</h2></a>
-          <a href="#"><h2>Onepage</h2></a>
+          <a href="design_thinking.php"><h2>Design Thinking</h2></a>
+          <a href="onepage.php"><h2>Onepage</h2></a>
         </div> <!-- column_left -->
         <div class="column_right">
-          <a href="#"><h2>Workshop</h2></a>
-          <a href="#"><h2>Licens og ophavsret</h2></a>
+          <a href="workshop_flexbox.php"><h2>Workshop</h2></a>
+          <a href="licens_ophavsret.php"><h2>Licens og ophavsret</h2></a>
         </div> <!-- column_right -->
       </section> <!-- dropdown_content Projekter og opgaver -->
     </section> <!-- dropdown Projekter og Opgaver -->
@@ -34,11 +34,11 @@
       <section class="dropdown_content">
         <div class="column_left">
           <a href="grundlaegende_kommunikation.php"><h2>Grundlæggende</h2></a>
-          <a href="#"><h2>Præsentationsteknink</h2></a>
+          <a href="presentationtech.php"><h2>Præsentationsteknink</h2></a>
         </div> <!-- column_left -->
         <div class="column_right">
-          <a href="#"><h2>Tekstproduktion</h2></a>
-          <a href="#"><h2>Undersøgelser</h2></a>
+          <a href="tekstproduktion.php"><h2>Tekstproduktion</h2></a>
+          <a href="surveys.php"><h2>Undersøgelser</h2></a>
         </div> <!-- column_right -->
       </section> <!-- dropdown_content Kommunikation -->
     </section> <!-- dropdown kommunikation -->
