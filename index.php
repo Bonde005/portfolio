@@ -76,7 +76,7 @@
               </div> <!-- column_left -->
               <div class="column_right">
                 <a href="workshop_flexbox.php"><h2>Workshop</h2></a>
-                <a href="#"><h2>Licens og ophavsret</h2></a>
+                <a href="licens_ophavsret.php"><h2>Licens og ophavsret</h2></a>
               </div> <!-- column_right -->
             </section> <!-- dropdown_content Projekter og opgaver -->
           </section> <!-- dropdown Projekter og Opgaver -->
