@@ -1,3 +1,7 @@
+#opgave {
+  height: 500px; /* Giver pdf vieweren en højde */
+}
+
 /* Grid areas */
 
 #back_arrow {
@@ -16,10 +20,6 @@
   grid-area: opgaven_overskrift;
 }
 
-#opgave_tekst {
-  grid-area: opgave_tekst;
-}
-
 #opgave {
   grid-area: opgave;
 }
@@ -36,6 +36,11 @@
   "opgave" ;
 }
 
+@media screen and (min-width: 500px) { /* her begynder tablet versionen */
+  #opgave {
+    height: 700px; /* Gør den højere */
+  }
+}
 
 @media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
 
@@ -46,5 +51,9 @@
    "opgaven_overskrift opgaven_overskrift"
    "opgave_tekst opgave_tekst"
    "opgave opgave";
+ }
+
+ #opgave {
+   height: 900px; /* Gør den højere */
  }
 }

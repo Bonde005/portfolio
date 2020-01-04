@@ -29,15 +29,13 @@
           <h2>Opgaven</h2>
         </section> <!-- opgaven_overskrift -->
 
-        <section id="opgave_tekst" class="tekstfelt">
-          <p>For at læse mere kan opgaven ses nedenfor</p>
-          <a href="ophavsret_licenser.pdf" download>
-            <p>Hvis det foretrækkes kan filen downloades</p>
-          </a>
-        </section> <!-- opgave_tekst -->
-
         <section id="opgave">
-          <iframe src="ophavsret_licenser.pdf" style="width:100%; height: 100%; border: none;"></iframe>
+          <object data="ophavsret_licenser.pdf" type="application/pdf" width="100%" height="100%">
+            <p>It appears you don't have a PDF plugin for this browser.
+              You can <a href="ophavsret_licenser.pdf">click here to
+              download the PDF file.</a></p>
+          </object>
+          <!--<iframe src="ophavsret_licenser.pdf" style="width:100%; height: 100%; border: none;"></iframe> -->
         </section> <!-- opgave -->
       </div> <!-- pagewrap -->
 
