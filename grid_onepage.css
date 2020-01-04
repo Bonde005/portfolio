@@ -1,0 +1,99 @@
+#toiletrens_billede {
+  max-width: 1440px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#moodboard_billede {
+  max-width: 2048px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#wireframe_billede {
+  max-width: 1072px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+/* Grid areas */
+
+#back_arrow {
+  grid-area: back_arrow;
+}
+
+#overskrift {
+  grid-area: overskrift;
+}
+
+#indledning {
+  grid-area: indledning;
+}
+
+#projekt_overskrift {
+  grid-area: projekt_overskrift;
+}
+
+#projektstart_tekst {
+  grid-area: projektstart_tekst;
+}
+
+#toiletrens_billede {
+  grid-area: toiletrens_billede;
+}
+
+#design_tekst {
+  grid-area: design_tekst;
+}
+
+#moodboard_billede {
+  grid-area: moodboard_billede;
+}
+
+#wireframe_billede {
+  grid-area: wireframe_billede;
+}
+
+#produktion_tekst {
+  grid-area: produktion_tekst;
+}
+
+/* Grid for mobil version */
+#pagewrap {
+  display: grid;
+  grid-template-areas:
+  "back_arrow"
+  "overskrift"
+  "indledning"
+  "projekt_overskrift"
+  "projektstart_tekst"
+  "toiletrens_billede"
+  "design_tekst"
+  "moodboard_billede"
+  "wireframe_billede"
+  "produktion_tekst";
+}
+
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+
+ #pagewrap {
+   grid-template-areas:
+   "overskrift overskrift"
+   "indledning indledning"
+   "projekt_overskrift projekt_overskrift"
+   "projektstart_tekst projektstart_tekst"
+   "toiletrens_billede toiletrens_billede"
+   "design_tekst wireframe_billede"
+   "moodboard_billede moodboard_billede"
+   "produktion_tekst produktion_tekst";
+ }
+
+ #design_tekst, #wireframe_billede {
+   width: 90%; /* tekst og billede smallere skaber luft mellem dem */
+ }
+
+ #wireframe_billede {
+   margin-bottom: auto; /* Tilpasser selv, undgår ekstra luft */
+ }
+}

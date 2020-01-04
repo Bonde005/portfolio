@@ -1,0 +1,50 @@
+/* Grid areas */
+
+#back_arrow {
+  grid-area: back_arrow;
+}
+
+#overskrift {
+  grid-area: overskrift;
+}
+
+#indledning {
+  grid-area: indledning;
+}
+
+#opgaven_overskrift {
+  grid-area: opgaven_overskrift;
+}
+
+#opgave_tekst {
+  grid-area: opgave_tekst;
+}
+
+#opgave {
+  grid-area: opgave;
+}
+
+/* Grid for mobil version */
+#pagewrap {
+  display: grid;
+  grid-template-areas:
+  "back_arrow"
+  "overskrift"
+  "indledning"
+  "opgaven_overskrift"
+  "opgave_tekst"
+  "opgave" ;
+}
+
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+
+ #pagewrap {
+   grid-template-areas:
+   "overskrift overskrift"
+   "indledning indledning"
+   "opgaven_overskrift opgaven_overskrift"
+   "opgave_tekst opgave_tekst"
+   "opgave opgave";
+ }
+}

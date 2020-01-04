@@ -1,0 +1,72 @@
+#slide_billede {
+  max-width: 1480px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+/* Grid areas */
+
+#back_arrow {
+  grid-area: back_arrow;
+}
+
+#overskrift {
+  grid-area: overskrift;
+}
+
+#indledning {
+  grid-area: indledning;
+}
+
+#projekt_overskrift {
+  grid-area: projekt_overskrift;
+}
+
+#projektstart_tekst {
+  grid-area: projektstart_tekst;
+}
+
+#produktion_tekst {
+  grid-area: produktion_tekst;
+}
+
+#presentation_tekst {
+  grid-area: presentation_tekst;
+}
+
+#slide_billede {
+  grid-area: slide_billede;
+}
+
+/* Grid for mobil version */
+#pagewrap {
+  display: grid;
+  grid-template-areas:
+  "back_arrow"
+  "overskrift"
+  "indledning"
+  "projekt_overskrift"
+  "projektstart_tekst"
+  "produktion_tekst"
+  "presentation_tekst"
+  "slide_billede";
+}
+
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+
+ #pagewrap {
+   grid-template-areas:
+   "overskrift overskrift"
+   "indledning indledning"
+   "projekt_overskrift projekt_overskrift"
+   "projektstart_tekst projektstart_tekst"
+   "produktion_tekst produktion_tekst"
+   "presentation_tekst slide_billede";
+ }
+
+ #presentation_tekst, #slide_billede {
+   width: 90%; /* Gør smallere, mere plads imellem */
+ }
+
+}

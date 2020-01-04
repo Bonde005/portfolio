@@ -6,7 +6,7 @@
         <title>AB læringsportfolio Licens og ophavsret</title>
         <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Sans|Quicksand:400,600,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="stylesheet_page.css">
-        <link rel="stylesheet" href="grid_html.css">
+        <link rel="stylesheet" href="grid_licens_ophavsret.css">
     </head>
     <body>
 

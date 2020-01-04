@@ -34,25 +34,25 @@
         </section> <!-- projektstart_tekst -->
 
         <section id="toiletrens_billede" class="illustrationer">
-          <img src="billeder/projekter_opgave/toiletrens_wall.jpg" alt="Billeder af toiletrens på vægge">
+          <img src="billeder/projekter_opgaver/toiletrens_wall.jpg" alt="Billeder af toiletrens på vægge">
           <blockquote>
             <p>Billederne der blev hængt op og inddelt i tre kategorier</p>
           </blockquote>
         </section> <!-- toiletrens_billede -->
 
         <section id="design_tekst" class="tekstfelt">
-          <p>Når vi nu havde en framing, skulle vi til at designe vores side. Vi startede med at blive enige om hvilke udtryk vi ville give og hvilke udtryk vi ikke ville give. Vi ville have en følelse af bruger til bruger kommunikation, og ville derfor ikke fremstå som aggressive miljøaktivister. På den måde besluttede vi os for at siden skulle fremstå rolig, blød og naturlig. Ligeledes ville vi nødvendigvis ikke benytte os af grøn, da dette er en typisk farve at bruge til miljøvenlighed, for at fastholde denne bruger til bruger følelser. Vi fandt hver især billeder til vores moodboard, hvorefter vi printede dem og hang dem op til at passe sammen. På den måde fik vi 3 moodboards, hvor vi havde én stor og to små. Vi valgte at gå videre med den store som gav den følelse vi ville. Hvorudfra vi besluttede for nogle farver, som var triader på farvehjulet. Samtidig fandt vi nogle skrifttyper, som både virkede personlig og professionel. Efter dette skitserede vi ideér for wireframes til mobilversion, hvor vi valgte en og gå videre med. På samme måde lavede vi for tablet og desktopversionen med mobilversionen som udgangspunkt.</p>
+          <p>Når vi nu havde en framing, skulle vi til at designe vores side. Vi startede med at blive enige om hvilke udtryk vi ville give og hvilke udtryk vi ikke ville give. Vi ville have en følelse af bruger til bruger kommunikation, og ville derfor ikke fremstå som aggressive miljøaktivister. På den måde besluttede vi os for at siden skulle fremstå rolig, blød og naturlig. Ligeledes ville vi nødvendigvis ikke benytte os af grøn, da dette er en typisk farve at bruge til miljøvenlighed, for at fastholde denne bruger til bruger følelse. Vi fandt hver især billeder til vores moodboard, hvorefter vi printede dem og hang dem op til at passe sammen. På den måde fik vi 3 moodboards, hvor vi havde én stor og to små. Vi valgte at gå videre med den store som gav den følelse vi ville. Hvorudfra vi besluttede for nogle farver, som var triader på farvehjulet. Samtidig fandt vi nogle skrifttyper, som både virkede personlig og professionel. Efter dette skitserede vi ideér for wireframes til mobilversion, hvor vi valgte en og gå videre med. På samme måde lavede vi for tablet og desktopversionen med mobilversionen som udgangspunkt.</p>
         </section> <!-- design_tekst -->
 
         <section id="moodboard_billede" class="illustrationer">
-          <img src="billeder/projekter_opgave/toiletrens_moodboard.jpg" alt="Moodboard">
+          <img src="billeder/projekter_opgaver/toiletrens_moodboard.jpg" alt="Moodboard">
           <blockquote>
-            <p>Gruppens moodboards</p>
+            <p>Gruppens moodboard</p>
           </blockquote>
         </section> <!-- moodboard_billede -->
 
         <section id="wireframe_billede" class="illustrationer">
-          <img src="billeder/projekter_opgave/toiletrens_wireframe.jpg" alt="Wireframe for mobilversion">
+          <img src="billeder/projekter_opgaver/toiletrens_wireframe.jpg" alt="Wireframe for mobilversion">
           <blockquote>
             <p>Ét wireframe for mobilversionen</p>
           </blockquote>
