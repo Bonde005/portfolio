@@ -117,23 +117,13 @@
       width: 100%;
     }
 
-    #kaskade_billede {
-      max-height: 480px;
+    #kaskade_billede, #deklaration_billede, #strukturelselector_billede {
+      margin-bottom: auto;
     }
 
-    #deklaration_billede {
-      max-height: 280px;
+    #selector_eksempel_1, #selector_eksempel_2, #deklaration_tekst,
+    #deklaration_billede, #kaskade_tekst, #kaskade_billede {
+      width: 90%;
     }
 
-    #strukturelselector_billede {
-      max-height: 180px;
-    }
-
-    #selector_eksempel_1 {
-      margin-right: 1.5em;
-    }
-
-    #selector_eksempel_2 {
-      margin-left: 1.5em;
-    }
-}
+  }

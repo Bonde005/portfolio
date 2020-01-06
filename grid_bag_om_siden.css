@@ -1,0 +1,138 @@
+#tidsplan_billede {
+  max-width: 1181px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#kortsortering_udenoverskrifter, #kortsortering_medoverskrifter {
+  max-width: 4608px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+#moodboard_billede, #styletile_billede {
+  max-width: 1920px; /* Gør at billede ikke bliver forstørret*/
+  margin-left: auto; /* centrer billed sektionen */
+  margin-right: auto; /* center billed sektionen */
+}
+
+/* Grid areas */
+
+#back_arrow {
+  grid-area: back_arrow;
+}
+
+#overskrift {
+  grid-area: overskrift;
+}
+
+#indledning {
+  grid-area: indledning;
+}
+
+#start_overskrift {
+  grid-area: start_overskrift;
+}
+
+#start_tekst {
+  grid-area: start_tekst;
+}
+
+#tidsplan_billede {
+  grid-column: tidsplan_billede;
+}
+
+#struktur_overskrift {
+  grid-area: struktur_overskrift;
+}
+
+#struktur_tekst {
+  grid-area: struktur_tekst;
+}
+
+#kortsortering_udenoverskrifter {
+  grid-area: kortsortering_udenoverskrifter;
+}
+
+#kortsortering_medoverskrifter {
+  grid-area: kortsortering_medoverskrifter;
+}
+
+#design_overskrift {
+  grid-area: design_overskrift;
+}
+
+#moodboard_tekst {
+  grid-area: moodboard_tekst;
+}
+
+#moodboard_billede {
+  grid-area: moodboard_billede;
+}
+
+#styletile_tekst {
+  grid-area: styletile_tekst;
+}
+
+#styletile_billede {
+  grid-area: styletile_billede;
+}
+
+#refleksion_overskrift {
+  grid-area: refleksion_overskrift;
+}
+
+#refleksion_tekst {
+  grid-area: refleksion_tekst;
+}
+
+/* Grid for mobil version */
+#pagewrap {
+  display: grid;
+  grid-template-areas:
+  "back_arrow"
+  "overskrift"
+  "indledning"
+  "start_overskrift"
+  "start_tekst"
+  "tidsplan_billede"
+  "struktur_overskrift"
+  "struktur_tekst"
+  "kortsortering_udenoverskrifter"
+  "kortsortering_medoverskrifter"
+  "design_overskrift"
+  "moodboard_tekst"
+  "moodboard_billede"
+  "styletile_tekst"
+  "styletile_billede"
+  "refleksion_overskrift"
+  "refleksion_tekst";
+}
+
+
+@media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
+
+ #pagewrap {
+   grid-template-areas:
+   "overskrift overskrift"
+   "indledning indledning"
+   "start_overskrift start_overskrift"
+   "start_tekst start_tekst"
+   "tidsplan_billede tidsplan_billede"
+   "struktur_overskrift struktur_overskrift"
+   "struktur_tekst struktur_tekst"
+   "kortsortering_udenoverskrifter kortsortering_medoverskrifter"
+   "design_overskrift design_overskrift"
+   "moodboard_tekst moodboard_billede"
+   "styletile_tekst styletile_tekst"
+   "styletile_billede styletile_billede"
+   "refleksion_overskrift refleksion_overskrift"
+   "refleksion_tekst refleksion_tekst";
+ }
+
+#kortsortering_medoverskrifter, #kortsortering_udenoverskrifter,
+#moodboard_tekst, #moodboard_billede {
+  width: 90%;
+}
+
+}

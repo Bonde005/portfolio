@@ -105,10 +105,10 @@
   }
 
   #element_tekst {
-    max-height: 200px;
+    margin-bottom: auto; /* fjerne ekstra luft */
   }
 
   #kodeskik_tekst {
-    max-height: 400px;
+    margin-bottom: auto; /* fjerne ekstra luft */
   }
 }
