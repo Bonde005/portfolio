@@ -37,6 +37,7 @@ table {
   margin-right: auto;
   margin-left: auto; /* centrer tabel */
   border-collapse: collapse; /* Gør bordernes til én border */
+  background-color: #D1BEB4; /* Giver en baggrundsfarve */
 }
 
 table, th, td {

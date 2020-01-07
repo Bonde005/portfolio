@@ -60,7 +60,7 @@
             <img src="billeder/kommunikation/statistik.png" alt="Søjlediagram fra en kvantitativ undersøgelse">
             <blockquote>
               <p>Eksempel på bearbejdning over resultater af kvantitativ undersøgelse</p>
-              <a class="kilde" href="https://www.statistikbanken.dk/statbank5a/temp/gr11122019_0_dschart_146617.png"><p>statistikbanken.dk</p></a>
+              <a class="kilde" href="https://www.dst.dk/da/Statistik/emner/uddannelse-og-viden/informationssamfundet/it-anvendelse-i-befolkningen"><p>dst.dk</p></a>
             </blockquote>
           </section> <!-- kvantitativ_eksempel-->
 
@@ -88,7 +88,7 @@
             <img src="billeder/kommunikation/interview.png" alt="Interview">
             <blockquote>
               <p>Eksempel af interview, som ofte benyttes i kvali undersøgelser</p>
-              <a class="kilde" href="https://www.statistikbanken.dk/statbank5a/temp/gr11122019_0_dschart_146617.png"><p>statistikbanken.dk</p></a>
+              <a class="kilde" href="https://insights.dice.com/2019/10/31/tell-me-about-yourself-interview/"><p>insights.dice.com</p></a>
             </blockquote>
           </section> <!-- kvalitativ_billede -->
 
@@ -97,8 +97,9 @@
           </section> <!-- kvalitativ_forsat_tekst -->
 
         <section id="kvalitativ_kilder" class="tekstfelt">
-          <a href="www.denstoredanske.dk/Samfund%2c_jura_og_politik/Sociologi/Sociologisk_metodologi/kvalitative_metoder"><p>denstoredanske.dk/kvalitative_metoder, besøgt 28/09/19</p></a>
-          <a href="www.voxmeter.dk/kvantitativ-kvalitativ/"><p>voxmeter.dk/kvantitativ-kvalitativ, besøgt 28/09/19</p></a>
+          <p>Kilder fra udsnittet</p>
+          <a href="http://denstoredanske.dk/Samfund%2c_jura_og_politik/Sociologi/Sociologisk_metodologi/kvalitative_metoder"><p>denstoredanske.dk/kvalitative_metoder, besøgt 28/09/19</p></a>
+          <a href="https://voxmeter.dk/kvantitativ-kvalitativ/"><p>voxmeter.dk/kvantitativ-kvalitativ, besøgt 28/09/19</p></a>
         </section> <!-- kvalitativ_kilder -->
       </section> <!-- kvalitativ boks -->
 
@@ -174,7 +175,7 @@
             <img src="billeder/kommunikation/signs.jpg" alt="Skilte">
             <blockquote>
               <p>Hjemmesider skal have der egne "vejskilte" så det er nemt at finde rundt</p>
-              <a class="kilde" href="https://www.seton.com/custom-street-signs-js0110.html<"><p>seton.com</p></a>
+              <a class="kilde" href="https://www.seton.com/custom-street-signs-js0110.html"><p>seton.com</p></a>
             </blockquote>
           </section> <!-- gangstertest_billede -->
         </section> <!-- gangstertest boks -->
