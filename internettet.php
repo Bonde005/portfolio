@@ -25,8 +25,8 @@
           <p>Internettet som vi kender det i dag er ikke bygget op på én dag, men i stedet over længere tid. Det er heller ikke én person eller firma der har opfundet internettet. Internettet er ikke det samme som The World Wide Web, WWW. Samtidig har webbet, har sin egen udvikling gennem tiderne.</p>
           <section id="lokal_menu">
             <p>Punkter i dette emne</p>
-            <a href="#kodning_overskrift"><h2>Internettets historie</h2></a>
-            <a href="#kodeskik_overskrift"><h2>Webbets historie</h2></a>
+            <a href="#historie_overskrift"><h2>Internettets historie</h2></a>
+            <a href="#webbet_overskrift"><h2>Webbets historie</h2></a>
           </section>
         </section> <!-- indledning -->
 

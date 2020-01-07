@@ -70,6 +70,7 @@
           </section> <!-- kvantitativ_forsat_tekst -->
 
         <section id=" kvantitativ_kilder" class="tekstfelt">
+          <p>kilder fra udsnittet</p>
           <a href="www.denstoredanske.dk/Samfund,_jura_og_politik/Sociologi/Sociologisk_metodologi/kvantitative_metoder"><p>denstoredanske.dk/kvantitative_metoder, besøgt 28/09/19</p></a>
           <a href="www.voxmeter.dk/kvantitativ-kvalitativ/"><p>voxmeter.dk/kvantitativ-kvalitativ, besøgt 28/09/19</p></a>
         </section> <!-- kvantitativ_kilder -->
