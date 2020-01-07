@@ -54,9 +54,15 @@
             <li>Mennesker kommunikerer både med en digital kode og en analog kode.</li>
             <li>Kommunikationsudveksling er enten symmetrisk eller asymmetrisk afhængigt af, om den hviler på lighed eller forskel i magt.</li>
           </ol>
-          <p class="kilde">Kommunikation i praksis, s. 20-22</p>
+          <div class="kilde">
+            <p>Kommunikation i praksis, s. 20-22</p>
+            <span>Andersen, Heide & Jørnø, Marianne Leth: Kommunikation i praksis, Samfundslitteratur, 2013 s. 20-22 </span>
+          </div>
           <p>Man kommunikerer hele tiden og hvis man forsøger på ikke at kommunikere, kommunikere man stadig. Derudover består kommunikation af to dele, selve indholdet af kommunikationen og forholdet mellem dem der kommunikerer. Ligeledes udtrykker og tolker man forskelligt afhængigt at forholdet mellem dem der kommunikerer. Der kommunikeres også med to koder, den digitale som er de ord der bliver sagt, og analog kode som er hvordan det siges eks. Kropssprog, tonefald men også skrifttype. Kommunikationen kan også være symmetrisk eller asymmetrisk alt efter om der er lighed eller en forskel i magt, f.eks. Kollegaer eller en medarbejde og arbejdsgiver.</p>
-          <p class="kilde">Kommunikation i praksis, s. 20-22</p>
+          <div class="kilde">
+            <p>Kommunikation i praksis, s. 20-22</p>
+            <span>Andersen, Heide & Jørnø, Marianne Leth: Kommunikation i praksis, Samfundslitteratur, 2013 s. 20-22 </span>
+          </div>
         </section> <!-- grundantagelser_tekst -->
 
         <section id="grundantagelser_eksempel" class="illustrationer">
@@ -72,7 +78,10 @@
 
         <section id="paradigmer_tekst" class="tekstfelt">
           <p>Kommunikationsteorien kan opdeles i to paradigmer, som er to forskellige måde at forstå verden på og dermed også kommunikationen. Der er den samfundsvidenskabelige paradigme og det humanistiske paradigme, som man kigger på som multimediedesigner. Der er også et tredje paradigme, det videnskabelige paradigme, men dette har ikke relevans indenfor kommunikationen.</p>
-          <p class="kilde">(Kommunikation i multimediedesign, s.67) </p>
+          <div class="kilde">
+            <p>(Kommunikation i multimediedesign, s. 67) </p>
+            <span>Andersen, Gunhild Marie m.fl.: Kommunikation i multimediedesign, Hans Reitzels Forlag, 2. udgave, 2015 s. 67</span>
+          </div>
         </section> <!-- paradigmer_tekst -->
 
         <section id="humanistisk_paradigme" class="boks">
@@ -82,9 +91,15 @@
 
           <section id="humanistisk_paradigme_tekst" class="tekstfelt">
             <p>Hos det humanistiske paradigme er modtageren i fokus. Her kigges på individet selv, som bliver betragtet som aktiv i kommunikationen. Dvs. at det er en tovejskommunikation og modtageren er aktiv ved f.eks. brug af en hjemmeside. Der bliver altså ikke kun kommunikeret ud til brugeren. I det humanistiske paradigme er der en kvalitativ tilgang til undersøgelser og modtagerens subjektive oplevelse bliver undersøgt og fortolket.</p>
-            <p class="kilde">(Kommunikation i multimediedesign, s. 67-68)</p>
+            <div class="kilde">
+              <p>(Kommunikation i multimediedesign, s. 67-68) </p>
+              <span>Andersen, Gunhild Marie m.fl.: Kommunikation i multimediedesign, Hans Reitzels Forlag, 2. udgave, 2015 s. 67-68/</span>
+            </div>
             <p>En model der benyttes i dette paradigme, er IMK-modellen. Modellen viser kommunikationen mellem afsender og modtager igennem et produkt. Her menes det af afsender og modtageren har lige stor indflydelse og begge skal være i spil for at produktet virker som ønsket. Derudover er der andre faktorer som også påvirker kommunikationen, som kultur, medier, genre m.m.</p>
-            <p class="kilde">(Kommunikation i multimediedesign, s. 69)</p>
+            <div class="kilde">
+              <p>(Kommunikation i multimediedesign, s. 69) </p>
+              <span>Andersen, Gunhild Marie m.fl.: Kommunikation i multimediedesign, Hans Reitzels Forlag, 2. udgave, 2015 s. 69</span>
+            </div>
           </section> <!-- humanistisk_paradigme_tekst -->
 
           <section id="imk_model" class="illustrationer">
@@ -102,9 +117,15 @@
 
           <section id="samfundsvidenskabelig_paradigme_tekst" class="tekstfelt">
             <p>Hos det samfundsvidenskabelige paradigme er det afsenderen der er i fokus. Her er modtageren passiv, og derfor er det afsenderen der styrer kommunikationen. Dvs. at her anses modtageren ikke som værende aktiv i kommunikationen, og det er derfor det heller ikke et krav at kommunikationen skal virke på samme måde som i det humanistiske paradigme. Derfor bliver kommunikation i dette paradigme forstået som en transmission, altså som en envejskommunikation. Her er der en kvantitativ tilgang til undersøgelserne og man forsøger at være objektiv. Der kiggers der på målbare data og ingen fortolkning af oplevelser eller andet.</p>
-            <p class="kilde">(Kommunikation i multimediedesign, s. 76-77)</p>
+            <<div class="kilde">
+              <p>(Kommunikation i multimediedesign, s. 76-77) </p>
+              <span>Andersen, Gunhild Marie m.fl.: Kommunikation i multimediedesign, Hans Reitzels Forlag, 2. udgave, 2015 s. 76-77</span>
+            </div>
             <p>En model der her benyttes, er Lasswells formel. Her ser man på hvem der siger hvad til hvem, gennem hvilken kanal og hvilken effekt det har. Selvom afsenderen er i fokus, ses der også på selve mediet der bliver kommunikeret igennem og den effekt der kommer ud af det.</p>
-            <p class="kilde">(Kommunikation i multimediedesign, s. 79)</p>
+            <div class="kilde">
+              <p>(Kommunikation i multimediedesign, s. 79) </p>
+              <span>Andersen, Gunhild Marie m.fl.: Kommunikation i multimediedesign, Hans Reitzels Forlag, 2. udgave, 2015 s. 79</span>
+            </div>
           </section> <!-- samfundsvidenskabelig_paradigme_tekst -->
 
           <section id="laswells_formel" class="illustrationer">

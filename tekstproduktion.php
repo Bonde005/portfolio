@@ -39,27 +39,39 @@
 
         <section id="webtekster_tekst" class="tekstfelt">
           <p>Den måde man tilgår websites, er anderledes end tekst på papir. Med eye-tracking er man kommet frem til at folk kigger på websites som i en form af F. Først kigges der vandret i den øverste del af siden, dernæst kigger man lodret ned i siden, hvorefter der kigger vandret ind på siden igen dog kortere. Til sidst kiggers der blot lodret ned i venstre siden. På denne måde kan man forstå hvad læseren egentligt læser og hvor vigtige elementer skal placeres. Derfor skal det vigtige placeres i toppen af webteksten.</p>
-          <p class="kilde">Online Kommunikation, s. 191-193</p>
+          <div class="kilde">
+            <p>Online Kommunikation, s. 191-193</p>
+            <span>Christiansen, Hans-Christian og Rose, Gitte B: Online Kommunikation - en introduktion, Hans Reitzels forlag, 1. udgave, 2015 s. 191-193</span>
+          </div>
         </section> <!-- webtekster_tekst -->
 
         <section id="eyetracking_billede" class="illustrationer">
           <img src="billeder/kommunikation/eyetracking.PNG" alt="Eyetracking på hjemmesider">
           <blockquote>
             <p>Første side er en "om os" side, anden side er en e-butik og sidste side er google søgeresultater</p>
-            <p class="kilde">Online kommunikation, s. 192</p>
+            <div class="kilde">
+              <p>Online Kommunikation, s. 192</p>
+              <span>Christiansen, Hans-Christian og Rose, Gitte B: Online Kommunikation - en introduktion, Hans Reitzels forlag, 1. udgave, 2015 s. 192</span>
+            </div>
           </blockquote>
         </section> <!-- eyetracking_billede -->
 
         <section id="webtekster_forsat_tekst" class="tekstfelt">
           <p>Derudover skal teksten formuleres klart og tydeligt, der skal ikke være nogen lang indledning og det skal være tydeligt for læseren hvor de forskellige informationer befinder sig. Dette er fordi brugeren næsten altid har travlt, er utålmodig og vil hurtigt videre. På samme måde skal man sørge for at benytte sig af links, for at føre brugeren videre. Disse links skal være klart og tydelig i hvor de føre hen. Man skal altså undgå links som ”klik her”. Der skal ikke være lange formuleringer men blot links og muligvis en kort tekst hvis nødvendigt. Man kan med fordel bruge modellen Hey You See So. Hvor man først opfanger opmærksomheden med en overskrift, fortæller derefter hvorfor det er relevant for personen, laver en kort uddybning og til sidst en mulighed for at en aktion.</p>
-          <p class="kilde">Online Kommunikation, s. 196-199</p>
+          <div class="kilde">
+            <p>Online Kommunikation, s. 196-199</p>
+            <span>Christiansen, Hans-Christian og Rose, Gitte B: Online Kommunikation - en introduktion, Hans Reitzels forlag, 1. udgave, 2015 s. 196-199</span>
+          </div>
         </section> <!-- webtekster_forsat_tekst -->
 
         <section id="webtekst_eksempel" class="illustrationer">
           <img src="billeder/kommunikation/webtekst.PNG" alt="Forbedret webtekst">
           <blockquote>
             <p>Eksemepl af hvad man <i>ikke</i> skal gøre og hvordan man skal gøre det</p>
-            <p class="kilde">Online kommunikation, s. 199</p>
+            <div class="kilde">
+              <p>Online Kommunikation, s. 199</p>
+              <span>Christiansen, Hans-Christian og Rose, Gitte B: Online Kommunikation - en introduktion, Hans Reitzels forlag, 1. udgave, 2015 s. 199</span>
+            </div>
           </blockquote>
         </section>
 
@@ -71,7 +83,10 @@
           <p>Til sociale medietekster er der ikke faste regler og modeller, da de sociale medier er meget præget af spontanitet.</p>
           <p class="kilde">(Morten Kluw Wøldike Schmith, Tekstproduktion)</p>
           <p>Man vil altid søge efter meget interaktion på de sociale medier. Man kan derved benytte sig af billeder samt en caption der skal stille op til en interaktion. Det kan herved være f.eks. et spørgsmål som leder til kommentar. Det kan også være konkurrencer hvor man får folk til at dele, kommenter, følge og/eller like. Ved at skabe meget interaktionen på et opslag, kommer der ud til flere personer og de sociale medier algoritmer vil understøtte opslagene mere. Ved f.eks. Facebook skal man have i tankerne at de ikke vil hjælpe opslag der vil føre brugeren væk fra platformen. Det vil sige at hver gang man har links til en anden side, vil algoritmen ikke understøtte opslaget og det bliver svære at få det ud til flere. Hvis man derfor vil bruge videoer på Facebook, skal man slå selve videoen op og ikke et link til en på YouTube.</p>
-          <p class="kilde">(Fra SoMe til SoWe, Mia Ben-Ami)</p>
+          <div class="kilde">
+            <p>(Fra SoMe til SoWe, Mia Ben-Ami)</p>
+            <span><a href="https://pigespejder.dk/nyborg-strand-kursus/">Modul "Fra SoMe til SoWe" hos Mia Ben-Ami på Nyborgstrandkursus 2019 holdt af De Grønne Pigespejdere</a></span>
+          </div>
           <p>Derudover når man skal kommunikere direkte med folk i virksomhedssammenhæng, er der en model med 4 strategier som hver har tilknyttet en farve.</p>
           <dl>
             <dt>Blå</dt>
@@ -110,7 +125,10 @@
                 <dd>Går på ironi og sort humor</dd>
             </dl>
           </div> <!-- punkterne -->
-          <p class="kilde">(Kommunikation i multimediedesign, s. 244-246)</p>
+          <div class="kilde">
+            <p>(Kommunikation i multimediedesign, s. 244-246)</p>
+            <span>Andersen, Gunhild Marie m.fl.: Kommunikation i multimediedesign, Hans Reitzels Forlag, 2. udgave, 2015 s. 244-246</span>
+          </div>
         </section> <!-- annonce_tekst -->
 
         <section id="aida_billede" class="illustrationer">
@@ -127,7 +145,10 @@
 
         <section id="brochure_tekst" class="tekstfelt">
           <p>Her er det vigtigt at tænke på typografi og billeder i sammenhæng med tekstindholdet, for at de skal styrke hinanden og derved fremstå troværdig. Man skal have fundet sit overordnet formål for brochuren, samtidig med at være klar over hvem målgruppen er. Der skal også træffes valg for stilen og det visuelle design, hvilke følelser og opfattelser vil man give målgruppen. Med alt dette i tankerne kan man begynde at producere teksten. Forsiden af brochuren skal ”sælge drømmen”, her placere man ofte et interessevækkende billede samt logo. Side 2 og 3 skal indeholde billeder og informerende tekst om eks. Produktet men det skal også kunne appellere til kundernes følelser. Side 4 er bagsiden og her skal der være kontaktinformation og servicemuligheder. Her kan man også benytte sig af AIDA-modellen. Man skal altid tænke på at kort er godt, når det kommer til brochure.</p>
-          <p class="kilde">(Kommunikation i multimediedesign, s. 243-244)</p>
+          <div class="kilde">
+            <p>(Kommunikation i multimediedesign, s. 243-244)</p>
+            <span>Andersen, Gunhild Marie m.fl.: Kommunikation i multimediedesign, Hans Reitzels Forlag, 2. udgave, 2015 s. 243-244</span>
+          </div>
         </section> <!-- brochure_tekst -->
 
         <section id="brochure_billede" class="illustrationer">
@@ -175,7 +196,10 @@
 
         <section id="subjektiv_artikel_tekst" class="tekstfelt">
           <p>Ved subjektive artikel kan de blive struktureret anderledes. Her kan man benytte kommode-strukturen. Det består af en ramme og nogle skuffer. Rammen har en top og en bund som ligger fast, men skufferne kan man selv vælge at åbne og kigge i. En subjektiv artikel består altså af en begyndelse og en slutning, hvor derimellem er en række mindre delfortællinger.</p>
-          <p class="kilde">(Kommunikation i multimediedesign, s. 241)</p>
+          <div class="kilde">
+            <p>(Kommunikation i multimediedesign, s. 241)</p>
+            <span>Andersen, Gunhild Marie m.fl.: Kommunikation i multimediedesign, Hans Reitzels Forlag, 2. udgave, 2015 s. 241</span>
+          </div>
         </section> <!-- subjektiv_artikel_tekst -->
 
         <section id="kommodemodel_billede" class="illustrationer">

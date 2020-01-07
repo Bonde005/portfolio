@@ -95,7 +95,7 @@
   }
 
   #git_billede {
-    max-height: 180px; /* giver en max højde, fjerne luft */
+    margin-bottom: auto; /* Tilpasse sig fjerne luft */
   }
 
 @media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */

@@ -23,7 +23,7 @@
 
         <section id="indledning" class="tekstfelt">
           <p>Typografi er vigtigt til når man har tekst. Man kan vælge typografi ud fra hvilket udtryk eller følelse man vil give. Hvis man derimod har meget skrift skal man også tænke at det skal være læseligt og man skal kunne kende forskel på overskrift og brødtekst. På den måde påvirker den typografi man vælger meget af sit design. Typografi er ikke blot en skrifttype men indeholder mange elementer.</p>
-          <p class="kilde">(Design: Typografi · Typografiens historie)</p>
+          <p class="kilde">(Carsten Kjeldsen Bogner, Design: Typografi · Typografiens historie)</p>
           <section id="lokal_menu">
             <p>Punkter i dette emne</p>
             <a href="#skrifttyper_overskrift"><h2>Skrifttyper</h2></a>
@@ -38,9 +38,15 @@
 
         <section id="skrifttyper_tekst" class="tekstfelt">
           <p>De to største skrifttyper som indeholder flest skrifter, og bliver mest anvendt er serif og sans serif. Seriffer er de føder man kan finde på bogstaver, som stammer fra da man skrev med pen og blæk. Serif er godt at bruge til længere tekst da mennesker i praksis ikke læser hvert enkelt bogstav men ordet som en form. Serif-typer hjælper dermed at grupper ordene og danne disse læselige former, samt de skaber en synlig linje der hjælper læseren med at fokusere. Derimod er der sans serif-typer som ikke har fødderne. Derudover har de ofte den samme stregtykkelse, som hjælper med det enkelte bogstavs udtryk. Denne type er gode til korte og vigtige tekster hvor der hurtigt skal læses noget. Til længere tekst kan de være knap så gode eftersom de ikke har de linjer serifferne skaber. Udover disse to vigtige skrifttyper er der nogle der falder udenfor to de kategorier. Heriblandt er der monospace-skrifter hvor hvert enkelte bogstav fylder ligeså meget plads i forhold til hinanden. Disse er gode at bruge hvor det er vigtigt at se hvert enkelt bogstav tydeligt, som f.eks. i kode. Derudover findes der også script-skrifter, som prøve så vidt muligt at ligne håndskrift. Således er der flere forskellige typer af skrifter, men de vigtigste er serif og sans serif.</p>
-          <p class="kilde">(Interfacedesign, s. 161-163)</p>
+          <div class="kilde">
+            <p>(Interfacedesign, s. 161-163)</p>
+            <span>Rold, Morten: Interfacedesign - fra idé til digital prototype, Hans Reitzels Forlag, 2019 s. 161-163</span>
+          </div>
           <p>Man skal vælge sin skrifttype omhyggeligt baseret på sit medie. Hvis der ses på webdesign, skal typen være læseligt i forskellige skærmstørrelse da dette ændre sig. Derudover læser brugeren anderledes på skærme end på papir, her læses der ikke lineært som man gør på papir. Der springes mere rundt i teksten og enkelte stykker læses. Dette er også noget man skal tage højde for når man vælger skrift.</p>
-          <p class="kilde">(Interfacedesign, s. 165)</p>
+          <div class="kilde">
+            <p>(Interfacedesign, s. 165)</p>
+            <span>Rold, Morten: Interfacedesign - fra idé til digital prototype, Hans Reitzels Forlag, 2019 s. 165</span>
+          </div>
         </section> <!-- skrifttyper_tekst -->
 
         <section id="serif_eksempler" class="illustrationer">
@@ -65,16 +71,25 @@
 
         <section id="size_lines_tekst" class="tekstfelt">
           <p>For at sørge for at skriften er letlæseligt for brugeren skal man kigge på skriftstørrelsen og linjeafstand. Hvis skriften er for lille, er det ikke til at læse, og hvis det er på en skærm, er der så få pixels til rådighed at formen på bogstaverne forvrænget. Hvis skriften derimod er for stor, bliver det svært at overskue alt teksten. En tommelfingerregel er at brødtekst på skærme skal have en størrelse mellem 14 og 16 pixels. Der er dog en stor forskel på selve størrelsen på skrifter, selvom de har den samme pixelværdi, er der nødvendigvis ikke lige store. (</p>
-          <p class="kilde">(Interfacedesign, s. 166 & 168)</p>
+          <div class="kilde">
+            <p>(Interfacedesign, s. 166 & 168)</p>
+            <span>Rold, Morten: Interfacedesign - fra idé til digital prototype, Hans Reitzels Forlag, 2019 s. 166 & 168</span>
+          </div>
           <p>Det skyldes at majusklerne og minusklerne i skrifter ikke har den samme versal- eller x-højde. Majuskler er store bogstaver og minuskler er de små, samtidig med x-højde er højden på de små bogstaver og versalhøjde er højden på de store bogstaver.</p>
-          <p class="kilde">(Skriftdesign grundprincipper og arbejdsproces, s. 10-11 & 44)</p>
+          <div class="kilde">
+            <p>(Skriftdesign grundprincipper og arbejdsproces, s. 10-11 & 44)</p>
+            <span>Rask, Trine; Skriftdesign - Grundprincipper og arbejdsproces, Grafisk Litteratur, 2007 s. 10-11 & 44</span>
+          </div>
         </section> <!-- size_lines_tekst -->
 
         <section id="size_billede" class="illustrationer">
           <img src="billeder/grafisk_design/typografi_linjer.PNG" alt="Bogstavets højder">
           <blockquote>
             <p>Bogstavets højde opbygning, med underlængde, grundlinje, x-højde, versalhøjde og overlængde.</p>
-            <p class="kilde">(Skriftdesign grundprincipper og arbejdsproces, s. 10)</p>
+            <div class="kilde">
+              <p>(Skriftdesign grundprincipper og arbejdsproces, s. 10</p>
+              <span>Rask, Trine; Skriftdesign - Grundprincipper og arbejdsproces, Grafisk Litteratur, 2007 s. 10</span>
+            </div>
           </blockquote>
         </section> <!-- size_billede -->
 
@@ -118,7 +133,7 @@
             <img src="billeder/grafisk_design/contrast.png" alt="Eksemepl på kontrast">
             <blockquote>
               <p>Eksempel på lave og høje kontrast</p>
-              <a class="kilde" href="www.typeburrito.com/stop-feeling-dumb-about-pairing-fonts"><p>typeburrito.com</p></a>
+              <a class="kilde" href="http://typeburrito.com/2016/03/18/stop-feeling-dumb-about-pairing-fonts.html"><p>typeburrito.com</p></a>
             </blockquote>
           </section> <!-- kontrast_eksempel -->
         </section> <!-- kontrast boks -->

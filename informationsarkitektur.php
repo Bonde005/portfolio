@@ -41,7 +41,10 @@
 
         <section id="sortering_tekst" class="tekstfelt">
           <p>Der er mange måde at sortere sin information på, hvis det slet ikke er sorteret og kommer i tilfældig rækkefølge, kan det svære uoverskueligt og svært at finde det man leder efter. Derfor er det vigtigt at sortere, og her er der et princip kaldet LATCH. L står for location, her sortere man altså efter lokation. Det behøver ikke at være en geografisk lokation men kan også være en fysisk placering på siden. A står for alphabet, her sorteres der altså efter alfabetisk rækkefølge. Dette er noget man som menneske har en tendens til da det er hvad man kender fra registre, ordlister og meget mere. T står for time, her er der sorteret efter tid. Dette gøres ofte i form af en tidslinje men kan også være efter historik. C står for category, her inddeler man i kategorier. Der sorteres her ofte efter fællestræk. H står for hierachy, hvor det bliver sorteret efter hierarki. Her sorteres der efter værdi og betydning. Et eksempel er statistik fremvist i søjler efter længde. Det bliver ofte brugt i hjemmesider i form af menuer og undermenuer, her har de globale menuer mere betydning end undermenuerne. (All You Need To Know About Information Architecture In 10 Minutes, UX Brighton) Udover disse fem kategorier er der også en sjette måde at sortere på. Det er kontinuum, her bliver sorteret efter en målt værdi f.eks. pris, point, størrelse eller vægt. Det bliver ofte brugt i forbindelse med e-handel, hvor man kan sortere efter en minimum- og en maksimumpris, og bliver vist produkter indenfor den prisklasse.</p>
-          <p class="kilde">(Kommunikation i multimediedesign, s. 167)</p>
+          <div class="kilde">
+            <p>(Kommunikation i multimediedesign, s. 167)</p>
+            <span>Andersen, Gunhild Marie m.fl.: Kommunikation i multimediedesign, Hans Reitzels Forlag, 2. udgave, 2015 s. 167</span>
+          </div>
         </section> <!-- sortering_tekst -->
 
         <section id="jemogfix_billede" class="illustrationer">
@@ -66,7 +69,10 @@
 
         <section id="website_struktur_tekst" class="tekstfelt">
           <p>Når man har flere websites der er sammenhængende, skal man strukturere disse. Der er tre forskellige struktur herunder. Den første er sekventiel struktur, her kommer siderne efterhinanden i en rækkefølge ligesom man kender det fra bøger. Det kan være en lineær sekvens, som er den der bruges i bøger. Derudover er der lineære sekvenser med sløjfer, hvor nogle sider kan have deres egne undersider som er inddelt i sekvenser, og som føre tilbage til den overordnet side tilhøre sløjfen. Derudover findes der en hierarkisk struktur, hvor man har en udgangsside med undersider. Altså man har en forside, som har nogle sider tilhørende. En simpel struktur her er blot en side men undersider, hvorimod en kompleks struktur er en side med underside med undersider osv. Til sidst er der webstruktur. Her er der ganske få begrænsninger, og man kan hoppe fra den ene side til den anden uden at være tvunget af en rækkefølge. Et sted hvor dette benyttes er websiten ww.wikipedia.dk. Her kan på en side springe til en anden via. Et link på siden, som indgår i teksten og derved har relevans til hinanden. </p>
-          <p class="kilde">(Kommunikation i multimediedesign, s. 170-171)</p>
+          <div class="kilde">
+            <p>(Kommunikation i multimediedesign, s. 170-171)</p>
+            <span>Andersen, Gunhild Marie m.fl.: Kommunikation i multimediedesign, Hans Reitzels Forlag, 2. udgave, 2015 s. 170-171</span>
+          </div>
         </section> <!-- website_struktur_tekst -->
 
         <section id="bodyshop_billede" class="illustrationer">

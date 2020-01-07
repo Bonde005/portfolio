@@ -127,3 +127,8 @@ h1 {
    "website_struktur_tekst website_struktur_tekst"
    "bodyshop_billede bodyshop_billede";
  }
+
+ #jemogfix_kontinuum_billede {
+   margin-bottom: 1em; /* lidt luft mellem billederne */
+ }
+}

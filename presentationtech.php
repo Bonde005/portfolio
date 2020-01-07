@@ -23,7 +23,10 @@
 
         <section id="indledning" class="tekstfelt">
           <p>Når man skal lave en præsentation, er der meget kommunikation, både verbal, nonverbal og i fleste tilfælde skriftlig kommunikation. Derfor skal man forberede sig, så kommunikationen bliver modtaget rigtigt og undgå at der kommer for meget støj der kan påvirke kommunikationen. Derfor er der nogle teknikker og faser der er gode at benytte sig af når man skal lave en præsentation.</p>
-          <p class="kilde">(Præsentation og formidling, s. 45-96)</p>
+          <div class="kilde">
+            <p>(Præsentation og formidling, s. 45-96)</p>
+            <span>Hald, Mette: Præsentation og formidling, Hans Reitzels forlag, 2008 s. 45-96</span>
+          </div>
           <section id="lokal_menu">
             <p>Punkter i dette emne</p>
             <a href="#nonverbal_overskrift"><h2>Nonverbal kommunikation</h2></a>
@@ -51,7 +54,10 @@
               <li>Påklædning</li>
             </ul>
           </div> <!-- punkter -->
-          <p class="kilde">Præsentation og formidling</p>
+          <div class="kilde">
+            <p>(Præsentation og formidling, s. 45)</p>
+            <span>Hald, Mette: Præsentation og formidling, Hans Reitzels forlag, 2008 s. 45</span>
+          </div>
         </section> <!-- nonverbal_tekst -->
 
         <section id="nonverbal_eksempel" class="illustrationer">
@@ -74,9 +80,15 @@
             <dt>Bevægelser</dt>
               <dd>Man udtrykker sig meget igennem bevægelser og det kan ses når man er stresset. Man bliver urolig i kroppen, og derfor er det vigtigt at tænke over sine bevægelser. Hvis man vil mestre sin kropsbevægelser, kan man få undervisningen i alexanderteknikken.</dd>
           </dl>
-          <p class="kilde">(Præsentation og formidlinger, s. 49-51)</p>
+          <div class="kilde">
+            <p>(Præsentation og formidling, s. 49-51)</p>
+            <span>Hald, Mette: Præsentation og formidling, Hans Reitzels forlag, 2008 s. 49-51</span>
+          </div>
           <p>Til at hjælpe en med at få styr på sit kropssprog er der en tjekliste. Man ser først på sin holdning. Man skal være rank i ryggen uden at være anspændt eller stiv. Ligeledes skal man bevæge sig let og ubesværet og sørge for at have et frit åndedræt. Man skal kigge på sit håndtryk. Her skal man sørge for at have et fast håndtryk, uden at det er så hårdt at det er ubehageligt. Hvis man sidder på en stol, skal man sørge for at man sidder med reet ryg. Man skal hverken være lænet hårdt tilbage i ryglænet eller sidde yderes på stolen. Det signalerer at man er usikker og man vil væk derfra. Derudover skal man altid huske at smile, men det skal ikke overdrives. Derfor skal der kun smiles når det menes.</p>
-          <p class="kilde">(præsentation og formidling, s. 51-52)</p>
+          <div class="kilde">
+            <p>(Præsentation og formidling, s. 51-52)</p>
+            <span>Hald, Mette: Præsentation og formidling, Hans Reitzels forlag, 2008 s. 51-52</span>
+          </div>
         </section> <!-- kropssprog_tekst -->
 
         <section id="presentation_billede" class="illustrationer">
@@ -100,12 +112,18 @@
             <li>Øv dig, forbered dig på den hensigtsmæssige præsentation af stoffet</li>
             <li>Præsenter fremlæggelsen</li>
           </ol>
-          <p class="kilde">(Præsentation og kommunikation, s. 62-72) </p>
+          <div class="kilde">
+            <p>(Præsentation og formidling, s. 62-72)</p>
+            <span>Hald, Mette: Præsentation og formidling, Hans Reitzels forlag, 2008 s. 62-72</span>
+          </div>
           <p>I første fase finder man selve stoffet til præsentationen. Her finder man kilder og materiale og andet forarbejde over emnet. Selve første fase, det at finde stoffet, kan yderligere inddeles i tre faser.</p>
           <p>Overbliksfasen, her kigger man på hvad det skal handle om og hvad der er væsentligt at have med.</p>
           <p>Udvælgelsesfasen, her vælger man hvad man skal have med i præsentationen og hvad der ikke skal med.</p>
           <p>Fordybelsesfasen, her finder man den røde tråd og finder ud af hvor fokusset skal være. Her kan det også være nødvendigt at skære endnu mere fra.</p>
-          <p class="kilde">(Præsentation og kommunikation, s. 62-72)</p>
+          <div class="kilde">
+            <p>(Præsentation og formidling, s. 62-72)</p>
+            <span>Hald, Mette: Præsentation og formidling, Hans Reitzels forlag, 2008 s. 62-72</span>
+          </div>
         </section> <!-- kodeskik_tekst -->
 
         <section id="anden_fase_tekst" class="tekstfelt">
@@ -122,7 +140,10 @@
             <dt>Hvor?</dt>
               <dd>Hvorhenne skal du præsentere?</dd>
           </dl>
-          <p class="kilde">(Præsentation og kommunikation, s. 62-72)</p>
+          <div class="kilde">
+            <p>(Præsentation og formidling, s. 62-72)</p>
+            <span>Hald, Mette: Præsentation og formidling, Hans Reitzels forlag, 2008 s. 62-72</span>
+          </div>
         </section> <!-- anden_fase_tekst -->
 
         <section id="pentagon_billede" class="illustrationer">
@@ -142,7 +163,10 @@
             <li>Smukt</li>
           </ul>
           <p>Man skal altså sørge for at undgå fejl og uklarheder. Man skal sørge for at snakke klart på en præcis og tydelig måde for at undgå misforståelser. Ligeledes skal sproget være tilpasset kommunikationssituationen. Derfor skal det tilpasses til modtagerne. Derudover skal man sørge for at have et stort ordforråd.</p>
-          <p class="kilde">(Præsentation og kommunikation, s. 62-72)</p>
+          <div class="kilde">
+            <p>(Præsentation og formidling, s. 62-72)</p>
+            <span>Hald, Mette: Præsentation og formidling, Hans Reitzels forlag, 2008 s. 62-72</span>
+          </div>
         </section> <!-- tredje_fase_tekst -->
 
         <section id="sprog_billede" class="illustrationer">
@@ -155,9 +179,12 @@
 
         <section id="fjerde_fase_tekst" class="tekstfelt">
           <p>Ved fjerde fase skal man øve stoffet, så man kan befri sig fra sit manuskript. Når man har øvet det nok, kan man nemmere brænde igennem med sit engagement, i modsætning til hvis man var bundet til et manuskript. Nogle gode råd at have med er at målrette sit sprog når man øver og hav den afsatte tid foran dig og øv på at holde dig indenfor tiden. Derudover hvis man bruger PowerPoint skal man bruge det som støtte til fremlæggelsen.</p>
-          <p class="kilde">(Præsentation og kommunikation, s. 62-72)</p>
+          <div class="kilde">
+            <p>(Præsentation og formidling, s. 62-72)</p>
+            <span>Hald, Mette: Præsentation og formidling, Hans Reitzels forlag, 2008 s. 62-72</span>
+          </div>
           <p>PowerPointen skal ikke være fokuspunktet i præsentationen, og der skal derfor ikke være for fremtrædende. Det er den der præsenterer som skal være i fokus og PowerPoint skal derfor være en ”baggrund” når den ikke direkte benyttes. Derudover skal man ikke have for meget stof på selve slidesene, så modtagerne nemt kan overskue det, og stadig fokusere på hvad der bliver sagt.</p>
-          <p class="kilde">(Life After Death by Powerpoint, Don McMillan)</p>
+          <a class="kilde" href="https://www.youtube.com/watch?v=KbSPPFYxx3o&feature=emb_logo"><p>(Life After Death by Powerpoint, Don McMillan)</p></a>
         </section> <!-- fjerde_fase_tekst -->
 
         <section id="powerpoint_billede" class="illustrationer">
@@ -183,7 +210,10 @@
               <li>Hvad skal modtagergruppen have ud af præsentationen</li>
             </ul>
           </div> <!-- punkter -->
-          <p class="kilde">(Præsentation og kommunikation, s. 72-75)</p>
+          <div class="kilde">
+            <p>(Præsentation og formidling, s. 72-75)</p>
+            <span>Hald, Mette: Præsentation og formidling, Hans Reitzels forlag, 2008 s. 72-75</span>
+          </div>
         </section> <!-- femte_fase_tekst -->
       </div> <!-- pagewrap -->
 

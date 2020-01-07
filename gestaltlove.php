@@ -23,7 +23,10 @@
 
         <section id="indledning" class="tekstfelt">
           <p>Når man opsætter et website, skal brugeren nemt kunne overskue siden og navigere rundt i det. Man skal altså være opmærksom på hvordan man opstiller indholdet på siden, så det er nemt at finde ud af hvad der hænger sammen og hvad der ikke gør. Når mennesker møde en hjemmeside eller et maleri, ses der på det hele før de enkelte elementer. Denne psykologi har lagt grundlag til de fem gestaltlove, som kan bruges sim hjælp til opsætningen af en website eller andet grafisk design. </p>
-          <p class="kilde">(Interfacedesign, s. 122)</p>
+          <div class="kilde">
+            <p>(Interfacedesign, s. 122)</p>
+            <span>Rold, Morten: Interfacedesign - fra idé til digital prototype, Hans Reitzels Forlag, 2019 s. 122</span>
+          </div>
           <section id="lokal_menu">
             <p>Gestaltlovene indeholder fem love som er vigtigt at have kendskab til:</p>
             <a href="#proximity_overskrift"><h2>Nærhed</h2></a>
@@ -41,7 +44,10 @@
 
           <section id="proximity_tekst" class="tekstfelt">
             <p>Elementer som er tæt på hinanden, bliver opfattet som værende relateret. Den engelske betegnelse er proximity.</p>
-            <p class="kilde">(Interfacedesign s. 122)</p>
+            <div class="kilde">
+              <p>(Interfacedesign, s. 122)</p>
+              <span>Rold, Morten: Interfacedesign - fra idé til digital prototype, Hans Reitzels Forlag, 2019 s. 122</span>
+            </div>
           </section> <!-- proximity_tekst -->
 
           <section id="proximity_eksempel" class="illustrationer">
@@ -56,7 +62,10 @@
 
           <section id="lighed_tekst" class="tekstfelt">
             <p>Elementer der har ser ens ud, f.eks. samme farve, form eller størrelse, betragtes som at høre sammen. Den engelske betegnelse er similarity.</p>
-            <p class="kilde">(Interfacedesign s. 122)</p>
+            <div class="kilde">
+              <p>(Interfacedesign, s. 122)</p>
+              <span>Rold, Morten: Interfacedesign - fra idé til digital prototype, Hans Reitzels Forlag, 2019 s. 122</span>
+            </div>
           </section> <!-- lighed_tekst -->
 
           <section id="lighed_eksempel" class="illustrationer">
@@ -71,7 +80,10 @@
 
           <section id="kontinuitet_tekst" class="tekstfelt">
             <p>Elementer der er placeret således at de danne en linje eller kurve, bliver anset som at være relateret til hinanden. Den engelske betegnelse er good continuation.</p>
-            <p class="kilde">(Interfacedesign s. 122)</p>
+            <div class="kilde">
+              <p>(Interfacedesign, s. 122)</p>
+              <span>Rold, Morten: Interfacedesign - fra idé til digital prototype, Hans Reitzels Forlag, 2019 s. 122</span>
+            </div>
           </section> <!-- kontinuitet_tekst -->
 
           <section id="kontinuitet_eksempel" class="illustrationer">
@@ -86,7 +98,10 @@
 
           <section id="lukkethed_tekst" class="tekstfelt">
             <p>Elementer som er placeret i samme ramme, ”lukket” inde sammen, bliver betragtet som relateret. Den engelske betegnelse er common region.</p>
-            <p class="kilde">(Interfacedesign s. 122)</p>
+            <div class="kilde">
+              <p>(Interfacedesign, s. 122)</p>
+              <span>Rold, Morten: Interfacedesign - fra idé til digital prototype, Hans Reitzels Forlag, 2019 s. 122</span>
+            </div>
           </section> <!-- lukkethed_tekst -->
 
           <section id="kontinuitet_eksempel" class="illustrationer">
@@ -101,7 +116,10 @@
 
           <section id="figurdannelse_tekst" class="tekstfelt">
             <p>Elementer som er hver for sig kan opfattes som en samlet figur, også selvom figuren reelt ikke er eksplicit til stedet. Den engelske betegnelse er closure.</p>
-            <p class="kilde">(Interfacedesign s. 122)</p>
+            <div class="kilde">
+              <p>(Interfacedesign, s. 122)</p>
+              <span>Rold, Morten: Interfacedesign - fra idé til digital prototype, Hans Reitzels Forlag, 2019 s. 122</span>
+            </div>
           </section> <!-- figurdannelse_tekst -->
 
           <section id="figurdannelse_eksempel" class="illustrationer">

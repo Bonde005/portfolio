@@ -38,7 +38,10 @@
 
         <section id="farvebeskrivelse_tekst" class="tekstfelt">
           <p>Farver beskrives ud fra tre begreber: kulør, intensitet og lyshed. Kulør beskriver farven, f.eks. rød, blå, gul. Intensiteten omhandler hvor meget grå farven indeholder. Der kan f.eks. var tale om en støvet rød, her har farven en lav intensitet fordi den er dæmpet med grå, fremfør en klar rød med høj intensitet. Lyshed indikerer hvor meget hvid eller sort farven indeholder i forhold til kuløren. Her kendes det i dagligdagen som f.eks. lyserød, lyseblå, mørkerød og mørkeblå. Intensitet og lyshed er ofte forbundet eftersom en ændring i lysheden vil også ændre intensiteten, da farven bliver mindre ”ren”. Derimod kan man godt ændre intensiteten uden at ændre lysheden.</p>
-          <p class="kilde">(Interfacedesign, s. 173-174)</p>
+          <div class="kilde">
+            <p>(Interfacedesign, s. 173-174)</p>
+            <span>Rold, Morten: Interfacedesign - fra idé til digital prototype, Hans Reitzels Forlag, 2019 s. 173-174</span>
+          </div>
         </section> <!-- farvebeskrivelse_tekst -->
 
         <section id="farvebeskrivelse_eksempler" class="illustrationer">
@@ -54,7 +57,10 @@
 
         <section id="farvecirkel_tekst" class="tekstfelt">
           <p>For at skabe et overblik over farverne og hvilke der passer godt sammen, bliver de ofte visuelleret som i en cirkel. Den består heraf de primære farver, som ikke kan blandes af nogle andre farver. Dette er rød, gul og blå. Imellem de primærefarver finder man de sekundærfarver, som er de farver man får af at blande de primærefarver. Det er grøn, orange og lilla. De sekundærfarver er placeret mellem deres tilhørende primærefarver, altså de farver de er en blanding af. Derudover indeholder cirklen ofte tertiærefarver, som er farverne der opstår når man blander sekundærfarver med primærfarver. </p>
-          <p class="kilde">(Interfacedesign, s. 175)</p>
+          <div class="kilde">
+            <p>(Interfacedesign, s. 175)</p>
+            <span>Rold, Morten: Interfacedesign - fra idé til digital prototype, Hans Reitzels Forlag, 2019 s. 175</span>
+          </div>
         </section> <!-- farvecirkel_tekst -->
 
         <section id="farvecirkel_eksempel" class="illustrationer">
@@ -67,7 +73,10 @@
         <section id="composition_tekst" class="tekstfelt">
           <div class="tekst">
             <p>For at skabe et overblik over farverne og hvilke der passer godt sammen, bliver de ofte visuelleret som i en cirkel. Den består heraf de primære farver, som ikke kan blandes af nogle andre farver. Dette er rød, gul og blå. Imellem de primærefarver finder man de sekundærfarver, som er de farver man får af at blande de primærefarver. Det er grøn, orange og lilla. De sekundærfarver er placeret mellem deres tilhørende primærefarver, altså de farver de er en blanding af. Derudover indeholder cirklen ofte tertiærefarver, som er farverne der opstår når man blander sekundærfarver med primærfarver. </p>
-            <p class="kilde">(Interfacedesign, s. 183 & 176)</p>
+            <div class="kilde">
+              <p>(Interfacedesign, s. 183 & 176)</p>
+              <span>Rold, Morten: Interfacedesign - fra idé til digital prototype, Hans Reitzels Forlag, 2019 s. 183 & 176</span>
+            </div>
           </div> <!-- tekst -->
           <div class="punkter">
             <dl>
@@ -130,7 +139,10 @@
 
         <section id="farvekoder_rgb_tekst" class="tekstfelt">
           <p>Når man arbejder med farver digitalt, benytter man sig af koder til at angive farverne. Der er forskellige koder man kan bruge, og der har forskellige formål. På en digital skærm vises farverne med lys og farverne rød, grøn og blå. På den måde viser skærmen farver ved at blande de tre farver samtidig med at justere i lysets intensitet. Dette kaldes RGB-farver, som kan angives med forskellige farvekoder. De to mest anvendte er HEX- og RGB-kode. Ved koden angiver man de tre farvers lys intensitet med en værdi mellem 0 og 255, hvor 0 er ingen lys og 255 er fuld lysintensitet. Ved en RGB-kode angives værdierne direkte til de farvede lamper, hvor en HEX-kode benytter et forkortet format på seks tegn som angiver værdierne. Dette gøres med tal fra 0 til 9 hvorefter der bruges bogstaver fra a til f. På denne måde forkortes, hvor der bruges to cifre, bogstaver eller en kombination til at angive en pæres værdi. </p>
-          <p class="kilde">(Interfacedesign, s. 180)</p>
+          <div class="kilde">
+            <p>(Interfacedesign, s. 180)</p>
+            <span>Rold, Morten: Interfacedesign - fra idé til digital prototype, Hans Reitzels Forlag, 2019 s. 180</span>
+          </div>
         </section> <!-- farvekoder_rgb_tekst -->
 
         <section id="rgb_eksempel" class="illustrationer">
@@ -158,7 +170,10 @@
 
         <section id="farvespykologi_tekst" class="tekstfelt">
           <p>Der findes mange teorier om hvordan farver opfattes og hvilke følelser de associeres med. Der er dog også en forskel mellem køn og kultur når det omhandler farver. Varme farver, som er farverne indenfor det røde og gule spektrum i cirklen, et tilknyttet med energi, passion og entusiasme. Hvorimod kolde farver, som er farver indenfor det blå spektrum, bliver forstået som ro, stabilitet og professionalisme.</p>
-          <p class="kilde">(Interfacedesign, s. 176) </p>
+          <div class="kilde">
+            <p>(Interfacedesign, s. 176)</p>
+            <span>Rold, Morten: Interfacedesign - fra idé til digital prototype, Hans Reitzels Forlag, 2019 s. 176</span>
+          </div>
           <p>Der er forskellige teorier om de tilknyttede følelser for de specifikke kulører. Derudover er det vigtigt at være opmærksom på at farve opfattes forskelligt rundt om i verden baseret på kulturen. F.eks. er gul i Danmark farve for discount og tilbud hvorimod det i USA er Orange.</p>
           <p class="kilde">(Carsten Kjeldsen Bogner, Design: Farver)</p>
         </section> <!-- farvespykologi_tekst -->
