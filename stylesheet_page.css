@@ -5,6 +5,10 @@ body {
     background-attachment: fixed;
 }
 
+#pagewrap {
+  background-color: #D1BEB4;
+}
+
 #global_menu {
   display: none; /* Viser ikke navigationsbaren i mobil version*/
 }
@@ -65,13 +69,13 @@ dd {
 }
 
 .tekstfelt {
-  background-color: #a4897b; /* Baggrunds farve */
+  /*background-color: #a4897b; /* Baggrunds farve */
   padding-top: 0.1em;
   padding-bottom: 0.1em; /* padding i bund og top*/
   padding-right: 1em;
   padding-left: 1em; /* padding i siderne */
   margin-bottom: 1em; /* luft mellem felter */
-  box-shadow: 1px 1px 10px #574f4b; /* skyggeeffekt */
+/*  box-shadow: 1px 1px 10px #574f4b; /* skyggeeffekt */
 }
 
 .under_overskrift {
