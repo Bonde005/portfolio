@@ -39,7 +39,7 @@
 
         <section id="presentation_tekst" class="tekstfelt">
           <p>Præsentationen foregik med to medlemmer, da den tredje medlem ikke var tilstede, hvilket gruppen vidste fra starten af. Der blev brugt præsentationsteknikker i form af kropssprog, men også igennem PowerPointen. Her var der ikke for meget tekst, men blev mest brugt til at vise eksempler i form af illustrationer og billeder.</p>
-          <a href="www.agne4531.apache.eadania.dk/flexbox"><p>Siden om flexbox</p></a>
+          <a href="http://www.agne4531.apache.eadania.dk/flexbox"><p>Siden om flexbox</p></a>
         </section> <!-- presentation_tekst -->
 
         <section id="slide_billede" class="illustrationer">

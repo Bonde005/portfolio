@@ -76,7 +76,7 @@
             <dt>Pull</dt>
               <dd>Det kaldes pull når man henter de nye ændringer og derefter merger dem.</dd>
             </dl>
-            <a class="kilde" href="-	https://guides.github.com/activities/hello-world/"><p>github.com</p></a>
+            <a class="kilde" href="https://guides.github.com/activities/hello-world/"><p>github.com</p></a>
         </section> <!-- github_tekst -->
 
         <section id="github_billede" class="illustrationer">

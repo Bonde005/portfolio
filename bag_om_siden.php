@@ -6,7 +6,7 @@
         <title>AB læringsportfolio Bag om siden</title>
         <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Sans|Quicksand:400,600,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="stylesheet_page.css">
-        <link rel="stylesheet" href="grid/grid_bag_om_siden.css">
+        <link rel="stylesheet" href="grid_bag_om_siden.css">
     </head>
     <body>
 
@@ -57,7 +57,7 @@
         </section> <!-- struktur_tekst -->
 
         <section id="kortsortering_udenoverskrifter" class="illustrationer">
-          <img src="billeder/bag_om_siden/kortsortering_udenoverskrifter.jpg" alt="Kortsortering uden givet overskrifter">
+          <img src="billeder/bag_om_siden/kortsortering_medoverskrifter.jpg" alt="Kortsortering uden givet overskrifter">
           <blockquote>
               <p>Kortsortering hvor testpersonen selv gav overskrifter </p>
           </blockquote>

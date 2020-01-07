@@ -64,6 +64,7 @@
           <img src="billeder/kommunikation/nonverbal_kommunikation.jpg" alt="Nonverbal kommunikation">
           <blockquote>
             <p>Illustration af hvad nonverbal kommunikation indebære</p>
+            <a class="kilde" href="https://medium.com/@indiayuvagi/body-language-in-daily-life-ac75ff6f2453"><p>medium.com</p></a>
           </blockquote>
         </section> <!-- nonverbal_eksempler -->
 
@@ -95,7 +96,7 @@
           <img src="billeder/kommunikation/presentation.jpg" alt="et En præsentation">
           <blockquote>
             <p>Ved at have god kropssprog kan man få en god præsentation</p>
-            <a class="kilde" href="https://www.galchimia.com/wp-content/uploads/2018/03/how-to-crash-your-own-presentation-1024x787.jpg"><p>galchimia.com</p></a>
+            <a class="kilde" href="https://24slides.com/blog/time-wasted-powerpoints/shutterstock_454460350/"><p>24slides.com</p></a>
           </blockquote>
         </section> <!-- presentation_billede -->
 
@@ -150,7 +151,7 @@
           <img src="billeder/kommunikation/pentagrammodel.png" alt="Pentagrammodel">
           <blockquote>
             <p>Pentagrammodellen som dækker de fem spørgsmål</p>
-            <a class="kilde" href="https://www.galchimia.com/wp-content/uploads/2018/03/how-to-crash-your-own-presentation-1024x787.jpg"><p>galchimia.com</p></a>
+            <a class="kilde" href="https://www.greve-gym.dk/undervisning/skriftlige-opgaver/skrivetoget/at-skrive-i-fag/engelsk/en-analyse-og-fortolkning/det-retoriske-pentagram"><p>greve-gym.dk</p></a>
           </blockquote>
         </section> <!-- pentagon_billede -->
 
