@@ -166,12 +166,17 @@ a:hover {
   margin-bottom: 35%; /* giver plads til home_button kan være i bunden af siden */
 }
 
+html {
+position: relative;
+min-height: 100%; /* Gør at den bruger hele siden, så footere kommer på bunden */
+}
+
 footer {
   background-color: #141755; /* giver en baggrundsfarve */
   position: absolute;
   right: 0;
   left: 0;
-  bottom: 1; /* placere den i bunden af siden */
+  bottom: 0; /* placere den i bunden af siden */
   padding-right: 2em; /* rykker teksten ind */
   padding-left: 2em;
 }
@@ -247,15 +252,6 @@ footer a:hover {
 
 @media screen and (min-width: 1000px) { /* Her begynnder desktop versionen */
 
-  footer {
-    bottom: 0; /* sætter footeren fast på bunden af siden */
-  }
-
-  html {
-  position: relative;
-  min-height: 100%; /* Gør at den bruger hele siden, så footere kommer på bunden */
-  }
-
   #back_arrow, #home_button {
     display: none; /* Vise rikke undermenuerne */
   }
@@ -322,7 +318,7 @@ footer a:hover {
   }
 
   #pagewrap {
-    margin-bottom: 2em; /* laver plads til footer */
+    margin-bottom: 3em; /* laver plads til footer */
     width: 80%; /* fylder mindre */
     background-color: #d1beb4; /* Giver baggrundsfarve bag felterne */
     max-width: 1250px; /* giver en maks bredde så den ikke bliver for bred */
