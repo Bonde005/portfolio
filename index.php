@@ -82,7 +82,7 @@
           </section> <!-- dropdown Projekter og Opgaver -->
 
           <section class="menu_punkt" id="menu_bagom_siden">
-            <h1>Bag om siden</h1>
+            <a href="bag_om_siden.php"><h1>Bag om siden</h1></a>
           </section> <!-- button bag om siden -->
         </nav>
         <?php include("footer.inc"); ?>

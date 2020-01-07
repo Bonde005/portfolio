@@ -5,7 +5,7 @@
   <nav id="global_menu">
 
     <section class="menu_punkt" id="menu_bagom_siden">
-      <h1>Bag om siden</h1>
+      <a href="bag_om_siden.php"><h1>Bag om siden</h1></a> 
     </section> <!-- menu_bagom_siden -->
 
     <section class="dropdown" id="menu_projekter_opgaver">
