@@ -117,7 +117,7 @@
 
           <section id="samfundsvidenskabelig_paradigme_tekst" class="tekstfelt">
             <p>Hos det samfundsvidenskabelige paradigme er det afsenderen der er i fokus. Her er modtageren passiv, og derfor er det afsenderen der styrer kommunikationen. Dvs. at her anses modtageren ikke som værende aktiv i kommunikationen, og det er derfor det heller ikke et krav at kommunikationen skal virke på samme måde som i det humanistiske paradigme. Derfor bliver kommunikation i dette paradigme forstået som en transmission, altså som en envejskommunikation. Her er der en kvantitativ tilgang til undersøgelserne og man forsøger at være objektiv. Der kiggers der på målbare data og ingen fortolkning af oplevelser eller andet.</p>
-            <<div class="kilde">
+            <div class="kilde">
               <p>(Kommunikation i multimediedesign, s. 76-77) </p>
               <span>Andersen, Gunhild Marie m.fl.: Kommunikation i multimediedesign, Hans Reitzels Forlag, 2. udgave, 2015 s. 76-77</span>
             </div>

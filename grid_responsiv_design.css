@@ -135,7 +135,11 @@
   }
 
   #statisk_layout, #flydende_layout, #responsiv_layout, #adaptiv_layout {
-    margin: auto; /* tilpasser sig selv for at undgå luft */
+    margin-bottom: auto; /* tilpasser sig selv for at undgå luft */
+  }
+
+  #responsiv_layout {
+    margin-top: 1em;
   }
 
 }
