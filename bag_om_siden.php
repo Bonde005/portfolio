@@ -6,7 +6,7 @@
         <title>AB læringsportfolio Bag om siden</title>
         <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Sans|Quicksand:400,600,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="stylesheet_page.css">
-        <link rel="stylesheet" href="grid_bag_om_siden.css">
+        <link rel="stylesheet" href="grid/grid_bag_om_siden.css">
     </head>
     <body>
 

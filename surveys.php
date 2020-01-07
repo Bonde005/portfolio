@@ -64,10 +64,16 @@
             </blockquote>
           </section> <!-- kvantitativ_eksempel-->
 
+
           <section id="kvantitativ_forsat_tekst" class="illustrationer">
             <p>Ved brug af kvantitative undersøgelser kan man ikke lære sin målgruppes holdninger og meninger, man ved kun hvor mange men ved ikke hvorfor. (voxmeter.dk/kvantitativ-kvalitativ/ besøgt 28/09/19) Kvantitative metoder er altså gode til hvis man vil se på hvor mange der f.eks. har gjort noget, eller mener noget specifikt. Hvis man så igennem en kvantitativ undersøgelse finder ud af f.eks. at en målgruppe ikke kan lide ét produkt, kan man ikke vide hvorfor de ikke kan lide produktet.</p>
           </section> <!-- kvantitativ_forsat_tekst -->
-        </section> <!-- kvantitativ boks -->
+
+        <section id=" kvantitativ_kilder" class="tekstfelt">
+          <a href="www.denstoredanske.dk/Samfund,_jura_og_politik/Sociologi/Sociologisk_metodologi/kvantitative_metoder"><p>denstoredanske.dk/kvantitative_metoder, besøgt 28/09/19</p></a>
+          <a href="www.voxmeter.dk/kvantitativ-kvalitativ/"><p>voxmeter.dk/kvantitativ-kvalitativ, besøgt 28/09/19</p></a>
+        </section> <!-- kvantitativ_kilder -->
+      </section> <!-- kvantitativ boks -->
 
         <section id="kvalitativ" class="boks">
           <section id="kvalitativ_overskrift" class="under_overskrift">
@@ -89,7 +95,12 @@
           <section id="kvalitativ_forsat_tekst" class="tekstfelt">
             <p>Ved brug af kvalitative undersøgelser kan man altså forstå sit subjekt, men man ved dog ikke hvor mange i sin målgruppe der deler sit subjekts syn. Derudover er kvalitative undersøgelser afhængige af kommunikationen mellem forsker og subjekt. (denstoredanske.dk/Kvalitativ_metode besøgt 28/09/19) Dette kan altså betyde at der kan opstå fejlkommunikation, hvor forsker og subjekt misforstår hinanden.</p>
           </section> <!-- kvalitativ_forsat_tekst -->
-        </section> <!-- kvalitativ boks -->
+
+        <section id="kvalitativ_kilder" class="tekstfelt">
+          <a href="www.denstoredanske.dk/Samfund%2c_jura_og_politik/Sociologi/Sociologisk_metodologi/kvalitative_metoder"><p>denstoredanske.dk/kvalitative_metoder, besøgt 28/09/19</p></a>
+          <a href="www.voxmeter.dk/kvantitativ-kvalitativ/"><p>voxmeter.dk/kvantitativ-kvalitativ, besøgt 28/09/19</p></a>
+        </section> <!-- kvalitativ_kilder -->
+      </section> <!-- kvalitativ boks -->
 
         <section id="brugersurveys_overskrift" class="under_overskrift">
           <h2>Bruger undersøgelser</h2>
